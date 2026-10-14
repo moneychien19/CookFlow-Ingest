@@ -1,0 +1,6946 @@
+[
+  {
+    "sourceName": "achiote paste",
+    "canonicalName": "achiote paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "achiote seeds",
+    "canonicalName": "achiote seed",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Also sold as annatto seed."
+  },
+  {
+    "sourceName": "ackee",
+    "canonicalName": "ackee",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Usually bought canned outside the Caribbean, so counted as cans."
+  },
+  {
+    "sourceName": "alinos sauce",
+    "canonicalName": "alinos sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "all purpose flour",
+    "canonicalName": "flour",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "all-purpose seasoning",
+    "canonicalName": "all-purpose seasoning",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Spice blend; staple status may vary by cook."
+  },
+  {
+    "sourceName": "allspice",
+    "canonicalName": "allspice",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "allspice berries",
+    "canonicalName": "allspice",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Whole berries merged with ground allspice; category Fruit is wrong."
+  },
+  {
+    "sourceName": "almond essence",
+    "canonicalName": "almond extract",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "almond extract",
+    "canonicalName": "almond extract",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "almond flour",
+    "canonicalName": "almond flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "almond milk",
+    "canonicalName": "almond milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "almond paste",
+    "canonicalName": "almond paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "almonds",
+    "canonicalName": "almond",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ancho chillies",
+    "canonicalName": "ancho chile",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "anchovy fillet",
+    "canonicalName": "anchovy",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "apple cider vinegar",
+    "canonicalName": "apple cider vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "apples",
+    "canonicalName": "apple",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "appleton rum",
+    "canonicalName": "rum",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Brand name merged into generic rum."
+  },
+  {
+    "sourceName": "apricot",
+    "canonicalName": "apricot",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Could mean fresh or dried apricot; assumed fresh."
+  },
+  {
+    "sourceName": "apricot jam",
+    "canonicalName": "apricot jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "arabic rice",
+    "canonicalName": "rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Unclear rice type, possibly a prepared dish; merged into generic rice."
+  },
+  {
+    "sourceName": "asparagus",
+    "canonicalName": "asparagus",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "aubergine",
+    "canonicalName": "eggplant",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "avacado hass pulp",
+    "canonicalName": "avocado",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Misspelled; pulp quantity may need converting to whole avocados."
+  },
+  {
+    "sourceName": "avocado",
+    "canonicalName": "avocado",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "baby aubergine",
+    "canonicalName": "eggplant",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Merged with regular eggplant though pieces are much smaller."
+  },
+  {
+    "sourceName": "baby lettuce leaves",
+    "canonicalName": "lettuce",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Baby leaves merged with lettuce; category is wrong."
+  },
+  {
+    "sourceName": "baby new potatoes",
+    "canonicalName": "baby potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Kept separate from regular potato; reviewer may prefer merging."
+  },
+  {
+    "sourceName": "baby pak koi",
+    "canonicalName": "bok choy",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Pak koi is a spelling of pak choi/bok choy; baby merged with regular."
+  },
+  {
+    "sourceName": "baby plum tomatoes",
+    "canonicalName": "cherry tomato",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Baby plum tomatoes merged with cherry tomatoes."
+  },
+  {
+    "sourceName": "baby squid",
+    "canonicalName": "squid",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bacon",
+    "canonicalName": "bacon",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bacon lardon",
+    "canonicalName": "bacon",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Lardons merged with bacon."
+  },
+  {
+    "sourceName": "baguette",
+    "canonicalName": "baguette",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "baked beans",
+    "canonicalName": "baked beans",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Counted as cans."
+  },
+  {
+    "sourceName": "baking powder",
+    "canonicalName": "baking powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "balsamic vinegar",
+    "canonicalName": "balsamic vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bamboo shoot",
+    "canonicalName": "bamboo shoot",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "banana",
+    "canonicalName": "banana",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "banana leaves",
+    "canonicalName": "banana leaf",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "banana pepper",
+    "canonicalName": "banana pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "barbeque sauce",
+    "canonicalName": "barbecue sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "barramundi",
+    "canonicalName": "barramundi",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "basil",
+    "canonicalName": "basil",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "basil leaves",
+    "canonicalName": "basil",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "basmati rice",
+    "canonicalName": "basmati rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bay leaf",
+    "canonicalName": "bay leaf",
+    "unit": "count",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "bay leaves",
+    "canonicalName": "bay leaf",
+    "unit": "count",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "bean sprouts",
+    "canonicalName": "bean sprout",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef",
+    "canonicalName": "beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Unspecified cut; reviewer may want to map to a specific cut such as stewing beef."
+  },
+  {
+    "sourceName": "beef brisket",
+    "canonicalName": "beef brisket",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef cutlet",
+    "canonicalName": "beef cutlet",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Thin-sliced beef cut; could be merged with generic beef if preferred."
+  },
+  {
+    "sourceName": "beef fillet",
+    "canonicalName": "beef tenderloin",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Beef fillet is the UK name for tenderloin."
+  },
+  {
+    "sourceName": "beef flank steak",
+    "canonicalName": "flank steak",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef gravy",
+    "canonicalName": "beef gravy",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef kidney",
+    "canonicalName": "beef kidney",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef shin",
+    "canonicalName": "beef shin",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef shoulder",
+    "canonicalName": "beef chuck",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Beef shoulder merged with chuck roast as the same shoulder cut."
+  },
+  {
+    "sourceName": "beef stock",
+    "canonicalName": "beef stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef stock concentrate",
+    "canonicalName": "beef stock cube",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Stock concentrate merged with stock cubes; both are concentrated stock substitutes."
+  },
+  {
+    "sourceName": "beef stock cubes",
+    "canonicalName": "beef stock cube",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef tenderloin",
+    "canonicalName": "beef tenderloin",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beef tomatoes",
+    "canonicalName": "tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beer",
+    "canonicalName": "beer",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "beetroot",
+    "canonicalName": "beetroot",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Raw beetroot, kept separate from existing cooked beetroot."
+  },
+  {
+    "sourceName": "beets",
+    "canonicalName": "beetroot",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bicarbonate of soda",
+    "canonicalName": "baking soda",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "birds-eye chillies",
+    "canonicalName": "chili pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Bird's-eye chili merged into generic chili pepper."
+  },
+  {
+    "sourceName": "biryani masala",
+    "canonicalName": "biryani masala",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "black beans",
+    "canonicalName": "black beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "black cardamom pods",
+    "canonicalName": "black cardamom",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "black eyed peas",
+    "canonicalName": "black-eyed peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "black olives",
+    "canonicalName": "black olives",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "black pepper",
+    "canonicalName": "black pepper",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "black pudding",
+    "canonicalName": "black pudding",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "black treacle",
+    "canonicalName": "black treacle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "blackberries",
+    "canonicalName": "blackberry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "blackcurrant jam",
+    "canonicalName": "blackcurrant jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "blue food colouring",
+    "canonicalName": "blue food coloring",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "blueberries",
+    "canonicalName": "blueberry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "boiling water",
+    "canonicalName": "water",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "bok choi",
+    "canonicalName": "bok choy",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "borlotti beans",
+    "canonicalName": "borlotti beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bouillon cubes",
+    "canonicalName": "chicken stock cube",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Unspecified bouillon cubes mapped to chicken stock cube; flavor is ambiguous."
+  },
+  {
+    "sourceName": "bouquet garni",
+    "canonicalName": "bouquet garni",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bowtie pasta",
+    "canonicalName": "farfalle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "braeburn apples",
+    "canonicalName": "apple",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bramley apples",
+    "canonicalName": "apple",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Bramley is a cooking apple; merge with apple may be unwanted."
+  },
+  {
+    "sourceName": "brandy",
+    "canonicalName": "brandy",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bread",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Counted in slices; generic loaf type."
+  },
+  {
+    "sourceName": "bread flour",
+    "canonicalName": "bread flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bread rolls",
+    "canonicalName": "bun",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "breadcrumbs",
+    "canonicalName": "breadcrumbs",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "breadfruit",
+    "canonicalName": "breadfruit",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "brie",
+    "canonicalName": "brie",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "broad beans",
+    "canonicalName": "broad beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "broccoli",
+    "canonicalName": "broccoli",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "brown lentils",
+    "canonicalName": "brown lentils",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "brown rice",
+    "canonicalName": "brown rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "brown rice noodle",
+    "canonicalName": "brown rice noodle",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from rice; could merge with a generic rice noodle if one is added."
+  },
+  {
+    "sourceName": "brown sugar",
+    "canonicalName": "brown sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "brussels sprouts",
+    "canonicalName": "brussels sprout",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bryndza cheese",
+    "canonicalName": "bryndza",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "buckwheat",
+    "canonicalName": "buckwheat",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "buckwheat flour",
+    "canonicalName": "buckwheat flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Site category Legume is wrong; this is a flour."
+  },
+  {
+    "sourceName": "bulgur wheat",
+    "canonicalName": "bulgur",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "bun",
+    "canonicalName": "bun",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "buns",
+    "canonicalName": "bun",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "butter",
+    "canonicalName": "butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "butter beans",
+    "canonicalName": "butter beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could mean canned or dried beans."
+  },
+  {
+    "sourceName": "buttermilk",
+    "canonicalName": "buttermilk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "butternut squash",
+    "canonicalName": "butternut squash",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cabbage",
+    "canonicalName": "cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cabbage leaves",
+    "canonicalName": "cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Leaf counts need converting to whole heads."
+  },
+  {
+    "sourceName": "cacao",
+    "canonicalName": "cacao",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous: could mean cacao powder or cacao nibs."
+  },
+  {
+    "sourceName": "cafe la llave",
+    "canonicalName": "ground coffee",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Brand name of ground espresso coffee, mapped to the generic product."
+  },
+  {
+    "sourceName": "cajun",
+    "canonicalName": "cajun seasoning",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed to mean Cajun spice blend."
+  },
+  {
+    "sourceName": "callaloo",
+    "canonicalName": "callaloo",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Leafy green; site category Root Vegetable is wrong."
+  },
+  {
+    "sourceName": "can of chickpeas",
+    "canonicalName": "chickpeas",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Canned and dried chickpeas merged; a can needs converting to grams."
+  },
+  {
+    "sourceName": "candied peel",
+    "canonicalName": "candied peel",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "canned beans",
+    "canonicalName": "canned beans",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Bean variety is unspecified."
+  },
+  {
+    "sourceName": "canned tomatoes",
+    "canonicalName": "canned tomatoes",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cannellini beans",
+    "canonicalName": "cannellini beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "canola oil",
+    "canonicalName": "canola oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "capers",
+    "canonicalName": "capers",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "caramel",
+    "canonicalName": "caramel",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous: could mean caramel candies or caramel sauce."
+  },
+  {
+    "sourceName": "caramel sauce",
+    "canonicalName": "caramel sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "caramelized sugar sauce",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Usually made during the recipe from sugar, so it is not a pantry item."
+  },
+  {
+    "sourceName": "caraway seed",
+    "canonicalName": "caraway seed",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "cardamom",
+    "canonicalName": "cardamom",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Kept separate from black cardamom."
+  },
+  {
+    "sourceName": "carrots",
+    "canonicalName": "carrot",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "casabe",
+    "canonicalName": "casabe",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Cassava flatbread."
+  },
+  {
+    "sourceName": "cashew nuts",
+    "canonicalName": "cashew",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cashews",
+    "canonicalName": "cashew",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cassaba",
+    "canonicalName": "casaba melon",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Could be a typo for cassava; the Fruit category suggests casaba melon."
+  },
+  {
+    "sourceName": "cassava",
+    "canonicalName": "cassava",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cassava flour",
+    "canonicalName": "cassava flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "caster sugar",
+    "canonicalName": "caster sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Possibly merge with sugar, since cooks often substitute it."
+  },
+  {
+    "sourceName": "cayenne pepper",
+    "canonicalName": "cayenne pepper",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "celeriac",
+    "canonicalName": "celeriac",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "celery",
+    "canonicalName": "celery",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Recipes often count stalks, which need converting to heads."
+  },
+  {
+    "sourceName": "celery salt",
+    "canonicalName": "celery salt",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "challots",
+    "canonicalName": "shallot",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Assumed to be a misspelling of shallots."
+  },
+  {
+    "sourceName": "charlotte potatoes",
+    "canonicalName": "baby potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Charlotte is a small waxy potato variety; check the merge with baby potato."
+  },
+  {
+    "sourceName": "cheddar cheese",
+    "canonicalName": "cheddar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cheese",
+    "canonicalName": "cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic cheese with no type given."
+  },
+  {
+    "sourceName": "cheese curds",
+    "canonicalName": "cheese curds",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cheese slices",
+    "canonicalName": "sliced cheese",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Cheese type is unspecified."
+  },
+  {
+    "sourceName": "cherry",
+    "canonicalName": "cherry",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Fruit; kept separate from cherry tomato."
+  },
+  {
+    "sourceName": "cherry tomatoes",
+    "canonicalName": "cherry tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chestnut mushroom",
+    "canonicalName": "chestnut mushroom",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could be merged with a generic mushroom if one is added later."
+  },
+  {
+    "sourceName": "chestnuts",
+    "canonicalName": "chestnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken",
+    "canonicalName": "chicken",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous: could mean a whole chicken or unspecified chicken pieces."
+  },
+  {
+    "sourceName": "chicken bouillon powder",
+    "canonicalName": "chicken bouillon powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from chicken stock cube because it is measured by weight; could be merged."
+  },
+  {
+    "sourceName": "chicken breast",
+    "canonicalName": "chicken breast",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken breasts",
+    "canonicalName": "chicken breast",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken drumsticks",
+    "canonicalName": "chicken drumstick",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from chicken leg; consider merging."
+  },
+  {
+    "sourceName": "chicken legs",
+    "canonicalName": "chicken leg",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken liver",
+    "canonicalName": "chicken liver",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken stock",
+    "canonicalName": "chicken stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken stock concentrate",
+    "canonicalName": "chicken stock cube",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Stock concentrate merged with stock cubes; both are concentrated stock substitutes."
+  },
+  {
+    "sourceName": "chicken stock cube",
+    "canonicalName": "chicken stock cube",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken thighs",
+    "canonicalName": "chicken thigh",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chicken wings",
+    "canonicalName": "chicken wing",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chickpea flour",
+    "canonicalName": "chickpea flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chickpeas",
+    "canonicalName": "chickpeas",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chili powder",
+    "canonicalName": "chili powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": "US chili powder is a spice blend, UK chilli powder is pure ground chili; merged."
+  },
+  {
+    "sourceName": "chilled butter",
+    "canonicalName": "butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chilli",
+    "canonicalName": "chili pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Assumed fresh chili pepper."
+  },
+  {
+    "sourceName": "chilli bean paste",
+    "canonicalName": "doubanjiang",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chilli flakes",
+    "canonicalName": "chili flakes",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "chilli powder",
+    "canonicalName": "chili powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "chilli sauce",
+    "canonicalName": "hot sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Chilli sauce could mean hot sauce or sweet chili sauce."
+  },
+  {
+    "sourceName": "chimichurri sauce",
+    "canonicalName": "chimichurri",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chinese broccoli",
+    "canonicalName": "chinese broccoli",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chinese cabbage",
+    "canonicalName": "napa cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chinese five spice powder",
+    "canonicalName": "five spice powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chinese leaf",
+    "canonicalName": "napa cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chinese long beans",
+    "canonicalName": "green beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Chinese long beans merged with green beans as a common substitute."
+  },
+  {
+    "sourceName": "chinese sesame sauce",
+    "canonicalName": "chinese sesame paste",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Kept separate from tahini since it is made from toasted sesame."
+  },
+  {
+    "sourceName": "chives",
+    "canonicalName": "chives",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chocolate chips",
+    "canonicalName": "chocolate chips",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chopped chive",
+    "canonicalName": "chives",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chopped onion",
+    "canonicalName": "onion",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chopped parsley",
+    "canonicalName": "parsley",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chopped tomatoes",
+    "canonicalName": "canned tomatoes",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Assumed UK-style canned chopped tomatoes, not fresh."
+  },
+  {
+    "sourceName": "chorizo",
+    "canonicalName": "chorizo",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "christmas pudding",
+    "canonicalName": "christmas pudding",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "chuck roast",
+    "canonicalName": "beef chuck",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ciabatta",
+    "canonicalName": "ciabatta",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cider",
+    "canonicalName": "cider",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Could mean alcoholic hard cider or non-alcoholic apple cider."
+  },
+  {
+    "sourceName": "cider vinegar",
+    "canonicalName": "apple cider vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cilantro",
+    "canonicalName": "cilantro",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cilantro leaves",
+    "canonicalName": "cilantro",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cinnamon",
+    "canonicalName": "ground cinnamon",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "cinnamon stick",
+    "canonicalName": "cinnamon stick",
+    "unit": "count",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "clams",
+    "canonicalName": "clam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "clear honey",
+    "canonicalName": "honey",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "clotted cream",
+    "canonicalName": "clotted cream",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cloves",
+    "canonicalName": "clove",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Assumed the whole spice, not garlic cloves; check recipe context."
+  },
+  {
+    "sourceName": "coarse salt",
+    "canonicalName": "salt",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "coco sugar",
+    "canonicalName": "coconut sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed coco sugar means coconut sugar."
+  },
+  {
+    "sourceName": "cocoa",
+    "canonicalName": "cocoa powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cocoa powder",
+    "canonicalName": "cocoa powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "coconut",
+    "canonicalName": "coconut",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "coconut cream",
+    "canonicalName": "coconut cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "coconut flakes",
+    "canonicalName": "coconut flakes",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "coconut milk",
+    "canonicalName": "coconut milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "coconut oil",
+    "canonicalName": "coconut oil",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cocoy banana",
+    "canonicalName": "green banana",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Unclear name; assumed an unripe cooking banana."
+  },
+  {
+    "sourceName": "cod",
+    "canonicalName": "cod",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "codfish bulljaw",
+    "canonicalName": "salt cod",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Bulljaw (buljol) is a salt cod dish; assumed the ingredient is salt cod."
+  },
+  {
+    "sourceName": "colby jack cheese",
+    "canonicalName": "colby jack",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cold water",
+    "canonicalName": "water",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "conchs",
+    "canonicalName": "conch",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "condensed milk",
+    "canonicalName": "condensed milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cooked beetroot",
+    "canonicalName": "cooked beetroot",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from raw beetroot as it is bought pre-cooked."
+  },
+  {
+    "sourceName": "cooked chestnut",
+    "canonicalName": "chestnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged with chestnut; cooked vacuum-packed chestnuts may warrant separating."
+  },
+  {
+    "sourceName": "cooking apples",
+    "canonicalName": "apple",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Merged cooking apples into apple; reviewer may prefer a separate entry."
+  },
+  {
+    "sourceName": "cooking wine",
+    "canonicalName": "cooking wine",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Ambiguous: may mean Chinese Shaoxing wine or generic wine."
+  },
+  {
+    "sourceName": "coriander",
+    "canonicalName": "cilantro",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Ambiguous: assumed fresh coriander leaves, could mean ground coriander."
+  },
+  {
+    "sourceName": "coriander leaves",
+    "canonicalName": "cilantro",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "coriander seeds",
+    "canonicalName": "coriander seed",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "corn arepa filled with mozarella cheese",
+    "canonicalName": "cheese arepa",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Prepared stuffed arepa product; verify it is bought ready-made."
+  },
+  {
+    "sourceName": "corn flour",
+    "canonicalName": "cornstarch",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous: UK corn flour is cornstarch, US corn flour is fine cornmeal."
+  },
+  {
+    "sourceName": "corn on the cob",
+    "canonicalName": "corn on the cob",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "corn tortillas",
+    "canonicalName": "corn tortilla",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "corned beef",
+    "canonicalName": "corned beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cornmeal",
+    "canonicalName": "cornmeal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cornstarch",
+    "canonicalName": "cornstarch",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cottage cheese",
+    "canonicalName": "cottage cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "courgettes",
+    "canonicalName": "zucchini",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "couscous",
+    "canonicalName": "couscous",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "crab meay",
+    "canonicalName": "crab meat",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Source name typo for crab meat."
+  },
+  {
+    "sourceName": "cranberry",
+    "canonicalName": "cranberry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cream",
+    "canonicalName": "cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cream cheese",
+    "canonicalName": "cream cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cream of tartar",
+    "canonicalName": "cream of tartar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "creamed corn",
+    "canonicalName": "creamed corn",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "creme fraiche",
+    "canonicalName": "creme fraiche",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "crusty bread",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cuban bread",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Merged Cuban bread into bread; reviewer may prefer separate."
+  },
+  {
+    "sourceName": "cubed feta cheese",
+    "canonicalName": "feta",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cucumber",
+    "canonicalName": "cucumber",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "cumin",
+    "canonicalName": "ground cumin",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Assumed ground cumin rather than seeds."
+  },
+  {
+    "sourceName": "cumin seeds",
+    "canonicalName": "cumin seed",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "currants",
+    "canonicalName": "currants",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed dried currants, not fresh red/black currants."
+  },
+  {
+    "sourceName": "curry powder",
+    "canonicalName": "curry powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "custard",
+    "canonicalName": "custard",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Assumed ready-made custard; could be made in the recipe."
+  },
+  {
+    "sourceName": "custard powder",
+    "canonicalName": "custard powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "daikon radish",
+    "canonicalName": "daikon",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dark beer",
+    "canonicalName": "dark beer",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dark brown soft sugar",
+    "canonicalName": "brown sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged dark brown into brown sugar; confirm light/dark are interchangeable."
+  },
+  {
+    "sourceName": "dark brown sugar",
+    "canonicalName": "brown sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged dark brown into brown sugar; confirm light/dark are interchangeable."
+  },
+  {
+    "sourceName": "dark chocolate",
+    "canonicalName": "dark chocolate",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dark chocolate chips",
+    "canonicalName": "chocolate chips",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged dark chocolate chips into chocolate chips."
+  },
+  {
+    "sourceName": "dark rum",
+    "canonicalName": "rum",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dark soft brown sugar",
+    "canonicalName": "brown sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dark soy sauce",
+    "canonicalName": "dark soy sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Kept separate from regular soy sauce."
+  },
+  {
+    "sourceName": "date molasses",
+    "canonicalName": "date molasses",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "deli ham",
+    "canonicalName": "ham",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "demerara sugar",
+    "canonicalName": "demerara sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could possibly merge with brown sugar."
+  },
+  {
+    "sourceName": "desiccated coconut",
+    "canonicalName": "coconut flakes",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged desiccated coconut with coconut flakes; texture differs slightly."
+  },
+  {
+    "sourceName": "dessert rice",
+    "canonicalName": "pudding rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed dessert rice means short-grain pudding rice."
+  },
+  {
+    "sourceName": "diced tomatoes",
+    "canonicalName": "canned tomatoes",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Assumed canned diced tomatoes."
+  },
+  {
+    "sourceName": "digestive biscuits",
+    "canonicalName": "digestive biscuit",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dijon mustard",
+    "canonicalName": "dijon mustard",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dill",
+    "canonicalName": "dill",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dill pickles",
+    "canonicalName": "dill pickle",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "doner meat",
+    "canonicalName": "doner meat",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Prepared kebab meat; unclear whether bought ready-made."
+  },
+  {
+    "sourceName": "doubanjiang",
+    "canonicalName": "doubanjiang",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "double cream",
+    "canonicalName": "cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Merged double cream with cream; may need separate heavy cream entry."
+  },
+  {
+    "sourceName": "dried apricots",
+    "canonicalName": "dried apricot",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried cherries",
+    "canonicalName": "dried cherry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried chillies",
+    "canonicalName": "dried chili",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Site category Legume is wrong."
+  },
+  {
+    "sourceName": "dried cranberries",
+    "canonicalName": "dried cranberry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried dill",
+    "canonicalName": "dried dill",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "dried fruit",
+    "canonicalName": "dried fruit",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried leaves of summer savoury",
+    "canonicalName": "summer savory",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried mint",
+    "canonicalName": "dried mint",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "dried oregano",
+    "canonicalName": "dried oregano",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "dried red chillies",
+    "canonicalName": "dried chili",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried shrimp",
+    "canonicalName": "dried shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried sorrel",
+    "canonicalName": "dried sorrel",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Likely Caribbean sorrel (dried hibiscus), not the herb sorrel."
+  },
+  {
+    "sourceName": "dried white beans",
+    "canonicalName": "dried white beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dried white corn",
+    "canonicalName": "dried white corn",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Possibly dried hominy corn."
+  },
+  {
+    "sourceName": "dried white navy beans",
+    "canonicalName": "dried white beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged navy beans into dried white beans."
+  },
+  {
+    "sourceName": "dry sherry",
+    "canonicalName": "sherry",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dry white wine",
+    "canonicalName": "white wine",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "duck",
+    "canonicalName": "duck",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "duck fat",
+    "canonicalName": "duck fat",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "duck legs",
+    "canonicalName": "duck leg",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "duck sauce",
+    "canonicalName": "duck sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dulce de leche",
+    "canonicalName": "dulce de leche",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "dutch stroop",
+    "canonicalName": "stroop",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "egg",
+    "canonicalName": "egg",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "egg noodles",
+    "canonicalName": "egg noodle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "egg plants",
+    "canonicalName": "eggplant",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "egg roll wrappers",
+    "canonicalName": "egg roll wrapper",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Site category Dairy is wrong."
+  },
+  {
+    "sourceName": "egg rolls",
+    "canonicalName": "egg roll",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Ready-made egg rolls, distinct from egg roll wrapper."
+  },
+  {
+    "sourceName": "egg wash",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Egg wash is a mixture made during the recipe, not a purchased item."
+  },
+  {
+    "sourceName": "egg white",
+    "canonicalName": "egg",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Merged with egg; carton egg whites would differ."
+  },
+  {
+    "sourceName": "egg yolks",
+    "canonicalName": "egg",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "eggs",
+    "canonicalName": "egg",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "emmentaler cheese",
+    "canonicalName": "swiss cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Emmentaler merged into swiss cheese."
+  },
+  {
+    "sourceName": "enchilada sauce",
+    "canonicalName": "enchilada sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "english muffins",
+    "canonicalName": "english muffin",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "english mustard",
+    "canonicalName": "english mustard",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Could mean prepared mustard or mustard powder."
+  },
+  {
+    "sourceName": "evaporated milk",
+    "canonicalName": "evaporated milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "extra virgin olive oil",
+    "canonicalName": "olive oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "fajita seasoning",
+    "canonicalName": "fajita seasoning",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "falafel",
+    "canonicalName": "falafel",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Could refer to ready-made falafel or falafel mix."
+  },
+  {
+    "sourceName": "farfalle",
+    "canonicalName": "farfalle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "farine",
+    "canonicalName": "cassava flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Farine is ambiguous: Caribbean toasted cassava meal or French for flour."
+  },
+  {
+    "sourceName": "farmers cheese",
+    "canonicalName": "farmers cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from cottage cheese and ricotta; check whether a merge is wanted."
+  },
+  {
+    "sourceName": "fast action yeast",
+    "canonicalName": "yeast",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "feather blade beef",
+    "canonicalName": "beef feather blade",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Specific braising cut; could be merged into beef if cuts are not distinguished."
+  },
+  {
+    "sourceName": "fennel",
+    "canonicalName": "fennel",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fennel bulb",
+    "canonicalName": "fennel",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fennel seeds",
+    "canonicalName": "fennel seed",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "fenugreek",
+    "canonicalName": "fenugreek",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could mean seeds or dried leaves (kasuri methi)."
+  },
+  {
+    "sourceName": "fermented black beans",
+    "canonicalName": "fermented black beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "feta",
+    "canonicalName": "feta",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fettuccine",
+    "canonicalName": "fettuccine",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fideo",
+    "canonicalName": "fideo",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "figs",
+    "canonicalName": "fig",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Assumed fresh figs; recipes may intend dried figs."
+  },
+  {
+    "sourceName": "fillet of steak",
+    "canonicalName": "beef tenderloin",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "filo pastry",
+    "canonicalName": "phyllo dough",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fine yellow cornmeal",
+    "canonicalName": "cornmeal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fish fillet",
+    "canonicalName": "white fish",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic fish fillet assumed to be white fish."
+  },
+  {
+    "sourceName": "fish sauce",
+    "canonicalName": "fish sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fish seasoning",
+    "canonicalName": "fish seasoning",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fish stock",
+    "canonicalName": "fish stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "five spice powder",
+    "canonicalName": "five spice powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "flaked almonds",
+    "canonicalName": "almond",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "flank steak",
+    "canonicalName": "flank steak",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "flat rice noodles",
+    "canonicalName": "rice noodle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "flax eggs",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Made during the recipe from ground flaxseed and water."
+  },
+  {
+    "sourceName": "flour",
+    "canonicalName": "flour",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "flour tortilla",
+    "canonicalName": "flour tortilla",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "floury potatoes",
+    "canonicalName": "potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "free-range egg, beaten",
+    "canonicalName": "egg",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "free-range eggs, beaten",
+    "canonicalName": "egg",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "freekeh",
+    "canonicalName": "freekeh",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "french lentils",
+    "canonicalName": "french lentils",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fresh basil",
+    "canonicalName": "basil",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fresh thyme",
+    "canonicalName": "thyme",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "freshly chopped parsley",
+    "canonicalName": "parsley",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fried ripe bananas",
+    "canonicalName": "banana",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Frying is preparation; may actually refer to ripe plantains."
+  },
+  {
+    "sourceName": "fries",
+    "canonicalName": "fries",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed frozen french fries bought ready-made."
+  },
+  {
+    "sourceName": "frogs legs",
+    "canonicalName": "frog legs",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fromage frais",
+    "canonicalName": "fromage frais",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "frozen mixed berries",
+    "canonicalName": "mixed berries",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Frozen and fresh mixed berries merged."
+  },
+  {
+    "sourceName": "frozen peas",
+    "canonicalName": "peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Frozen and fresh peas merged."
+  },
+  {
+    "sourceName": "frozen seafood mix",
+    "canonicalName": "seafood mix",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "fruit mix",
+    "canonicalName": "dried fruit",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous; assumed mixed dried fruit for baking."
+  },
+  {
+    "sourceName": "full fat sour cream",
+    "canonicalName": "sour cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "full fat yogurt",
+    "canonicalName": "yogurt",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "galangal",
+    "canonicalName": "galangal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "galangal paste",
+    "canonicalName": "galangal paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Site category Fish is wrong."
+  },
+  {
+    "sourceName": "garam masala",
+    "canonicalName": "garam masala",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "garlic",
+    "canonicalName": "garlic",
+    "unit": "clove",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "garlic bulb",
+    "canonicalName": "garlic",
+    "unit": "clove",
+    "isStaple": false,
+    "note": "Bulb quantities need converting to cloves (about 10 per bulb)."
+  },
+  {
+    "sourceName": "garlic clove",
+    "canonicalName": "garlic",
+    "unit": "clove",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "garlic granules",
+    "canonicalName": "garlic powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Granules merged with garlic powder."
+  },
+  {
+    "sourceName": "garlic powder",
+    "canonicalName": "garlic powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "garlic sauce",
+    "canonicalName": "garlic sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "gelatine leafs",
+    "canonicalName": "gelatin leaf",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Kept separate from powdered gelatin."
+  },
+  {
+    "sourceName": "german sausages",
+    "canonicalName": "german sausage",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could be bratwurst or other types; check variety."
+  },
+  {
+    "sourceName": "ghee",
+    "canonicalName": "ghee",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "gherkin relish",
+    "canonicalName": "gherkin relish",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ginger",
+    "canonicalName": "ginger",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ginger cordial",
+    "canonicalName": "ginger cordial",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ginger garlic paste",
+    "canonicalName": "ginger garlic paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ginger paste",
+    "canonicalName": "ginger paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "gingerbread spice",
+    "canonicalName": "gingerbread spice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "glace cherry",
+    "canonicalName": "glace cherry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "glutinous rice",
+    "canonicalName": "glutinous rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "goat meat",
+    "canonicalName": "goat",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "goats cheese",
+    "canonicalName": "goat cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "gochujang",
+    "canonicalName": "gochujang",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "golden caster sugar",
+    "canonicalName": "caster sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Golden caster merged with caster sugar."
+  },
+  {
+    "sourceName": "golden syrup",
+    "canonicalName": "golden syrup",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "goose fat",
+    "canonicalName": "goose fat",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "gouda cheese",
+    "canonicalName": "gouda",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "graham cracker crumbs",
+    "canonicalName": "graham cracker",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "grand marnier",
+    "canonicalName": "orange liqueur",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Brand mapped to generic orange liqueur."
+  },
+  {
+    "sourceName": "granulated sugar",
+    "canonicalName": "sugar",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "grape leaves",
+    "canonicalName": "grape leaves",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "grape nut cereal",
+    "canonicalName": "grape nuts cereal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "grape tomatoes",
+    "canonicalName": "cherry tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Grape tomatoes merged with cherry tomatoes."
+  },
+  {
+    "sourceName": "grapefruit",
+    "canonicalName": "grapefruit",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "great northern beans",
+    "canonicalName": "great northern beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could merge with cannellini or dried white beans; unclear if canned or dried."
+  },
+  {
+    "sourceName": "greek yogurt",
+    "canonicalName": "greek yogurt",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "green beans",
+    "canonicalName": "green beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "green cardamom pods",
+    "canonicalName": "cardamom",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "green chilli",
+    "canonicalName": "chili pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "green olives",
+    "canonicalName": "green olives",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "green papaya",
+    "canonicalName": "green papaya",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "green pepper",
+    "canonicalName": "bell pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Assumed green bell pepper, merged with all bell pepper colours; it could also mean a green chili."
+  },
+  {
+    "sourceName": "green red lentils",
+    "canonicalName": "green lentils",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Contradictory name; unclear whether green or red lentils are meant."
+  },
+  {
+    "sourceName": "green salsa",
+    "canonicalName": "salsa verde",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "grits",
+    "canonicalName": "grits",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground allspice",
+    "canonicalName": "allspice",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground almonds",
+    "canonicalName": "almond flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged ground almonds with almond flour (almond meal); check that this merge is acceptable."
+  },
+  {
+    "sourceName": "ground annatto",
+    "canonicalName": "ground annatto",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from achiote seed and achiote paste."
+  },
+  {
+    "sourceName": "ground beef",
+    "canonicalName": "ground beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground black pepper",
+    "canonicalName": "black pepper",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground cardomom",
+    "canonicalName": "cardamom",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground chicken",
+    "canonicalName": "ground chicken",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground cinnamon",
+    "canonicalName": "ground cinnamon",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground clove",
+    "canonicalName": "ground clove",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Kept separate from whole clove, matching the existing split for cinnamon and cumin."
+  },
+  {
+    "sourceName": "ground coriander",
+    "canonicalName": "ground coriander",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground cumin",
+    "canonicalName": "ground cumin",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground ginger",
+    "canonicalName": "ground ginger",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground mahleb",
+    "canonicalName": "mahleb",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground mustard",
+    "canonicalName": "mustard powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground nut oil",
+    "canonicalName": "peanut oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground nutmeg",
+    "canonicalName": "nutmeg",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground oats",
+    "canonicalName": "oats",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground onion",
+    "canonicalName": "onion powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Assumed to mean onion powder."
+  },
+  {
+    "sourceName": "ground pistachios",
+    "canonicalName": "pistachio",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground poppy seeds",
+    "canonicalName": "poppy seed",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground pork",
+    "canonicalName": "ground pork",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ground sugar",
+    "canonicalName": "sugar",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Ambiguous; could mean icing sugar or caster sugar."
+  },
+  {
+    "sourceName": "ground turmeric",
+    "canonicalName": "turmeric",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ground walnuts",
+    "canonicalName": "walnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "gruyère",
+    "canonicalName": "gruyere",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "habanero pepper",
+    "canonicalName": "habanero",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "haddock",
+    "canonicalName": "haddock",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "hail",
+    "canonicalName": "cardamom",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Hail is the Arabic name for cardamom; the Rice category looks wrong."
+  },
+  {
+    "sourceName": "hake",
+    "canonicalName": "hake",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ham",
+    "canonicalName": "ham",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "hard taco shells",
+    "canonicalName": "taco shell",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "haricot beans",
+    "canonicalName": "haricot beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Possibly mergeable with dried white beans; it is unclear whether dried or canned beans are meant."
+  },
+  {
+    "sourceName": "harissa spice",
+    "canonicalName": "harissa spice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "hazlenuts",
+    "canonicalName": "hazelnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "heavy cream",
+    "canonicalName": "cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "herring",
+    "canonicalName": "herring",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "high heat cooking oil",
+    "canonicalName": "vegetable oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "hind shank",
+    "canonicalName": "beef shin",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Animal not stated; could be veal or lamb shank instead of beef."
+  },
+  {
+    "sourceName": "hispi (sweetheart) cabbage",
+    "canonicalName": "cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "hoisin sauce",
+    "canonicalName": "hoisin sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "honey",
+    "canonicalName": "honey",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "horseradish",
+    "canonicalName": "horseradish",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could mean the fresh root or jarred horseradish sauce."
+  },
+  {
+    "sourceName": "hot beef stock",
+    "canonicalName": "beef stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "hot chilli powder",
+    "canonicalName": "chili powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "hot mint",
+    "canonicalName": "vietnamese mint",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Assumed to be Vietnamese mint (rau ram); may instead mean regular mint."
+  },
+  {
+    "sourceName": "hot smoked flaked salmon",
+    "canonicalName": "hot smoked salmon",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from cold-smoked smoked salmon; check whether to merge."
+  },
+  {
+    "sourceName": "hot smoked paprika",
+    "canonicalName": "smoked paprika",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Hot and sweet smoked paprika merged; split if heat level matters."
+  },
+  {
+    "sourceName": "hotsauce",
+    "canonicalName": "hot sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "hummus",
+    "canonicalName": "hummus",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ice cream",
+    "canonicalName": "ice cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ice cubes",
+    "canonicalName": "ice",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Treated as a staple like water since it comes from the home freezer."
+  },
+  {
+    "sourceName": "iceberg lettuce",
+    "canonicalName": "lettuce",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "icing sugar",
+    "canonicalName": "icing sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "instant yeast",
+    "canonicalName": "yeast",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Instant and active dry yeast merged."
+  },
+  {
+    "sourceName": "italian fennel sausages",
+    "canonicalName": "italian sausage",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "italian seasoning",
+    "canonicalName": "italian seasoning",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "jalapeno",
+    "canonicalName": "jalapeno",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "jam",
+    "canonicalName": "jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "jamaican curry powder",
+    "canonicalName": "curry powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Jamaican curry powder has a different blend; merge with generic curry powder is uncertain."
+  },
+  {
+    "sourceName": "jamón ibérico",
+    "canonicalName": "jamon iberico",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "jasmine rice",
+    "canonicalName": "jasmine rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "jerk",
+    "canonicalName": "jerk seasoning",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could mean dry jerk rub or wet jerk marinade paste."
+  },
+  {
+    "sourceName": "jersey royal potatoes",
+    "canonicalName": "baby potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Jersey royals merged with baby/new potatoes."
+  },
+  {
+    "sourceName": "jerusalem artichokes",
+    "canonicalName": "jerusalem artichoke",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "jumbo shrimp",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "juniper berries",
+    "canonicalName": "juniper berry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "kabanos sausages",
+    "canonicalName": "kabanos",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "kabse spice",
+    "canonicalName": "kabsa spice",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed to be the Arabian kabsa spice blend."
+  },
+  {
+    "sourceName": "kaffir lime",
+    "canonicalName": "kaffir lime",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "kaffir lime leaves",
+    "canonicalName": "kaffir lime leaf",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "kale",
+    "canonicalName": "kale",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "kampot pepper",
+    "canonicalName": "black pepper",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Kampot pepper merged with black pepper; it may be a specialty purchase."
+  },
+  {
+    "sourceName": "khus khus",
+    "canonicalName": "poppy seed",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Khus khus usually means poppy seeds in Indian recipes but can mean couscous; check recipe."
+  },
+  {
+    "sourceName": "kidney beans",
+    "canonicalName": "kidney beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "kielbasa",
+    "canonicalName": "kielbasa",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "king prawns",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Prawns merged with shrimp."
+  },
+  {
+    "sourceName": "knafeh",
+    "canonicalName": "kataifi pastry",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Knafeh is a dessert; assumed to mean kataifi pastry dough, and site category is wrong."
+  },
+  {
+    "sourceName": "kosher salt",
+    "canonicalName": "salt",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "lamb",
+    "canonicalName": "lamb",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb fat",
+    "canonicalName": "lamb fat",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb kidney",
+    "canonicalName": "lamb kidney",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb leg",
+    "canonicalName": "lamb leg",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb loin chops",
+    "canonicalName": "lamb chop",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb mince",
+    "canonicalName": "ground lamb",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb shanks",
+    "canonicalName": "lamb shank",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb shoulder",
+    "canonicalName": "lamb shoulder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lamb stock",
+    "canonicalName": "lamb stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lard",
+    "canonicalName": "lard",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lasagne sheets",
+    "canonicalName": "lasagne sheet",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lean minced beef",
+    "canonicalName": "ground beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lean minced steak",
+    "canonicalName": "ground beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "leek",
+    "canonicalName": "leek",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lemon",
+    "canonicalName": "lemon",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lemon juice",
+    "canonicalName": "lemon juice",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Kept separate from lemon; could instead be sourced from fresh lemons."
+  },
+  {
+    "sourceName": "lemon zest",
+    "canonicalName": "lemon",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lemongrass",
+    "canonicalName": "lemongrass",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lemongrass stalks",
+    "canonicalName": "lemongrass",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lemons",
+    "canonicalName": "lemon",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lentils",
+    "canonicalName": "lentils",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Variety unspecified; may need to be merged with brown, green or red lentils."
+  },
+  {
+    "sourceName": "lettuce",
+    "canonicalName": "lettuce",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "light brown soft sugar",
+    "canonicalName": "brown sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "light raisins",
+    "canonicalName": "golden raisins",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed to mean golden raisins (sultanas)."
+  },
+  {
+    "sourceName": "light rum",
+    "canonicalName": "rum",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lima beans",
+    "canonicalName": "butter beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Lima beans and butter beans are the same bean; check whether canned or dried."
+  },
+  {
+    "sourceName": "lime",
+    "canonicalName": "lime",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lime juice",
+    "canonicalName": "lime juice",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "lime leaves",
+    "canonicalName": "kaffir lime leaf",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "linguine pasta",
+    "canonicalName": "linguine",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "liquid cheese",
+    "canonicalName": "cheese sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Assumed to mean a ready-made processed cheese sauce."
+  },
+  {
+    "sourceName": "little gem lettuce",
+    "canonicalName": "lettuce",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Merged little gem into lettuce."
+  },
+  {
+    "sourceName": "lobster",
+    "canonicalName": "lobster",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "longan",
+    "canonicalName": "longan",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "macaroni",
+    "canonicalName": "macaroni",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mackerel",
+    "canonicalName": "mackerel",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "madras paste",
+    "canonicalName": "madras curry paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "makrut lime leaves",
+    "canonicalName": "kaffir lime leaf",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "malai",
+    "canonicalName": "malai",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Indian clotted milk cream; could possibly be merged with clotted cream."
+  },
+  {
+    "sourceName": "malt vinegar",
+    "canonicalName": "malt vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "manchego",
+    "canonicalName": "manchego",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mango",
+    "canonicalName": "mango",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "maple syrup",
+    "canonicalName": "maple syrup",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "maria cookies",
+    "canonicalName": "maria cookie",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "marinated tofu",
+    "canonicalName": "tofu",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Category is wrong; merged marinated tofu into plain tofu."
+  },
+  {
+    "sourceName": "marjoram",
+    "canonicalName": "marjoram",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Fresh or dried is unspecified; assumed fresh."
+  },
+  {
+    "sourceName": "mars bar",
+    "canonicalName": "mars bar",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "marzipan",
+    "canonicalName": "marzipan",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from almond paste, which is similar but not identical."
+  },
+  {
+    "sourceName": "mascarpone",
+    "canonicalName": "mascarpone",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "massaman curry paste",
+    "canonicalName": "massaman curry paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mature cheddar",
+    "canonicalName": "cheddar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mayonnaise",
+    "canonicalName": "mayonnaise",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "medjool dates",
+    "canonicalName": "dates",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "melted butter",
+    "canonicalName": "butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "meringue nests",
+    "canonicalName": "meringue nest",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "milk",
+    "canonicalName": "milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "milk chocolate",
+    "canonicalName": "milk chocolate",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "minced beef",
+    "canonicalName": "ground beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "minced garlic",
+    "canonicalName": "garlic",
+    "unit": "clove",
+    "isStaple": false,
+    "note": "Could mean jarred minced garlic rather than fresh cloves."
+  },
+  {
+    "sourceName": "minced pork",
+    "canonicalName": "ground pork",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mincemeat",
+    "canonicalName": "mincemeat",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Sweet dried-fruit mince, not meat; the site category is wrong."
+  },
+  {
+    "sourceName": "miniature marshmallows",
+    "canonicalName": "marshmallow",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mint",
+    "canonicalName": "mint",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mirin",
+    "canonicalName": "mirin",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mixed beef cuts",
+    "canonicalName": "beef",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Vague name; mapped to generic beef."
+  },
+  {
+    "sourceName": "mixed grain",
+    "canonicalName": "mixed grain",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Unclear which grain blend is meant."
+  },
+  {
+    "sourceName": "mixed peel",
+    "canonicalName": "candied peel",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mixed peppers",
+    "canonicalName": "bell pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Assumed to mean mixed-colour bell peppers; the category is wrong."
+  },
+  {
+    "sourceName": "mixed spice",
+    "canonicalName": "mixed spice",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "mixture powder",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Unclear which product this refers to; needs review."
+  },
+  {
+    "sourceName": "molasses",
+    "canonicalName": "molasses",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Kept separate from black treacle, though they are close substitutes."
+  },
+  {
+    "sourceName": "monkfish",
+    "canonicalName": "monkfish",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "monterey jack cheese",
+    "canonicalName": "monterey jack",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "morcilla",
+    "canonicalName": "morcilla",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from black pudding; similar blood sausage."
+  },
+  {
+    "sourceName": "morning glory",
+    "canonicalName": "morning glory",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Water spinach, a leafy green; the site category is wrong."
+  },
+  {
+    "sourceName": "mozzarella",
+    "canonicalName": "mozzarella",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mozzarella balls",
+    "canonicalName": "mozzarella",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "muffins",
+    "canonicalName": "english muffin",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Assumed English muffins (bread category); could mean sweet muffins."
+  },
+  {
+    "sourceName": "mulukhiyah",
+    "canonicalName": "mulukhiyah",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Often sold frozen or dried, so bunch may not fit every listing."
+  },
+  {
+    "sourceName": "mung bean paste",
+    "canonicalName": "mung bean paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mung bean sprouts",
+    "canonicalName": "bean sprout",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mung beans",
+    "canonicalName": "mung beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "muscovado sugar",
+    "canonicalName": "muscovado sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from brown sugar; could be merged."
+  },
+  {
+    "sourceName": "mushrooms",
+    "canonicalName": "mushroom",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mussels",
+    "canonicalName": "mussel",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "mustard",
+    "canonicalName": "mustard",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Generic prepared mustard; could overlap with dijon or english mustard."
+  },
+  {
+    "sourceName": "mustard powder",
+    "canonicalName": "mustard powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "mustard seeds",
+    "canonicalName": "mustard seed",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "naan bread",
+    "canonicalName": "naan",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "napa cabbage",
+    "canonicalName": "napa cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "natural yoghurt",
+    "canonicalName": "yogurt",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "new potatoes",
+    "canonicalName": "baby potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "noodles",
+    "canonicalName": "noodles",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic noodles; the type is unspecified."
+  },
+  {
+    "sourceName": "nougatine",
+    "canonicalName": "nougatine",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "nutella",
+    "canonicalName": "chocolate hazelnut spread",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "nutmeg",
+    "canonicalName": "nutmeg",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "oatmeal",
+    "canonicalName": "oats",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed rolled or ground oats; in US usage this can mean cooked porridge."
+  },
+  {
+    "sourceName": "oats",
+    "canonicalName": "oats",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "oil",
+    "canonicalName": "vegetable oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": "Generic cooking oil."
+  },
+  {
+    "sourceName": "olive oil",
+    "canonicalName": "olive oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "onion",
+    "canonicalName": "onion",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "onion salt",
+    "canonicalName": "onion salt",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "onions",
+    "canonicalName": "onion",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "orange",
+    "canonicalName": "orange",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "orange blossom water",
+    "canonicalName": "orange blossom water",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "orange juice",
+    "canonicalName": "orange juice",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "orange zest",
+    "canonicalName": "orange",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Zest comes from a whole orange."
+  },
+  {
+    "sourceName": "oregano",
+    "canonicalName": "dried oregano",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Assumed dried; could mean fresh oregano."
+  },
+  {
+    "sourceName": "oreo cream biscuits",
+    "canonicalName": "oreo cookie",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "oxtail",
+    "canonicalName": "oxtail",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "oyster mushrooms",
+    "canonicalName": "oyster mushroom",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "oyster sauce",
+    "canonicalName": "oyster sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "oysters",
+    "canonicalName": "oyster",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "paccheri pasta",
+    "canonicalName": "paccheri",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "padron peppers",
+    "canonicalName": "padron pepper",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Small peppers usually sold by weight; the site category is wrong."
+  },
+  {
+    "sourceName": "paella rice",
+    "canonicalName": "paella rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pak choi",
+    "canonicalName": "bok choy",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "palm butter",
+    "canonicalName": "palm butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": "West African palm nut concentrate, not a dairy product."
+  },
+  {
+    "sourceName": "palm hearts",
+    "canonicalName": "hearts of palm",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "palm sugar",
+    "canonicalName": "palm sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "panang curry paste",
+    "canonicalName": "panang curry paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "panch poran",
+    "canonicalName": "panch phoron",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Misspelling of panch phoron, the Bengali five-spice blend."
+  },
+  {
+    "sourceName": "pandan leaves",
+    "canonicalName": "pandan leaf",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "paneer",
+    "canonicalName": "paneer",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "panquehue cheese",
+    "canonicalName": "panquehue cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "papelon",
+    "canonicalName": "panela",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Papelon is the Venezuelan name for panela (unrefined cane sugar); merge needs confirming."
+  },
+  {
+    "sourceName": "pappardelle pasta",
+    "canonicalName": "pappardelle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "paprika",
+    "canonicalName": "paprika",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "parma ham",
+    "canonicalName": "prosciutto",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Parma ham merged with prosciutto; confirm merge."
+  },
+  {
+    "sourceName": "parmesan",
+    "canonicalName": "parmesan",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "parmesan cheese",
+    "canonicalName": "parmesan",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "parmigiano-reggiano",
+    "canonicalName": "parmesan",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "parsley",
+    "canonicalName": "parsley",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "parsnips",
+    "canonicalName": "parsnip",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "passata",
+    "canonicalName": "passata",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "passion fruit pulp",
+    "canonicalName": "passion fruit",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Pulp may be from fresh fruit or a can; mapped to whole fruit."
+  },
+  {
+    "sourceName": "peach juice",
+    "canonicalName": "peach juice",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "May refer to the syrup from canned peaches."
+  },
+  {
+    "sourceName": "peaches",
+    "canonicalName": "peach",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "peanut brittle",
+    "canonicalName": "peanut brittle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "peanut butter",
+    "canonicalName": "peanut butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "peanut cookies",
+    "canonicalName": "peanut cookie",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "peanut oil",
+    "canonicalName": "peanut oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "peanuts",
+    "canonicalName": "peanut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pears",
+    "canonicalName": "pear",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "peas",
+    "canonicalName": "peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pecan nuts",
+    "canonicalName": "pecan",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pecorino",
+    "canonicalName": "pecorino",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "penne pasta",
+    "canonicalName": "penne",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "penne rigate",
+    "canonicalName": "penne",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pepper",
+    "canonicalName": "black pepper",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Ambiguous: could mean bell pepper in some recipes; assumed black pepper."
+  },
+  {
+    "sourceName": "peppercorns",
+    "canonicalName": "peppercorn",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Whole peppercorns kept separate from ground black pepper; could be merged."
+  },
+  {
+    "sourceName": "persian cucumber",
+    "canonicalName": "cucumber",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Persian cucumbers are smaller; merged with cucumber."
+  },
+  {
+    "sourceName": "petit pois",
+    "canonicalName": "peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "phyllo dough",
+    "canonicalName": "phyllo dough",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pickle juice",
+    "canonicalName": "pickle juice",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Usually the brine from a jar of dill pickles."
+  },
+  {
+    "sourceName": "pickled garlics",
+    "canonicalName": "pickled garlic",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pickled grape leaves",
+    "canonicalName": "grape leaves",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pickled scallion head brine",
+    "canonicalName": "pickled scallion head",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Brine comes from the jar of pickled scallion heads; mapped to the jar item."
+  },
+  {
+    "sourceName": "pickled scallion heads",
+    "canonicalName": "pickled scallion head",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pico de gallo sauce",
+    "canonicalName": "pico de gallo",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pigs trotters",
+    "canonicalName": "pig trotter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pilchards",
+    "canonicalName": "pilchard",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Pilchards are large sardines, usually canned; could merge with sardine."
+  },
+  {
+    "sourceName": "pimento stuffed olives",
+    "canonicalName": "green olives",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Stuffed olives merged with green olives; confirm merge."
+  },
+  {
+    "sourceName": "pine nuts",
+    "canonicalName": "pine nut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pineapple chunks",
+    "canonicalName": "canned pineapple",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed canned chunks; could be fresh pineapple."
+  },
+  {
+    "sourceName": "pineapple juice",
+    "canonicalName": "pineapple juice",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pink food colouring",
+    "canonicalName": "pink food coloring",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pinto beans",
+    "canonicalName": "pinto beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pistachio",
+    "canonicalName": "pistachio",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pistachio paste",
+    "canonicalName": "pistachio paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pita bread",
+    "canonicalName": "pita",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pitted black olives",
+    "canonicalName": "black olives",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pitted dates",
+    "canonicalName": "dates",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "plain chocolate",
+    "canonicalName": "dark chocolate",
+    "unit": "g",
+    "isStaple": false,
+    "note": "UK 'plain chocolate' means dark chocolate."
+  },
+  {
+    "sourceName": "plain flour",
+    "canonicalName": "flour",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "plantain",
+    "canonicalName": "plantain",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Kept separate from green banana; review if they should merge."
+  },
+  {
+    "sourceName": "plum jam",
+    "canonicalName": "plum jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "plum sauce",
+    "canonicalName": "plum sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Similar to duck sauce; kept separate."
+  },
+  {
+    "sourceName": "plum tomatoes",
+    "canonicalName": "tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Could mean canned plum tomatoes rather than fresh."
+  },
+  {
+    "sourceName": "polish kabanos",
+    "canonicalName": "kabanos",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "polish sausage",
+    "canonicalName": "kielbasa",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pomegranate",
+    "canonicalName": "pomegranate",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pomegranate molasses",
+    "canonicalName": "pomegranate molasses",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "poppy seeds",
+    "canonicalName": "poppy seed",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork",
+    "canonicalName": "pork",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork back ribs",
+    "canonicalName": "pork ribs",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork belly slices",
+    "canonicalName": "pork belly",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork cheeks",
+    "canonicalName": "pork cheek",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork chops",
+    "canonicalName": "pork chop",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork knuckle",
+    "canonicalName": "pork knuckle",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from pig trotter."
+  },
+  {
+    "sourceName": "pork shoulder",
+    "canonicalName": "pork shoulder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork shoulder steaks",
+    "canonicalName": "pork shoulder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pork tenderloin",
+    "canonicalName": "pork tenderloin",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "porridge oats",
+    "canonicalName": "oats",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "potato starch",
+    "canonicalName": "potato starch",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "potatoe buns",
+    "canonicalName": "bun",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Potato buns merged into generic bun."
+  },
+  {
+    "sourceName": "potatoes",
+    "canonicalName": "potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "powdered sugar",
+    "canonicalName": "icing sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "prahok",
+    "canonicalName": "prahok",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Cambodian fermented fish paste; category given as seasoning."
+  },
+  {
+    "sourceName": "prawns",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pre-fried tequeños",
+    "canonicalName": "tequeno",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Prepared cheese-filled pastry sticks, not a plain cheese."
+  },
+  {
+    "sourceName": "pretzels",
+    "canonicalName": "pretzel",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "prosciutto",
+    "canonicalName": "prosciutto",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "prunes",
+    "canonicalName": "prunes",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "puff pastry",
+    "canonicalName": "puff pastry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "pul biber",
+    "canonicalName": "chili flakes",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Turkish Aleppo-style pepper flakes merged into chili flakes; category was wrong."
+  },
+  {
+    "sourceName": "pumpkin",
+    "canonicalName": "pumpkin",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Used g since pumpkin is usually measured by weight."
+  },
+  {
+    "sourceName": "pumpkin puree",
+    "canonicalName": "pumpkin puree",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "purple sprouting broccoli",
+    "canonicalName": "broccoli",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Merged with broccoli; sold in bunches/weight, so unit may need review."
+  },
+  {
+    "sourceName": "queso fresco",
+    "canonicalName": "queso fresco",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "quinoa",
+    "canonicalName": "quinoa",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "radish",
+    "canonicalName": "radish",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rainbow trout",
+    "canonicalName": "trout",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raisins",
+    "canonicalName": "raisins",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rapeseed oil",
+    "canonicalName": "canola oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "ras el hanout",
+    "canonicalName": "ras el hanout",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raspberries",
+    "canonicalName": "raspberry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raspberry jam",
+    "canonicalName": "raspberry jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raw frozen prawns",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raw king prawns",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raw tiger prawns",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "raw vegetables",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Generic mix of vegetables, not a single pantry item."
+  },
+  {
+    "sourceName": "raw yucca",
+    "canonicalName": "cassava",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ready rolled shortcrust pastry",
+    "canonicalName": "shortcrust pastry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red cabbage",
+    "canonicalName": "red cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Kept separate from cabbage; confirm whether green and red should merge."
+  },
+  {
+    "sourceName": "red chilli",
+    "canonicalName": "chili pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red chilli flakes",
+    "canonicalName": "chili flakes",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "red chilli powder",
+    "canonicalName": "chili powder",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Indian red chilli powder is pure ground chili, hotter than a US chili powder blend."
+  },
+  {
+    "sourceName": "red curry paste",
+    "canonicalName": "red curry paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red food colouring",
+    "canonicalName": "red food coloring",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red onions",
+    "canonicalName": "onion",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red pepper",
+    "canonicalName": "bell pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Could mean red bell pepper or a red chili; assumed bell pepper."
+  },
+  {
+    "sourceName": "red pepper flakes",
+    "canonicalName": "chili flakes",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "red pepper paste",
+    "canonicalName": "red pepper paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could be Turkish biber salcasi or Korean gochujang; check recipe context."
+  },
+  {
+    "sourceName": "red pepper sauce",
+    "canonicalName": "hot sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Ambiguous: could be hot sauce or a roasted red pepper sauce."
+  },
+  {
+    "sourceName": "red potatoes",
+    "canonicalName": "potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red snapper",
+    "canonicalName": "red snapper",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red wine",
+    "canonicalName": "red wine",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red wine jelly",
+    "canonicalName": "red wine jelly",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "red wine vinegar",
+    "canonicalName": "red wine vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "redcurrants",
+    "canonicalName": "redcurrant",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "refried beans",
+    "canonicalName": "refried beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rhubarb",
+    "canonicalName": "rhubarb",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice",
+    "canonicalName": "rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice flour",
+    "canonicalName": "rice flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice flour pancakes",
+    "canonicalName": "rice paper",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Assumed to be rice paper wrappers; could be a different pancake product."
+  },
+  {
+    "sourceName": "rice krispies",
+    "canonicalName": "rice krispies",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice noodles",
+    "canonicalName": "rice noodle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice paper sheets",
+    "canonicalName": "rice paper",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice stick noodles",
+    "canonicalName": "rice noodle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice vermicelli",
+    "canonicalName": "rice vermicelli",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from rice noodle as it is much thinner; consider merging."
+  },
+  {
+    "sourceName": "rice vinegar",
+    "canonicalName": "rice vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rice wine",
+    "canonicalName": "rice wine",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "ricotta",
+    "canonicalName": "ricotta",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rigatoni",
+    "canonicalName": "rigatoni",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "roasted peanut",
+    "canonicalName": "peanut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "roasted pepper",
+    "canonicalName": "roasted red pepper",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Assumed jarred roasted red peppers."
+  },
+  {
+    "sourceName": "roasted vegetables",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Mixture prepared during the recipe, not a single pantry item."
+  },
+  {
+    "sourceName": "rocket",
+    "canonicalName": "arugula",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rolled oats",
+    "canonicalName": "oats",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "romano pepper",
+    "canonicalName": "bell pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Sweet pointed pepper merged with bell pepper as a free substitute."
+  },
+  {
+    "sourceName": "rose water",
+    "canonicalName": "rose water",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rosemary",
+    "canonicalName": "rosemary",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rum",
+    "canonicalName": "rum",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "runner beans",
+    "canonicalName": "green beans",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Runner beans merged with green beans as a close substitute."
+  },
+  {
+    "sourceName": "russet potato",
+    "canonicalName": "potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rye",
+    "canonicalName": "rye flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous: could be rye flour, rye grain or rye whiskey; category Meat is wrong."
+  },
+  {
+    "sourceName": "rye bread",
+    "canonicalName": "rye bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rye flour",
+    "canonicalName": "rye flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "rye grain",
+    "canonicalName": "rye grain",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "saffron",
+    "canonicalName": "saffron",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sage",
+    "canonicalName": "sage",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "Could mean fresh or dried sage; assumed fresh."
+  },
+  {
+    "sourceName": "sake",
+    "canonicalName": "sake",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "salmon",
+    "canonicalName": "salmon",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "salsa",
+    "canonicalName": "salsa",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "salsa lizano",
+    "canonicalName": "lizano sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "salt",
+    "canonicalName": "salt",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "salt cod",
+    "canonicalName": "salt cod",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "salted butter",
+    "canonicalName": "butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sardines",
+    "canonicalName": "sardine",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from existing pilchard; may be fresh or canned."
+  },
+  {
+    "sourceName": "saskatoon berries",
+    "canonicalName": "saskatoon berry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sauerkraut",
+    "canonicalName": "sauerkraut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sausages",
+    "canonicalName": "sausage",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic sausage; kept separate from italian and german sausage."
+  },
+  {
+    "sourceName": "savoy cabbage",
+    "canonicalName": "cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sazon",
+    "canonicalName": "sazon",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sazon goya with azafran",
+    "canonicalName": "sazon",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "scallions",
+    "canonicalName": "green onion",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "scotch bonnet",
+    "canonicalName": "scotch bonnet",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Kept separate from chili pepper due to distinct heat and flavor."
+  },
+  {
+    "sourceName": "sea bass",
+    "canonicalName": "sea bass",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Site category Root Vegetable is wrong."
+  },
+  {
+    "sourceName": "sea bass fillets",
+    "canonicalName": "sea bass",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sea salt",
+    "canonicalName": "salt",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "seafood stock",
+    "canonicalName": "fish stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Merged seafood stock into fish stock; verify."
+  },
+  {
+    "sourceName": "seasoned rice vinegar",
+    "canonicalName": "rice vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Seasoned version contains sugar and salt; merge may need review."
+  },
+  {
+    "sourceName": "seasoning",
+    "canonicalName": "all-purpose seasoning",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Vague name; assumed all-purpose seasoning."
+  },
+  {
+    "sourceName": "seeds",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Too vague to identify a specific seed."
+  },
+  {
+    "sourceName": "self-raising flour",
+    "canonicalName": "self-raising flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from flour since it contains leavening."
+  },
+  {
+    "sourceName": "semi-skimmed milk",
+    "canonicalName": "milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "semolina",
+    "canonicalName": "semolina",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Site category Fruit is wrong."
+  },
+  {
+    "sourceName": "semolina flour",
+    "canonicalName": "semolina",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged with semolina; fine semolina flour may differ in texture."
+  },
+  {
+    "sourceName": "serrano ham",
+    "canonicalName": "serrano ham",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sesame seed",
+    "canonicalName": "sesame seed",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sesame seed burger buns",
+    "canonicalName": "bun",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sesame seed oil",
+    "canonicalName": "sesame oil",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sevaiiya",
+    "canonicalName": "fideo",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Indian wheat vermicelli merged with fideo; verify."
+  },
+  {
+    "sourceName": "shallots",
+    "canonicalName": "shallot",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shaoxing wine",
+    "canonicalName": "rice wine",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Shaoxing is a Chinese rice wine; merged with rice wine."
+  },
+  {
+    "sourceName": "shatkora",
+    "canonicalName": "shatkora",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shelled hazelnuts",
+    "canonicalName": "hazelnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sherry",
+    "canonicalName": "sherry",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sherry vinegar",
+    "canonicalName": "sherry vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shiitake mushrooms",
+    "canonicalName": "shiitake mushroom",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could be fresh or dried shiitake."
+  },
+  {
+    "sourceName": "shortcrust pastry",
+    "canonicalName": "shortcrust pastry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shortening",
+    "canonicalName": "shortening",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shredded coconut",
+    "canonicalName": "coconut flakes",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged shredded coconut with coconut flakes; verify."
+  },
+  {
+    "sourceName": "shredded meat",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Unspecified meat, likely cooked and shredded within the recipe."
+  },
+  {
+    "sourceName": "shredded mexican cheese",
+    "canonicalName": "mexican cheese blend",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shredded monterey jack cheese",
+    "canonicalName": "monterey jack",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shrimp",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shrimp paste",
+    "canonicalName": "shrimp paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "shrimp stock",
+    "canonicalName": "shrimp stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Kept separate from fish stock; could be merged if substitution is acceptable."
+  },
+  {
+    "sourceName": "sichuan pepper",
+    "canonicalName": "sichuan pepper",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "silken tofu",
+    "canonicalName": "silken tofu",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from tofu because silken and firm tofu are not freely interchangeable."
+  },
+  {
+    "sourceName": "single cream",
+    "canonicalName": "cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sirloin steak",
+    "canonicalName": "sirloin steak",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sirloin steak tips",
+    "canonicalName": "sirloin steak",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Steak tips merged with sirloin steak."
+  },
+  {
+    "sourceName": "sirop de liège",
+    "canonicalName": "sirop de liege",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Thick Belgian fruit syrup sold in jars by weight."
+  },
+  {
+    "sourceName": "skirty steak",
+    "canonicalName": "skirt steak",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Source name appears to be a typo for skirt steak."
+  },
+  {
+    "sourceName": "small potatoes",
+    "canonicalName": "baby potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "smoked haddock",
+    "canonicalName": "smoked haddock",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "smoked ham",
+    "canonicalName": "ham",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged smoked ham into ham."
+  },
+  {
+    "sourceName": "smoked paprika",
+    "canonicalName": "smoked paprika",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "smoked salmon",
+    "canonicalName": "smoked salmon",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "smoked turkey neck",
+    "canonicalName": "smoked turkey neck",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "smoky aïoli",
+    "canonicalName": "aioli",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "May be made in the recipe rather than bought; smoky flavor dropped."
+  },
+  {
+    "sourceName": "smoky paprika",
+    "canonicalName": "smoked paprika",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "snapper fish",
+    "canonicalName": "red snapper",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic snapper merged with red snapper."
+  },
+  {
+    "sourceName": "snow peas",
+    "canonicalName": "snow peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Site category Root Vegetable is wrong."
+  },
+  {
+    "sourceName": "soda water",
+    "canonicalName": "soda water",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sorrel jam",
+    "canonicalName": "sorrel jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sour cream",
+    "canonicalName": "sour cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sour milk",
+    "canonicalName": "buttermilk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Sour milk merged with buttermilk as a substitute; verify."
+  },
+  {
+    "sourceName": "sour pork sausage",
+    "canonicalName": "sour pork sausage",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "soured cream and chive dip",
+    "canonicalName": "sour cream and chive dip",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "soy sauce",
+    "canonicalName": "soy sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "soya bean",
+    "canonicalName": "soybean",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "soya milk",
+    "canonicalName": "soy milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "spaghetti",
+    "canonicalName": "spaghetti",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "speculaas spice mix",
+    "canonicalName": "speculaas spice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "spinach",
+    "canonicalName": "spinach",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "split peas",
+    "canonicalName": "split peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "spring onions",
+    "canonicalName": "green onion",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "squash",
+    "canonicalName": "squash",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Generic squash; could mean butternut or another variety."
+  },
+  {
+    "sourceName": "squid",
+    "canonicalName": "squid",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sriracha",
+    "canonicalName": "sriracha",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "stale bread",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "star anise",
+    "canonicalName": "star anise",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "starch",
+    "canonicalName": "cornstarch",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic starch assumed to be cornstarch; could be potato starch."
+  },
+  {
+    "sourceName": "sticky rice flour",
+    "canonicalName": "glutinous rice flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "stilton cheese",
+    "canonicalName": "stilton",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "stir-fry vegetables",
+    "canonicalName": "stir-fry vegetables",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Pre-packed vegetable mix."
+  },
+  {
+    "sourceName": "stoned dates",
+    "canonicalName": "dates",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "stout",
+    "canonicalName": "dark beer",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Stout merged with dark beer."
+  },
+  {
+    "sourceName": "strained yoghurt",
+    "canonicalName": "greek yogurt",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "strawberries",
+    "canonicalName": "strawberry",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "streaky bacon",
+    "canonicalName": "bacon",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "strong white bread flour",
+    "canonicalName": "bread flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "strong white flour",
+    "canonicalName": "bread flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "strong wholemeal flour",
+    "canonicalName": "wholemeal flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from white bread flour as a different pantry item."
+  },
+  {
+    "sourceName": "suet",
+    "canonicalName": "suet",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sugar",
+    "canonicalName": "sugar",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "sugar snap peas",
+    "canonicalName": "sugar snap peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from snow peas, though some cooks substitute them."
+  },
+  {
+    "sourceName": "sugar syrup",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Usually made from sugar and water during the recipe."
+  },
+  {
+    "sourceName": "sultanas",
+    "canonicalName": "golden raisins",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Sultanas merged with golden raisins; please check this merge."
+  },
+  {
+    "sourceName": "sumac",
+    "canonicalName": "sumac",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "summer savoury",
+    "canonicalName": "summer savory",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sun-dried tomatoes",
+    "canonicalName": "sun-dried tomato",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sunflower oil",
+    "canonicalName": "vegetable oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": "Sunflower oil merged with vegetable oil as a neutral cooking oil."
+  },
+  {
+    "sourceName": "sushi rice",
+    "canonicalName": "sushi rice",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "swede",
+    "canonicalName": "swede",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sweet chilli sauce",
+    "canonicalName": "sweet chili sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sweet peppadew peppers",
+    "canonicalName": "peppadew pepper",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Jarred pickled peppers; category was wrong."
+  },
+  {
+    "sourceName": "sweet potatoes",
+    "canonicalName": "sweet potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sweet quark",
+    "canonicalName": "quark",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Sweetened quark merged with plain quark."
+  },
+  {
+    "sourceName": "sweet red peppers",
+    "canonicalName": "bell pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sweet sherry",
+    "canonicalName": "sherry",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "sweet smoked paprika",
+    "canonicalName": "smoked paprika",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "sweetcorn",
+    "canonicalName": "sweetcorn",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Corn kernels, kept separate from corn on the cob and creamed corn."
+  },
+  {
+    "sourceName": "sweetened condensed milk",
+    "canonicalName": "condensed milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "swiss cheese",
+    "canonicalName": "swiss cheese",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "szechuan peppercorns",
+    "canonicalName": "sichuan pepper",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tabasco sauce",
+    "canonicalName": "hot sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tagliatelle",
+    "canonicalName": "tagliatelle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tahini",
+    "canonicalName": "tahini",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tahini paste",
+    "canonicalName": "tahini",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tamarind ball",
+    "canonicalName": "tamarind",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Block or ball tamarind, kept separate from tamarind paste."
+  },
+  {
+    "sourceName": "tamarind paste",
+    "canonicalName": "tamarind paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tamarind pulp",
+    "canonicalName": "tamarind",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tapioca",
+    "canonicalName": "tapioca",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could mean tapioca pearls or tapioca starch."
+  },
+  {
+    "sourceName": "taro",
+    "canonicalName": "taro",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tarragon leaves",
+    "canonicalName": "tarragon",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tempeh",
+    "canonicalName": "tempeh",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tempura flour",
+    "canonicalName": "tempura flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "thai chilli jam",
+    "canonicalName": "thai chili jam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "thai fish sauce",
+    "canonicalName": "fish sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "thai green curry paste",
+    "canonicalName": "green curry paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "thai red curry paste",
+    "canonicalName": "red curry paste",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "thyme",
+    "canonicalName": "thyme",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": "It is unclear whether this means fresh or dried thyme."
+  },
+  {
+    "sourceName": "tiger prawns",
+    "canonicalName": "shrimp",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tinned tomatos",
+    "canonicalName": "canned tomatoes",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "toast",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Toast mapped to bread slices, which are toasted during the recipe."
+  },
+  {
+    "sourceName": "tobasco sauce",
+    "canonicalName": "hot sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Misspelled Tabasco merged into generic hot sauce."
+  },
+  {
+    "sourceName": "toffee popcorn",
+    "canonicalName": "toffee popcorn",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tofu",
+    "canonicalName": "tofu",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tomato",
+    "canonicalName": "tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tomato ketchup",
+    "canonicalName": "ketchup",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tomato puree",
+    "canonicalName": "tomato puree",
+    "unit": "g",
+    "isStaple": false,
+    "note": "In the UK this means tomato paste; in the US it is closer to passata."
+  },
+  {
+    "sourceName": "tomato sauce",
+    "canonicalName": "tomato sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Could mean a pasta sauce, US canned tomato sauce, or ketchup."
+  },
+  {
+    "sourceName": "tomatoes",
+    "canonicalName": "tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "toor dal",
+    "canonicalName": "toor dal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tortillas",
+    "canonicalName": "flour tortilla",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Unspecified tortillas; assumed flour, but they could be corn tortillas."
+  },
+  {
+    "sourceName": "treacle",
+    "canonicalName": "black treacle",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Assumed UK black treacle; some recipes may mean golden syrup."
+  },
+  {
+    "sourceName": "tripe",
+    "canonicalName": "tripe",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "trout",
+    "canonicalName": "trout",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "truffle oil",
+    "canonicalName": "truffle oil",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "tuna",
+    "canonicalName": "tuna",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Could mean fresh tuna or canned tuna."
+  },
+  {
+    "sourceName": "turkey",
+    "canonicalName": "turkey",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "turkey ham",
+    "canonicalName": "turkey ham",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "turkey mince",
+    "canonicalName": "ground turkey",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "turkey neck",
+    "canonicalName": "turkey neck",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Kept separate from existing smoked turkey neck."
+  },
+  {
+    "sourceName": "turkish delight",
+    "canonicalName": "turkish delight",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "turmeric",
+    "canonicalName": "turmeric",
+    "unit": "g",
+    "isStaple": true,
+    "note": "Assumed ground turmeric, not fresh root."
+  },
+  {
+    "sourceName": "turmeric powder",
+    "canonicalName": "turmeric",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "turnips",
+    "canonicalName": "turnip",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "udon noodles",
+    "canonicalName": "udon noodle",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unflavoured gelatin",
+    "canonicalName": "gelatin",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Powdered gelatin kept separate from existing gelatin leaf."
+  },
+  {
+    "sourceName": "unsalted beef stock",
+    "canonicalName": "beef stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unsalted butter",
+    "canonicalName": "butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unsalted peanuts",
+    "canonicalName": "peanut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unsalted pistachio",
+    "canonicalName": "pistachio",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unsweetened cocoa",
+    "canonicalName": "cocoa powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unsweetened coconut milk",
+    "canonicalName": "coconut milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unwaxed lemon",
+    "canonicalName": "lemon",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "unwaxed lime",
+    "canonicalName": "lime",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vanilla",
+    "canonicalName": "vanilla extract",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Plain vanilla is assumed to mean extract; it could be a pod."
+  },
+  {
+    "sourceName": "vanilla bean paste",
+    "canonicalName": "vanilla bean paste",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Could arguably merge with vanilla extract."
+  },
+  {
+    "sourceName": "vanilla custard",
+    "canonicalName": "custard",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vanilla extract",
+    "canonicalName": "vanilla extract",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vanilla pod",
+    "canonicalName": "vanilla pod",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vanilla powder",
+    "canonicalName": "vanilla powder",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vanilla sugar",
+    "canonicalName": "vanilla sugar",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "västerbottensost cheese",
+    "canonicalName": "vasterbottensost",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "veal",
+    "canonicalName": "veal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vegan butter",
+    "canonicalName": "vegan butter",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vegan white wine vinegar",
+    "canonicalName": "white wine vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vegetable millk",
+    "canonicalName": "plant milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Misspelled 'vegetable milk' read as generic plant-based milk; could be soy or almond milk."
+  },
+  {
+    "sourceName": "vegetable oil",
+    "canonicalName": "vegetable oil",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "vegetable shortening",
+    "canonicalName": "shortening",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vegetable stock",
+    "canonicalName": "vegetable stock",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vegetable stock cube",
+    "canonicalName": "vegetable stock cube",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vegetables",
+    "canonicalName": null,
+    "unit": null,
+    "isStaple": false,
+    "note": "Generic 'vegetables' is not a single buyable pantry item."
+  },
+  {
+    "sourceName": "vermicelli pasta",
+    "canonicalName": "vermicelli",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Wheat vermicelli; this is similar to the existing fideo, so the two could be merged."
+  },
+  {
+    "sourceName": "vermicelli rice noodles",
+    "canonicalName": "rice vermicelli",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vinaigrette dressing",
+    "canonicalName": "vinaigrette",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Could be store-bought or made during the recipe."
+  },
+  {
+    "sourceName": "vine leaves",
+    "canonicalName": "grape leaves",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vine tomatoes",
+    "canonicalName": "tomato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "vinegar",
+    "canonicalName": "vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": "Unspecified vinegar type; likely plain white vinegar."
+  },
+  {
+    "sourceName": "walnuts",
+    "canonicalName": "walnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "warm water",
+    "canonicalName": "water",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "water",
+    "canonicalName": "water",
+    "unit": "ml",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "water chestnut",
+    "canonicalName": "water chestnut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "wheat flour",
+    "canonicalName": "flour",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "whipping cream",
+    "canonicalName": "cream",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white asparagus",
+    "canonicalName": "asparagus",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged white asparagus with green asparagus; it is not always sold alongside green asparagus."
+  },
+  {
+    "sourceName": "white bread",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white bread mix",
+    "canonicalName": "bread mix",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white cabbage",
+    "canonicalName": "cabbage",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white chocolate",
+    "canonicalName": "white chocolate",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white chocolate chips",
+    "canonicalName": "white chocolate",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged white chocolate chips into white chocolate rather than chocolate chips."
+  },
+  {
+    "sourceName": "white cornmeal",
+    "canonicalName": "cornmeal",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white fish",
+    "canonicalName": "white fish",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Generic white fish; might be worth matching against cod or haddock."
+  },
+  {
+    "sourceName": "white fish fillets",
+    "canonicalName": "white fish",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white flour",
+    "canonicalName": "flour",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "white masarepa",
+    "canonicalName": "masarepa",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Precooked corn flour, kept separate from cornmeal; white and yellow are merged."
+  },
+  {
+    "sourceName": "white sauerkraut",
+    "canonicalName": "sauerkraut",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white vinegar",
+    "canonicalName": "vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white wine",
+    "canonicalName": "white wine",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white wine vinegar",
+    "canonicalName": "white wine vinegar",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "white yam",
+    "canonicalName": "yam",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "whole black peppercorns",
+    "canonicalName": "peppercorn",
+    "unit": "g",
+    "isStaple": true,
+    "note": null
+  },
+  {
+    "sourceName": "whole milk",
+    "canonicalName": "milk",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "whole wheat",
+    "canonicalName": "wholemeal flour",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Ambiguous: assumed to mean whole wheat flour rather than wheat berries."
+  },
+  {
+    "sourceName": "wholegrain bread",
+    "canonicalName": "bread",
+    "unit": "count",
+    "isStaple": false,
+    "note": "Merged wholegrain bread with generic bread; it could be kept separate."
+  },
+  {
+    "sourceName": "wholegrain mustard",
+    "canonicalName": "wholegrain mustard",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "wild garlic leaves",
+    "canonicalName": "wild garlic",
+    "unit": "bunch",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "wild mushrooms",
+    "canonicalName": "mushroom",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Merged mixed wild mushrooms with generic mushroom."
+  },
+  {
+    "sourceName": "wonton skin",
+    "canonicalName": "wonton wrapper",
+    "unit": "count",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "wood ear mushrooms",
+    "canonicalName": "wood ear mushroom",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "worcestershire sauce",
+    "canonicalName": "worcestershire sauce",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yautia",
+    "canonicalName": "yautia",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Also called malanga or tannia; similar to taro."
+  },
+  {
+    "sourceName": "yeast",
+    "canonicalName": "yeast",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yellow food colouring",
+    "canonicalName": "yellow food coloring",
+    "unit": "ml",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yellow masarepa",
+    "canonicalName": "masarepa",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yellow onion",
+    "canonicalName": "onion",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yellow pepper",
+    "canonicalName": "bell pepper",
+    "unit": "whole",
+    "isStaple": false,
+    "note": "Assumed to mean yellow bell pepper, not a yellow chili."
+  },
+  {
+    "sourceName": "yellow split peas",
+    "canonicalName": "split peas",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yogurt",
+    "canonicalName": "yogurt",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yuca",
+    "canonicalName": "cassava",
+    "unit": "g",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "yukon gold potatoes",
+    "canonicalName": "potato",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  },
+  {
+    "sourceName": "zapallo squash",
+    "canonicalName": "squash",
+    "unit": "g",
+    "isStaple": false,
+    "note": "Zapallo is a South American winter squash; it could also be mapped to pumpkin."
+  },
+  {
+    "sourceName": "zucchini",
+    "canonicalName": "zucchini",
+    "unit": "whole",
+    "isStaple": false,
+    "note": null
+  }
+]
