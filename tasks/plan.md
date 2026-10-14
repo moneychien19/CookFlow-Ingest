@@ -291,13 +291,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** For unmapped lines in `pending` recipes, ask Claude for an existing ingredient + quantity, a proposed new ingredient + quantity, or "can't map". Validate the response with zod and write the proposal into the line with `method: "claude"` and a `note`.
 
 **Acceptance criteria:**
-- [ ] Only unmapped lines in `pending` recipes are sent; prompt includes source name, measure, recipe title, and catalog
-- [ ] Proposed new ingredients are stored on the line (not in the catalog) in a field the reviewer can see; quantity is validated against the proposed unit
-- [ ] Invalid or failed responses leave the line unmapped with a note; the run is resumable (lines already proposed aren't re-sent)
+- [x] Only unmapped lines in `pending` recipes are sent; prompt includes source name, measure, recipe title, and catalog
+- [x] Proposed new ingredients join the catalog as unreviewed drafts (and the bootstrap proposals), so they go through the same review as every other draft (Open Question 2)
+- [x] Invalid or failed responses leave the line unmapped with a note; the run is resumable (lines already proposed aren't re-sent)
 
 **Verification:**
-- [ ] Tests with a fake `propose`: each of the three outcomes, invalid response, approved/dropped recipes untouched
-- [ ] Manual: run on the fetched sample, read 10 proposals
+- [x] Tests with a fake `propose`: each of the three outcomes, invalid response, approved/dropped recipes untouched
+- [x] Manual: 5 real meals → 3 recipes sent, 6 lines answered, all sensible with checkable notes; $0.06. Rerunning map kept them; rerunning normalize sent nothing
 
 **Dependencies:** T7, T5b (reuses its Claude client)
 
@@ -366,7 +366,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 0. ~~Duplicate ingredients (SPEC §8 Q1)~~ **Decided:** keep dropping, fetch ~200 recipes in T13. Map re-checks its own drops, so switching to merging later loses no work.
 
 1. ~~CookFlow seed ingredients~~ **Decided:** don't use CookFlow's 33 seed ingredients; bootstrap the catalog from TheMealDB's ingredient list (T5b).
-2. **How does a reviewer accept a proposed new ingredient?** SPEC §5.5 says it joins the catalog "when the reviewer accepts it" but doesn't say how. Proposal: the line carries `proposedIngredient: { name, unit, isStaple }`; the reviewer accepts by adding the entry to `data/ingredients.json` by hand, and validation fails if an approved line points at a name not in the catalog. A helper command can come later.
+2. ~~How does a reviewer accept a proposed new ingredient?~~ **Decided:** normalize adds it to the catalog as an unreviewed draft (and to the bootstrap proposals); the reviewer accepts it by reviewing the entry, like any other draft. SPEC §5.5 updated.
 3. ~~Skip `Dessert` / `Breakfast`?~~ **Decided:** the TheMealDB adapter skips `Dessert` at fetch time, so desserts aren't cached and don't count toward `--limit`. `Breakfast` is kept. SPEC §5.1 and §8 updated.
 4. ~~Should `map` keep Claude/manual lines in `pending` recipes?~~ **Decided:** yes. Map keeps `claude`/`manual` lines in pending recipes and remaps the rest; it also re-checks its own duplicate drops on every run. SPEC §5.6 updated.
 5. **Ingredient table ownership** (SPEC §8 Q3). With the catalog now built here, the natural answer is that this repo owns `ingredients`, and CookFlow's `db:seed` stops writing ingredients and its `dev` recipes (or only seeds a local/empty DB). Needs a change in the CookFlow repo before Task 15.

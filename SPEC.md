@@ -153,12 +153,12 @@ When loading:
 When two lines map to the same canonical ingredient, the recipe can't be stored as-is, because of the primary key. For now, the recipe is **dropped**, with the reason `duplicate ingredient "<name>"`. See the open questions (§8).
 
 ### 5.5 Normalization with Claude
-- Only unmapped lines are sent. Claude gets the source name and measure, the recipe title, and the ingredient catalog. It returns one of:
-  - an existing canonical ingredient and a quantity in that ingredient's unit
-  - a proposed new ingredient (`name`, `unit`, `isStaple`) and a quantity
+- Only unmapped lines (no quantity, no `method`) of `pending` recipes are sent, one request per recipe. Claude gets the whole recipe for context, the lines to answer, and the ingredient catalog. It returns one of:
+  - an existing canonical ingredient and a quantity in that ingredient's unit. A line whose name already matched keeps its ingredient; Claude only works out the quantity.
+  - a proposed new ingredient (`name`, `unit`, `isStaple`) and a quantity, only when nothing in the catalog fits
   - "can't map"
-- Responses are validated with zod. Each proposal records `method: "claude"` and a short `note` with Claude's reasoning, for the reviewer.
-- A proposed new ingredient is added to the catalog only when the reviewer accepts it.
+- Responses are validated with zod and checked against the catalog. Each answer records `method: "claude"` and a short `note` with Claude's reasoning, for the reviewer. "Can't map" is recorded too (quantity stays null), so it isn't asked again. An answer that breaks a rule is discarded and the line is asked again on the next run.
+- A proposed new ingredient joins the catalog as an unreviewed draft (and `bootstrap-proposals.json`, so rebuilding the catalog keeps it). Like every draft, it must be reviewed before an approved recipe can use it (§5.2).
 - This step runs only from the CLI, offline. Nothing calls Claude when CookFlow runs.
 
 ### 5.6 Reviewed file

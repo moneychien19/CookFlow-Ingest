@@ -18,7 +18,6 @@ export const isMapDrop = (recipe: ReviewedRecipe) =>
  */
 export function mapRecipe(source: string, recipe: SourceRecipe, match: Matcher, previous?: ReviewedRecipe): ReviewedRecipe {
   const lines = recipe.lines.map((line, i) => keptLine(previous?.lines[i], line) ?? mapLine(line, match));
-  const duplicate = firstDuplicate(lines.flatMap((l) => (l.ingredient ? [l.ingredient] : [])));
   return {
     source,
     sourceId: recipe.sourceId,
@@ -27,10 +26,15 @@ export function mapRecipe(source: string, recipe: SourceRecipe, match: Matcher, 
     instructions: recipe.instructions,
     servings: recipe.servings,
     tags: recipe.tags,
-    status: duplicate ? "dropped" : "pending",
-    dropReason: duplicate ? `${DUPLICATE_PREFIX}"${duplicate}"` : null,
+    ...statusFor(lines),
     lines,
   };
+}
+
+/** Pending, or dropped when two lines map to the same ingredient (SPEC §5.4). */
+export function statusFor(lines: ReviewedLine[]): Pick<ReviewedRecipe, "status" | "dropReason"> {
+  const duplicate = firstDuplicate(lines.flatMap((l) => (l.ingredient ? [l.ingredient] : [])));
+  return duplicate ? { status: "dropped", dropReason: `${DUPLICATE_PREFIX}"${duplicate}"` } : { status: "pending", dropReason: null };
 }
 
 function keptLine(previous: ReviewedLine | undefined, line: SourceLine): ReviewedLine | null {

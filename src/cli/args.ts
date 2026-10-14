@@ -16,7 +16,14 @@ const STAGE_ARGS = {
     schema: z.strictObject({ source, limit: z.coerce.number().int().positive().default(100) }),
   },
   map: { options: {}, schema: z.strictObject({ source }) },
-  normalize: { options: {}, schema: z.strictObject({ source }) },
+  normalize: {
+    options: { limit: { type: "string" }, "max-requests": { type: "string" } },
+    schema: z.strictObject({
+      source,
+      limit: z.coerce.number().int().positive().optional(),
+      maxRequests: z.coerce.number().int().positive().default(150),
+    }),
+  },
   load: {
     options: { "dry-run": { type: "boolean" } },
     schema: z.strictObject({ source, dryRun: z.boolean().default(false) }),
