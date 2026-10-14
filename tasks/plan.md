@@ -263,13 +263,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Validate every `approved` recipe against SPEC §3 rules and §5.6 before load. Load (T9/T10) calls this and refuses to run if anything fails.
 
 **Acceptance criteria:**
-- [ ] Every line has a catalog ingredient with `reviewed: true` and a quantity that is > 0, ≤ 999999.99, ≤ 2 decimals
-- [ ] No ingredient appears twice; `instructions` is byte-identical to `adapter.toSourceRecipe(rawCache.read(source, sourceId)).instructions` (no source-specific field names in validation)
-- [ ] All errors are collected and reported per recipe (not just the first)
+- [x] Every line has a catalog ingredient with `reviewed: true` and a quantity that is > 0, ≤ 999999.99, ≤ 2 decimals
+- [x] No ingredient appears twice; title, instructions, and every line's name and measure are identical to `adapter.toSourceRecipe(rawCache.read(...))`, and no line is added or removed (SPEC §3 rules 1 and 6; no source-specific field names in validation)
+- [x] All errors are collected and reported per recipe (not just the first)
 
 **Verification:**
-- [ ] Tests for each rejection in SPEC §7 (missing quantity, 3 decimals, unknown ingredient, changed instructions) plus an unreviewed catalog entry
-- [ ] Manual: approve one fixture recipe, run `ingest:load -- themealdb --dry-run` end to end
+- [x] Tests for each rejection in SPEC §7 (missing quantity, 3 decimals, unknown ingredient, changed instructions) plus an unreviewed catalog entry
+- [x] Manual: real meals → map → one recipe approved by hand → `load --dry-run` against the dev branch printed the plan; edited instructions, a 3-decimal quantity, and unreviewed ingredients were each refused before connecting
 
 **Dependencies:** T7 (and T9 to wire into load)
 
