@@ -4,6 +4,11 @@
 # testing
 /coverage
 
+# pipeline output that is regenerated on every run. The raw cache, recipes.json, and the
+# catalog are committed (SPEC §4); reports are rebuilt from them.
+/data/*/reports/
+*.tmp
+
 # misc
 .DS_Store
 

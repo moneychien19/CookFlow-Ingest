@@ -168,16 +168,16 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 ## Task 4: TheMealDB adapter
 
-**Description:** The first `SourceAdapter` implementation, entirely inside `src/sources/themealdb/`: raw schema, `rawId`, `fetch` (letter by letter, one request at a time, short delay), and `toSourceRecipe` per SPEC §5.1.
+**Description:** The first `SourceAdapter` implementation, entirely inside `src/sources/themealdb/`: raw schema, `fetch` (letter by letter, one request at a time, short delay), and `toSourceRecipe` per SPEC §5.1. `search.php` returns whole meals (same 54 fields as `lookup.php`), so `lookup.php` is never called.
 
 **Acceptance criteria:**
-- [ ] `toSourceRecipe`: pairs from `strIngredient1..20`/`strMeasure1..20` skipped when ingredient is `null` or blank; kept strings verbatim (including surrounding whitespace); `servings = null`
-- [ ] Tags = lowercased `strCategory` + comma-split `strTags`, plus `vegetarian` for `Vegetarian`/`Vegan`
-- [ ] `fetch` yields `{ id: idMeal, raw: meal }` across letters and skips `lookup.php` calls where `ctx.isCached(id)`; registered as `themealdb` (the runner enforces `--limit`)
+- [x] `toSourceRecipe`: pairs from `strIngredient1..20`/`strMeasure1..20` skipped when ingredient is `null` or blank; kept strings verbatim (including surrounding whitespace); `servings = null`
+- [x] Tags = lowercased `strCategory` + comma-split `strTags`, plus `vegetarian` for `Vegetarian`/`Vegan`
+- [x] `fetch` yields `{ id: idMeal, raw: meal }` across letters a→z; registered as `themealdb` (the runner enforces `--limit`)
 
 **Verification:**
-- [ ] Tests with 2–3 real meal fixtures (one vegetarian, one with blank/`null` pairs and padded strings); `fetch` tested with a mocked HTTP client
-- [ ] Manual: `npm run ingest:fetch -- themealdb --limit 5` writes 5 files; rerun writes nothing
+- [x] Tests with 2–3 real meal fixtures (one vegetarian, one with blank/`null` pairs and padded strings); `fetch` tested with a mocked HTTP client
+- [x] Manual: `npm run ingest:fetch -- themealdb --limit 5` writes 5 files; rerun writes nothing
 
 **Dependencies:** T3
 
@@ -246,7 +246,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Acceptance criteria:**
 - [ ] New and `pending` recipes are (re)generated; `approved`/`dropped` recipes are left byte-identical
 - [ ] Two lines → same ingredient sets `status: "dropped"`, `dropReason: duplicate ingredient "<name>"`
-- [ ] `data/<source>/reports/unmapped.json` (or `.md`) lists every unmapped line with recipe, name, measure, reason
+- [ ] `data/<source>/reports/unmapped.json` (or `.md`, git-ignored: regenerated on every run) lists every unmapped line with recipe, name, measure, reason
 
 **Verification:**
 - [ ] Tests (using the `fixture` source): merge preserves approved/dropped; duplicate drop; unmapped line has `ingredient/quantity/method = null`
@@ -366,6 +366,6 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 1. ~~CookFlow seed ingredients~~ **Decided:** don't use CookFlow's 33 seed ingredients; bootstrap the catalog from TheMealDB's ingredient list (T5b).
 2. **How does a reviewer accept a proposed new ingredient?** SPEC §5.5 says it joins the catalog "when the reviewer accepts it" but doesn't say how. Proposal: the line carries `proposedIngredient: { name, unit, isStaple }`; the reviewer accepts by adding the entry to `data/ingredients.json` by hand, and validation fails if an approved line points at a name not in the catalog. A helper command can come later.
-3. **Skip `Dessert` / `Breakfast`?** (SPEC §8 Q2.) Deciding before T13 changes which ~100 meals we fetch; easiest as a category filter in map that marks them `dropped` with a reason.
+3. ~~Skip `Dessert` / `Breakfast`?~~ **Decided:** the TheMealDB adapter skips `Dessert` at fetch time, so desserts aren't cached and don't count toward `--limit`. `Breakfast` is kept. SPEC §5.1 and §8 updated.
 4. **Should `map` keep Claude/manual lines in `pending` recipes?** Current spec: no, pending recipes are fully regenerated. Alternative: keep lines whose `method` is `claude` or `manual` and only remap the rest.
 5. **Ingredient table ownership** (SPEC §8 Q3). With the catalog now built here, the natural answer is that this repo owns `ingredients`, and CookFlow's `db:seed` stops writing ingredients and its `dev` recipes (or only seeds a local/empty DB). Needs a change in the CookFlow repo before Task 15.

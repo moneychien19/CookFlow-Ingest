@@ -1,4 +1,5 @@
 import { CliError } from "@/errors";
+import { themealdb } from "./themealdb";
 import type { SourceAdapter } from "./types";
 
 export type SourceRegistry = { names(): string[]; get(name: string): SourceAdapter<unknown> };
@@ -23,4 +24,4 @@ export function createRegistry(adapters: SourceAdapter<unknown>[]): SourceRegist
 }
 
 /** Every source the CLIs know. Adding a source is one folder under src/sources/ and one line here. */
-export const sources = createRegistry([]);
+export const sources = createRegistry([themealdb]);

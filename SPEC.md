@@ -121,7 +121,8 @@ Mapping, normalization, review, validation, and loading are shared by all source
 ## 5. Details
 
 ### 5.1 TheMealDB adapter
-- Use the free API (`https://www.themealdb.com/api/json/v1/1/`): `search.php?f=<letter>` to list meals and `lookup.php?i=<id>` for a single meal. Send requests one at a time with a short delay.
+- Use the free API (`https://www.themealdb.com/api/json/v1/1/`): `search.php?f=<letter>`, from `a` to `z`. It returns whole meals, so `lookup.php` isn't needed. Send requests one at a time with a short delay.
+- Skip meals in the `Dessert` category: CookFlow plans meals around the fridge. They aren't cached and don't count toward `--limit`.
 - `source = "themealdb"`, `sourceId = idMeal`, `title = strMeal`, `instructions = strInstructions`, `imageUrl = strMealThumb`, `servings = null` (TheMealDB doesn't give servings).
 - Lines come from `strIngredient1..20` and `strMeasure1..20`. Skip a pair when the ingredient is `null` or blank. Otherwise keep both strings verbatim.
 - Tags: `strCategory` and `strTags` (comma-separated), lowercased. Add `vegetarian` when the category is `Vegetarian` or `Vegan`. CookFlow's dietary filter reads only `vegetarian`.
@@ -232,5 +233,5 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 ## 8. Open questions
 
 1. **Duplicate ingredients in one recipe** (§5.4). Dropping the recipe is the safe default. If it drops too many recipes, the alternatives are to merge the quantities (but then the source text in one row isn't verbatim), or to split canonical ingredients more finely.
-2. **Categories to skip.** Should `Dessert` (and maybe `Breakfast`) be left out, since CookFlow plans meals around the fridge?
+2. ~~**Categories to skip.**~~ Decided: `Dessert` is skipped at fetch time (§5.1). `Breakfast` is kept.
 3. **Who owns the `ingredients` table.** CookFlow's `db:seed` upserts ingredients and overwrites their `unit` on conflict, and this repo inserts ingredients too. Decide whether CookFlow's seeder keeps writing ingredients once real recipes come from here.
