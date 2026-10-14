@@ -185,16 +185,16 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 **Estimated scope:** M
 
-## Task 5: Catalog schema and matcher
+## Task 5: Catalog matcher
 
 **Description:** A matcher from source name → catalog entry by name or alias (the `CatalogEntry` schema itself landed in T2). No real data yet; tests use a small hand-written catalog. Entries carry a `reviewed` flag so a machine-drafted catalog (T5b) can be used for matching before every entry has been checked by a person.
 
 **Acceptance criteria:**
-- [ ] Catalog-level check on read: names and aliases are unique across the whole catalog (an alias can't point at two ingredients, or equal another entry's name)
-- [ ] `match(sourceName)` lowercases and trims, matches names and aliases (reviewed or not), returns `null` for unknown names
+- [x] Catalog-level check on read: names and aliases are unique across the whole catalog (an alias can't point at two ingredients, or equal another entry's name)
+- [x] `match(sourceName)` lowercases and trims, matches names and aliases (reviewed or not), returns `null` for unknown names
 
 **Verification:**
-- [ ] Tests: name hit, alias hit (`"Red Onion"` → `onion`), whitespace/case, unknown → `null`, duplicate alias rejected at read
+- [x] Tests: name hit, alias hit (`"Red Onion"` → `onion`), whitespace/case, unknown → `null`, duplicate alias rejected at read
 
 **Dependencies:** T2
 

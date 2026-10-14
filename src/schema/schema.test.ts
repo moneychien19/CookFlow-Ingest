@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
-import { catalogEntry } from "./catalog";
+import { catalogEntry, catalogFile } from "./catalog";
 import { recipesFile, reviewedRecipe } from "./reviewed";
 import { sourceRecipe } from "./sourceRecipe";
 import example from "../../test/fixtures/recipes.example.json";
@@ -51,6 +51,27 @@ describe("catalog entry", () => {
   it("rejects names and aliases that aren't lowercase and trimmed", () => {
     expect(errorOf(catalogEntry, { ...onion, name: "Onion" })).toMatch(/name/);
     expect(errorOf(catalogEntry, { ...onion, aliases: [" red onion"] })).toMatch(/aliases\[0\]/);
+  });
+});
+
+describe("catalog file", () => {
+  const entryOf = (name: string, aliases: string[]) => ({ name, unit: "whole", isStaple: false, aliases, reviewed: false, note: null });
+
+  it("accepts names and aliases that each point at one entry", () => {
+    expect(catalogFile.safeParse([entryOf("onion", ["red onion"]), entryOf("leek", [])]).success).toBe(true);
+  });
+
+  it("rejects an alias shared by two entries", () => {
+    const error = errorOf(catalogFile, [entryOf("onion", ["spring onion"]), entryOf("green onion", ["spring onion"])]);
+    expect(error).toMatch(/"spring onion" already belongs to "onion"[\s\S]*\[1\]\.aliases\[0\]/);
+  });
+
+  it("rejects an alias that is another entry's name", () => {
+    expect(errorOf(catalogFile, [entryOf("onion", []), entryOf("red onion", ["onion"])])).toMatch(/\[1\]\.aliases\[0\]/);
+  });
+
+  it("rejects the same name twice", () => {
+    expect(errorOf(catalogFile, [entryOf("onion", []), entryOf("onion", [])])).toMatch(/\[1\]\.name/);
   });
 });
 
