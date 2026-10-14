@@ -244,13 +244,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** For any registered source, read the raw cache through the adapter (`rawSchema` + `toSourceRecipe`), then run the shared matcher and parser to produce `data/<source>/recipes.json`. Preserve recipes already `approved` or `dropped`, drop recipes with duplicate canonical ingredients, and write the unmapped-lines report.
 
 **Acceptance criteria:**
-- [ ] New and `pending` recipes are (re)generated; `approved`/`dropped` recipes are left byte-identical
-- [ ] Two lines → same ingredient sets `status: "dropped"`, `dropReason: duplicate ingredient "<name>"`
-- [ ] `data/<source>/reports/unmapped.json` (or `.md`, git-ignored: regenerated on every run) lists every unmapped line with recipe, name, measure, reason
+- [x] New and `pending` recipes are (re)generated; `approved`/`dropped` recipes are left byte-identical
+- [x] Two lines → same ingredient sets `status: "dropped"`, `dropReason: duplicate ingredient "<name>"`
+- [x] `data/<source>/reports/unmapped.json` (or `.md`, git-ignored: regenerated on every run) lists every unmapped line with recipe, name, measure, reason
 
 **Verification:**
-- [ ] Tests (using the `fixture` source): merge preserves approved/dropped; duplicate drop; unmapped line has `ingredient/quantity/method = null`
-- [ ] Manual: run on the 5 fetched TheMealDB meals, inspect the file and report
+- [x] Tests (using the `fixture` source): merge preserves approved/dropped; duplicate drop; unmapped line has `ingredient/quantity/method = null`
+- [x] Manual: ran on 5 real TheMealDB meals: mapping correct line by line; 2 of 5 dropped for duplicate ingredients (see Open Question 1)
 
 **Dependencies:** T3, T5, T6 (T4 only for the manual run)
 
@@ -333,7 +333,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 ### Phase 5: Data (mostly human work)
 
 ## Task 13: Fetch and map the full set
-- [ ] `ingest:fetch -- themealdb` (~100 meals), `ingest:map`, `ingest:normalize`; commit raw cache and `recipes.json`
+- [ ] `ingest:fetch -- themealdb --limit 200` (duplicate-ingredient drops cost ~40% in a 5-meal sample), `ingest:map`, `ingest:normalize`; commit raw cache and `recipes.json`
 - [ ] Extend catalog aliases where the unmapped report shows obvious misses, rerun map
 
 ## Task 14: Review
@@ -356,7 +356,6 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 |---|---|---|
 | Neon WebSocket `Pool` transactions misbehave (rollback, Node 22 WebSocket) | High | DB tasks in Phase 2, verified against a real dev branch before anything builds on them |
 | Rules cover too little; Claude + review becomes the bulk of work | Med | Checkpoint after T7 looks at the unmapped report on real meals; add aliases/count words before T11 |
-| Rerunning `map` regenerates `pending` recipes and wipes Claude proposals and partial manual edits on them (SPEC §5.6 only protects approved/dropped) | Med | See Open Question 4; at minimum, warn in the CLI and README |
 | Duplicate-ingredient drop rule removes too many recipes | Med | Report counts drops by reason; revisit SPEC §8 Q1 with data |
 | CookFlow's dev seed (33 ingredients, `chicken breast`/`rice`/... in `pack`) is already in the target DB, so our `g` entries with the same names conflict at load; its seeder also overwrites units on rerun | High | Load fails safely on conflict. Before Task 15, CookFlow stops seeding ingredients and dev recipes, and the Neon dev branch is reset (Open Question 5) |
 | The bootstrapped catalog is large (~990 names) and machine-made | Med | Entries start `reviewed: false`; validation only accepts reviewed entries and load only inserts reviewed + used ones, so review effort scales with the recipes, not the list |
@@ -364,8 +363,10 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 ## Open Questions
 
+0. ~~Duplicate ingredients (SPEC §8 Q1)~~ **Decided:** keep dropping, fetch ~200 recipes in T13. Map re-checks its own drops, so switching to merging later loses no work.
+
 1. ~~CookFlow seed ingredients~~ **Decided:** don't use CookFlow's 33 seed ingredients; bootstrap the catalog from TheMealDB's ingredient list (T5b).
 2. **How does a reviewer accept a proposed new ingredient?** SPEC §5.5 says it joins the catalog "when the reviewer accepts it" but doesn't say how. Proposal: the line carries `proposedIngredient: { name, unit, isStaple }`; the reviewer accepts by adding the entry to `data/ingredients.json` by hand, and validation fails if an approved line points at a name not in the catalog. A helper command can come later.
 3. ~~Skip `Dessert` / `Breakfast`?~~ **Decided:** the TheMealDB adapter skips `Dessert` at fetch time, so desserts aren't cached and don't count toward `--limit`. `Breakfast` is kept. SPEC §5.1 and §8 updated.
-4. **Should `map` keep Claude/manual lines in `pending` recipes?** Current spec: no, pending recipes are fully regenerated. Alternative: keep lines whose `method` is `claude` or `manual` and only remap the rest.
+4. ~~Should `map` keep Claude/manual lines in `pending` recipes?~~ **Decided:** yes. Map keeps `claude`/`manual` lines in pending recipes and remaps the rest; it also re-checks its own duplicate drops on every run. SPEC §5.6 updated.
 5. **Ingredient table ownership** (SPEC §8 Q3). With the catalog now built here, the natural answer is that this repo owns `ingredients`, and CookFlow's `db:seed` stops writing ingredients and its `dev` recipes (or only seeds a local/empty DB). Needs a change in the CookFlow repo before Task 15.

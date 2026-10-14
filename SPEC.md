@@ -190,7 +190,10 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 ]
 ```
 
-- Map and normalize regenerate only `pending` recipes. They never overwrite a recipe that is `approved` or `dropped`, so review work survives reruns.
+- Map and normalize regenerate only `pending` recipes. They never overwrite a recipe that is `approved` or that a reviewer `dropped`, so review work survives reruns.
+- Within a `pending` recipe, map keeps lines with `method: "claude"` or `"manual"` and maps every other line again, so catalog changes reach pending recipes without losing Claude's proposals or a reviewer's fixes.
+- A recipe that map itself dropped (`duplicate ingredient "<name>"`, §5.4) is checked again on every run, so a catalog change can bring it back.
+- A line whose name matches a catalog entry but whose measure doesn't convert keeps `ingredient`, with `quantity: null` and the reason in `note`.
 - The reviewer fixes lines (and sets `method: "manual"` on lines they change), then sets `status`.
 - An `approved` recipe must pass validation:
   - every line has a reviewed catalog ingredient and a valid quantity
@@ -235,6 +238,6 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 
 ## 8. Open questions
 
-1. **Duplicate ingredients in one recipe** (§5.4). Dropping the recipe is the safe default. If it drops too many recipes, the alternatives are to merge the quantities (but then the source text in one row isn't verbatim), or to split canonical ingredients more finely.
+1. ~~**Duplicate ingredients in one recipe**~~ (§5.4). Decided: keep dropping the recipe, and fetch about 200 recipes instead of 100 to make up for it (multi-part recipes often list an ingredient twice: 2 of the first 5 meals). Revisit with the full numbers if too few recipes are left; merging the lines (joining the source measures with " + ") is the fallback.
 2. ~~**Categories to skip.**~~ Decided: `Dessert` is skipped at fetch time (§5.1). `Breakfast` is kept.
 3. **Who owns the `ingredients` table.** CookFlow's `db:seed` upserts ingredients and overwrites their `unit` on conflict, and this repo inserts ingredients too. Decide whether CookFlow's seeder keeps writing ingredients once real recipes come from here.
