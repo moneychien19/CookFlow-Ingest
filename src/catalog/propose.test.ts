@@ -7,15 +7,29 @@ import type { Proposal } from "./proposals";
 import type { z } from "zod";
 
 type Reply = z.output<typeof proposalBatch>["proposals"][number];
+type Answer = Omit<Reply, "id">;
 const usage = { model: "claude-opus-5-5", inputTokens: 1000, outputTokens: 500, cacheReadTokens: 0, cacheWriteTokens: 0 };
+const ok = (canonicalName: string | null): Answer => ({ canonicalName, unit: canonicalName ? "whole" : null, isStaple: false, note: null });
 
-/** A fake Claude: answers each requested line with `answer(name)`, recording the requests. */
-function fakeClaude(answer: (name: string) => Reply | Reply[] | null = (name) => ({ sourceName: name, canonicalName: name, unit: "whole", isStaple: false, note: null })) {
+/** Reads the {id, name, category} list out of a request, like Claude would. */
+function askedIn(user: string): { id: number; name: string }[] {
+  return JSON.parse(user.slice(user.indexOf("Source names to map:\n") + "Source names to map:\n".length));
+}
+
+/**
+ * A fake Claude that answers each name with `answer(name)` under the name's id, or with
+ * full replies (ids included) when `answer` returns an array. Records the names asked.
+ */
+function fakeClaude(answer: (name: string, id: number) => Answer | Reply[] | null = (name) => ok(name)) {
   const requests: string[][] = [];
   const call = (async ({ user }: { user: string }) => {
-    const names = user.split("\n").slice(user.split("\n").indexOf("Source names to map (category in brackets when the site gives one):") + 1).map((l) => l.replace(/ \[.*\]$/, ""));
-    requests.push(names);
-    return { output: { proposals: names.flatMap((n) => answer(n) ?? []) }, usage };
+    const asked = askedIn(user);
+    requests.push(asked.map((n) => n.name));
+    const proposals = asked.flatMap(({ id, name }) => {
+      const a = answer(name, id);
+      return a === null ? [] : Array.isArray(a) ? a : [{ id, ...a }];
+    });
+    return { output: { proposals }, usage };
   }) as StructuredCall;
   return { call, requests };
 }
@@ -63,21 +77,22 @@ describe("proposeMissing", () => {
   });
 
   it("drops replies that break the rules, so those names are asked again next run", async () => {
-    const claude = fakeClaude((name) => {
-      const replies: Record<string, Reply | Reply[] | null> = {
-        gruyère: { sourceName: name, canonicalName: "gruyère", unit: "g", isStaple: false, note: null },
-        nounit: { sourceName: name, canonicalName: "nounit", unit: null, isStaple: false, note: null },
+    const claude = fakeClaude((name, id) => {
+      const replies: Record<string, Answer | Reply[] | null> = {
+        gruyère: { ...ok("gruyère"), unit: "g" },
+        nounit: { ...ok("nounit"), unit: null },
         missing: null,
         twice: [
-          { sourceName: name, canonicalName: "twice", unit: "whole", isStaple: false, note: null },
-          { sourceName: name, canonicalName: "other", unit: "whole", isStaple: false, note: null },
+          { id, ...ok("twice") },
+          { id, ...ok("other") },
         ],
-        "egg wash": { sourceName: name, canonicalName: null, unit: null, isStaple: false, note: "a mixture" },
+        stray: [{ id: 99, ...ok("stray") }],
+        "egg wash": { ...ok(null), note: "a mixture" },
       };
       return replies[name] ?? null;
     });
     const logs: string[] = [];
-    const result = await proposeMissing(names("Gruyère", "nounit", "missing", "twice", "Egg Wash"), [], {
+    const result = await proposeMissing(names("Gruyère", "nounit", "missing", "twice", "stray", "Egg Wash"), [], {
       call: claude.call,
       tally: new UsageTally(),
       save: () => {},
@@ -90,8 +105,35 @@ describe("proposeMissing", () => {
     expect(logs.filter((l) => l.startsWith("  "))).toEqual([
       '  dropped "gruyère": invalid canonical name "gruyère"',
       '  dropped "nounit": no unit',
-      '  dropped "twice": not one of the names asked (or a duplicate)',
+      // Names are sorted before numbering: egg wash 0, gruyère 1, missing 2, nounit 3, stray 4, twice 5.
+      "  dropped a reply for id 99: not one of the ids asked (or a duplicate)",
+      "  dropped a reply for id 5: not one of the ids asked (or a duplicate)",
       '  no proposal for "missing"',
+      '  no proposal for "stray"',
+    ]);
+  });
+
+  it("keeps the source name as sent, whatever name Claude would have echoed", async () => {
+    // The bug this replaced: Claude copied "beef cutlet [Meat]" back as the name and the reply was dropped.
+    const claude = fakeClaude(() => ({ ...ok("beef"), unit: "g" }));
+    const result = await proposeMissing([{ name: "Beef Cutlet", category: "Meat" }, { name: "Västerbottensost Cheese", category: "Cheese" }], [], {
+      call: claude.call,
+      tally: new UsageTally(),
+      save: () => {},
+    });
+    expect(result.map((p) => p.sourceName)).toEqual(["beef cutlet", "västerbottensost cheese"]);
+  });
+
+  it("sends each name with its id and category as JSON", async () => {
+    const seen: string[] = [];
+    const call = (async ({ user }: { user: string }) => {
+      seen.push(user);
+      return { output: { proposals: [] }, usage };
+    }) as StructuredCall;
+    await proposeMissing([{ name: "Beef Cutlet", category: "Meat" }, { name: "Basil", category: null }], [], { call, tally: new UsageTally(), save: () => {} });
+    expect(askedIn(seen[0] ?? "")).toEqual([
+      { id: 0, name: "basil", category: null },
+      { id: 1, name: "beef cutlet", category: "Meat" },
     ]);
   });
 

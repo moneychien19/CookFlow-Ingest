@@ -213,7 +213,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 **Verification:**
 - [x] Unit tests with a fake Claude: grouping, alias uniqueness, conflict note, reviewed entries preserved
-- [ ] Manual: run it, check the output validates; read 30 random entries and the conflict list (trial on 50 names done: 1 request, $0.09; full run pending)
+- [x] Manual: all 992 names proposed; catalog validates (670 draft entries, 235 with a note); spot-checked random entries and the conflict list
 
 **Dependencies:** T4 (TheMealDB HTTP client), T5. Introduces the shared Claude client (`src/claude/`) that T11 reuses; implement with the `claude-api` skill.
 

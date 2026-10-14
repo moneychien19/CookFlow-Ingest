@@ -49,22 +49,25 @@ export async function proposeMissing(
     });
     tally.add(usage);
 
-    const asked = new Set(batch.map((n) => n.name));
+    const unanswered = new Map(batch.map((n, id) => [id, n.name]));
     let accepted = 0;
-    for (const reply of output.proposals) {
-      if (!asked.delete(reply.sourceName)) {
-        log(`  dropped "${reply.sourceName}": not one of the names asked (or a duplicate)`);
+    for (const { id, ...reply } of output.proposals) {
+      const sourceName = unanswered.get(id);
+      if (sourceName === undefined) {
+        log(`  dropped a reply for id ${id}: not one of the ids asked (or a duplicate)`);
         continue;
       }
-      const problem = checkReply(reply);
+      unanswered.delete(id);
+      const proposal = { sourceName, ...reply, note: reply.note || null };
+      const problem = checkReply(proposal);
       if (problem) {
-        log(`  dropped "${reply.sourceName}": ${problem}`);
+        log(`  dropped "${sourceName}": ${problem}`);
         continue;
       }
-      proposals.push({ ...reply, note: reply.note || null });
+      proposals.push(proposal);
       accepted++;
     }
-    for (const missing of asked) log(`  no proposal for "${missing}"`);
+    for (const missing of unanswered.values()) log(`  no proposal for "${missing}"`);
     save(proposals);
     log(`Batch ${start / batchSize + 1}: ${accepted}/${batch.length} names proposed.`);
   }

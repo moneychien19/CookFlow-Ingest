@@ -4,7 +4,7 @@ import { UNITS } from "@/schema/catalog";
 /** Stable across every request of a run, so it is cached. */
 export const SYSTEM_PROMPT = `You build the ingredient catalog for CookFlow, a meal planner that plans several meals around what is already in a home cook's pantry. The planner matches recipe ingredients to pantry items by canonical ingredient, so two names that a cook would treat as the same pantry item must map to the same canonical ingredient, and different pantry items must stay separate.
 
-You get source ingredient names from a recipe website, each with the site's category when it has one (the category is often missing or wrong). For each name, propose:
+You get source ingredient names from a recipe website as a JSON list of {id, name, category}. The category is the site's own, often missing or wrong. For each name, propose:
 
 canonicalName: the canonical ingredient, or null if the name isn't something a cook keeps or buys as one item (a mixture made during the recipe, like "egg wash", or a non-food).
 - Lowercase ASCII letters, spaces and hyphens only (write "gruyere", not "gruyère"). Singular for counted things ("onion", "egg").
@@ -26,13 +26,13 @@ isStaple: true for things a cook always has on hand and never shops for a specif
 
 note: null unless something needs a human reviewer's attention: a merge you're unsure of, a name that could mean two things, or why canonicalName is null. One short sentence.
 
-Return exactly one proposal per source name, with sourceName copied exactly as given.`;
+Return exactly one proposal per id, using the id you were given.`;
 
 /** The reply format. Field-level rules (name pattern, unit present) are checked after parsing. */
 export const proposalBatch = z.object({
   proposals: z.array(
     z.object({
-      sourceName: z.string(),
+      id: z.number().int(),
       canonicalName: z.string().nullable(),
       unit: z.enum(UNITS).nullable(),
       isStaple: z.boolean(),
@@ -43,8 +43,9 @@ export const proposalBatch = z.object({
 
 export type SourceName = { name: string; category: string | null };
 
+/** Names are numbered so replies are matched by id, never by Claude copying the name back. */
 export function userMessage(batch: SourceName[], knownCanonicalNames: string[]): string {
   const known = knownCanonicalNames.length > 0 ? knownCanonicalNames.join("\n") : "(none yet)";
-  const names = batch.map((n) => (n.category ? `${n.name} [${n.category}]` : n.name)).join("\n");
-  return `Canonical names already chosen:\n${known}\n\nSource names to map (category in brackets when the site gives one):\n${names}`;
+  const names = batch.map((n, id) => JSON.stringify({ id, name: n.name, category: n.category })).join(",\n");
+  return `Canonical names already chosen:\n${known}\n\nSource names to map:\n[\n${names}\n]`;
 }
