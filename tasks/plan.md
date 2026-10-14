@@ -310,13 +310,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** `ingest:report -- <source>` prints counts per stage (raw, pending, approved, dropped, vegetarian approved), dropped recipes with reasons, and unmapped line counts, so progress toward SPEC §6 is visible.
 
 **Acceptance criteria:**
-- [ ] Counts per status and per `method`; dropped list with reasons; remaining unmapped lines
-- [ ] Catalog review queue: unreviewed entries used by `pending` or `approved` recipes, most-used first
-- [ ] Shows progress against the §6 targets (≥ 50 approved, ≥ 10 vegetarian)
+- [x] Counts per status and per `method`; dropped list with reasons; remaining unmapped lines
+- [x] Catalog review queue: unreviewed entries used by `pending` or `approved` recipes, most-used first
+- [x] Shows progress against the §6 targets (≥ 50 approved, ≥ 10 vegetarian)
 
 **Verification:**
-- [ ] Unit test on a fixture `recipes.json`
-- [ ] Manual: run after map and after normalize
+- [x] Unit test on a fixture `recipes.json`
+- [x] Manual: on 5 real meals, after map (6 unmapped, 0 complete) and after normalize (0 unmapped, 3 complete); review queue of 14 ingredients
 
 **Dependencies:** T7
 

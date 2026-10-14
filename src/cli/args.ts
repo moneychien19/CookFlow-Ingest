@@ -24,6 +24,7 @@ const STAGE_ARGS = {
       maxRequests: z.coerce.number().int().positive().default(150),
     }),
   },
+  report: { options: {}, schema: z.strictObject({ source }) },
   load: {
     options: { "dry-run": { type: "boolean" } },
     schema: z.strictObject({ source, dryRun: z.boolean().default(false) }),

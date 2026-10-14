@@ -14,6 +14,7 @@
     "ingest:map": "tsx src/cli/map.ts",
     "ingest:normalize": "tsx src/cli/normalize.ts",
     "ingest:load": "tsx src/cli/load.ts",
+    "ingest:report": "tsx src/cli/report.ts",
     "catalog:bootstrap": "tsx src/sources/themealdb/bootstrapCatalog.ts"
   },
   "dependencies": {

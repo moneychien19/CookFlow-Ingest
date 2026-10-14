@@ -2,7 +2,7 @@
 
 **Turns recipes from external sources into data that [CookFlow](https://github.com/moneychien19/CookFlow)'s meal planner can use.**
 
-> **Status:** spec only. [SPEC.md](SPEC.md) describes what this repo will do; the code isn't written yet. The commands below are the planned interface.
+> **Status:** the pipeline is built and tested; the first TheMealDB recipes haven't been reviewed or loaded yet. [SPEC.md](SPEC.md) describes the behavior; [tasks/plan.md](tasks/plan.md) tracks the work.
 
 ---
 
@@ -61,10 +61,11 @@ cp .env.example .env.local   # DATABASE_URL (a Neon dev branch, not production),
 npm install
 
 npm run catalog:bootstrap      # once: drafts data/ingredients.json from TheMealDB's ingredient list (calls Claude)
-npm run ingest:fetch -- themealdb
+npm run ingest:fetch -- themealdb --limit 200
 npm run ingest:map -- themealdb
-npm run ingest:normalize -- themealdb
-# review data/themealdb/recipes.json by hand
+npm run ingest:normalize -- themealdb   # calls Claude for the lines the rules couldn't map
+npm run ingest:report -- themealdb      # progress, drop reasons, and the catalog review queue
+# review data/ingredients.json (the queue) and data/themealdb/recipes.json by hand
 npm run ingest:load -- themealdb --dry-run
 npm run ingest:load -- themealdb
 
