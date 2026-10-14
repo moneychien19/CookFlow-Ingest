@@ -5433,10 +5433,10 @@
   },
   {
     "sourceName": "seeds",
-    "canonicalName": null,
-    "unit": null,
+    "canonicalName": "mixed seeds",
+    "unit": "g",
     "isStaple": false,
-    "note": "Too vague to identify a specific seed."
+    "note": "Proposed by normalize: 130 g of mixed seeds (e.g. sunflower, flax, pumpkin) as usual in Danish rye bread."
   },
   {
     "sourceName": "self-raising flour",

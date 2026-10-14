@@ -663,7 +663,7 @@
       "wholegrain bread"
     ],
     "reviewed": false,
-    "note": "\"bread\": Counted in slices; generic loaf type. \"cuban bread\": Merged Cuban bread into bread; reviewer may prefer separate. \"wholegrain bread\": Merged wholegrain bread with generic bread; it could be kept separate. \"toast\": Toast mapped to bread slices, which are toasted during the recipe."
+    "note": "\"bread\": Counted in slices; generic loaf type. \"cuban bread\": Merged Cuban bread into bread; reviewer may prefer separate. \"toast\": Toast mapped to bread slices, which are toasted during the recipe. \"wholegrain bread\": Merged wholegrain bread with generic bread; it could be kept separate."
   },
   {
     "name": "bread flour",
@@ -1329,7 +1329,7 @@
       "red chilli"
     ],
     "reviewed": false,
-    "note": "\"chilli\": Assumed fresh chili pepper. \"birds-eye chillies\": Bird's-eye chili merged into generic chili pepper."
+    "note": "\"birds-eye chillies\": Bird's-eye chili merged into generic chili pepper. \"chilli\": Assumed fresh chili pepper."
   },
   {
     "name": "chili powder",
@@ -2686,7 +2686,7 @@
       "runner beans"
     ],
     "reviewed": false,
-    "note": "\"runner beans\": Runner beans merged with green beans as a close substitute. \"chinese long beans\": Chinese long beans merged with green beans as a common substitute."
+    "note": "\"chinese long beans\": Chinese long beans merged with green beans as a common substitute. \"runner beans\": Runner beans merged with green beans as a close substitute."
   },
   {
     "name": "green curry paste",
@@ -2987,7 +2987,7 @@
       "tobasco sauce"
     ],
     "reviewed": false,
-    "note": "\"red pepper sauce\": Ambiguous: could be hot sauce or a roasted red pepper sauce. \"chilli sauce\": Chilli sauce could mean hot sauce or sweet chili sauce. \"tobasco sauce\": Misspelled Tabasco merged into generic hot sauce."
+    "note": "\"chilli sauce\": Chilli sauce could mean hot sauce or sweet chili sauce. \"red pepper sauce\": Ambiguous: could be hot sauce or a roasted red pepper sauce. \"tobasco sauce\": Misspelled Tabasco merged into generic hot sauce."
   },
   {
     "name": "hot smoked salmon",
@@ -3637,6 +3637,16 @@
     "aliases": [],
     "reviewed": false,
     "note": "\"mixed grain\": Unclear which grain blend is meant."
+  },
+  {
+    "name": "mixed seeds",
+    "unit": "g",
+    "isStaple": false,
+    "aliases": [
+      "seeds"
+    ],
+    "reviewed": false,
+    "note": "\"seeds\": Proposed by normalize: 130 g of mixed seeds (e.g. sunflower, flax, pumpkin) as usual in Danish rye bread."
   },
   {
     "name": "mixed spice",

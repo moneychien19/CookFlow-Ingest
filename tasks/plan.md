@@ -325,16 +325,16 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Estimated scope:** S
 
 ### Checkpoint: Tooling complete
-- [ ] All SPEC §7 tests exist and pass; CI green
-- [ ] Human review before the data work
+- [x] All SPEC §7 tests exist and pass; CI green
+- [x] Human review before the data work
 
 ---
 
 ### Phase 5: Data (mostly human work)
 
 ## Task 13: Fetch and map the full set
-- [ ] `ingest:fetch -- themealdb --limit 200` (duplicate-ingredient drops cost ~40% in a 5-meal sample), `ingest:map`, `ingest:normalize`; commit raw cache and `recipes.json`
-- [ ] Extend catalog aliases where the unmapped report shows obvious misses, rerun map
+- [x] `ingest:fetch -- themealdb --limit 200`, `ingest:map`, `ingest:normalize`: 200 fetched (letters A–D, no desserts); 42 dropped for duplicate ingredients (21%); 158 pending, 157 fully mapped; 17 vegetarian pending. Normalize: 152 requests, 423 lines answered (1 new draft ingredient, 1 can't map, 0 rejected), $1.30
+- [x] Extend catalog aliases where the unmapped report shows obvious misses: not needed, only 2 of 1,063 sampled names were missing from the catalog
 
 ## Task 14: Review
 - [ ] Reviewer works through the catalog review queue (T12): fixes unit/staple/aliases and sets `reviewed: true` only on entries that recipes actually use; the other ~900 drafts can stay unreviewed
