@@ -1,41 +1,7 @@
 import { describe, expect, it } from "vitest";
-import type { CatalogEntry } from "@/schema/catalog";
-import type { ReviewedLine, ReviewedRecipe } from "@/schema/reviewed";
 import { formatPlan } from "./format";
 import { planLoad, usedIngredientNames, type DbSnapshot } from "./plan";
-
-const entry = (name: string, unit: CatalogEntry["unit"], extra: Partial<CatalogEntry> = {}): CatalogEntry => ({
-  name,
-  unit,
-  isStaple: false,
-  aliases: [],
-  reviewed: true,
-  note: null,
-  ...extra,
-});
-
-const line = (ingredient: string | null, quantity: number | null): ReviewedLine => ({
-  sourceName: ingredient ?? "mystery",
-  sourceMeasure: "1",
-  ingredient,
-  quantity,
-  method: ingredient ? "rule" : null,
-  note: null,
-});
-
-const recipe = (sourceId: string, lines: ReviewedLine[], extra: Partial<ReviewedRecipe> = {}): ReviewedRecipe => ({
-  source: "themealdb",
-  sourceId,
-  title: `Recipe ${sourceId}`,
-  imageUrl: null,
-  instructions: "Cook it.",
-  servings: null,
-  tags: [],
-  status: "approved",
-  dropReason: null,
-  lines,
-  ...extra,
-});
+import { entry, line, recipe } from "../../test/builders";
 
 const catalog = [entry("onion", "whole"), entry("chicken breast", "g"), entry("salt", "count", { isStaple: true })];
 const emptyDb: DbSnapshot = { ingredients: [], existingSourceIds: [] };

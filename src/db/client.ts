@@ -4,6 +4,7 @@ import { z } from "zod";
 import * as schema from "./schema";
 
 export type Db = NeonDatabase<typeof schema> & { $client: Pool };
+export type Tx = Parameters<Parameters<Db["transaction"]>[0]>[0];
 
 export const postgresUrl = z.url({ protocol: /^postgres(ql)?$/ });
 

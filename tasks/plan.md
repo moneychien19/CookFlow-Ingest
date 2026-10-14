@@ -126,13 +126,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Apply the plan inside one interactive transaction: insert missing ingredients, upsert recipes on `(source, source_id)`, replace `recipe_ingredients` per loaded recipe, and roll everything back on any failure.
 
 **Acceptance criteria:**
-- [ ] Loading twice leaves identical row counts and values
-- [ ] An ingredient unit or `is_staple` conflict fails the load with nothing written
-- [ ] Rows from other sources and recipes not in the file are untouched
+- [x] Loading twice leaves identical row counts and values
+- [x] An ingredient unit or `is_staple` conflict fails the load with nothing written
+- [x] Rows from other sources and recipes not in the file are untouched
 
 **Verification:**
-- [ ] `*.db.test.ts` against `TEST_DATABASE_URL` cover all four SPEC §7 load cases; skipped when unset
-- [ ] Manual: load the fixture into a Neon dev branch twice, compare counts
+- [x] `*.db.test.ts` against `TEST_DATABASE_URL` cover all four SPEC §7 load cases; skipped when unset
+- [x] Manual: load a fixture into the Neon **test** branch twice with the CLI (second run: 0 inserts, all updates); the dev branch stays empty
 
 **Dependencies:** T9
 

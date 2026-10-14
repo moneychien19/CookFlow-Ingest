@@ -1,10 +1,10 @@
 import { and, eq, inArray } from "drizzle-orm";
-import type { Db } from "@/db/client";
+import type { Db, Tx } from "@/db/client";
 import { ingredients, recipes } from "@/db/schema";
 import type { DbSnapshot } from "./plan";
 
 /** Reads only what `planLoad` needs: the used ingredients, and which recipes already exist. */
-export async function readSnapshot(db: Db, source: string, names: string[], sourceIds: string[]): Promise<DbSnapshot> {
+export async function readSnapshot(db: Db | Tx, source: string, names: string[], sourceIds: string[]): Promise<DbSnapshot> {
   const [existingIngredients, existingRecipes] = await Promise.all([
     names.length === 0
       ? []
