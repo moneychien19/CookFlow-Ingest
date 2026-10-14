@@ -1,12 +1,11 @@
-import { DataFileError } from "@/io/json";
-import { UsageError } from "./args";
+import { CliError } from "@/errors";
 
-/** Runs a CLI stage. Expected errors print their message (no stack trace) and exit 1. */
+/** Runs a CLI stage. A `CliError` prints its message (no stack trace) and exits 1. */
 export async function runCli(main: () => void | Promise<void>): Promise<void> {
   try {
     await main();
   } catch (err) {
-    if (err instanceof UsageError || err instanceof DataFileError) {
+    if (err instanceof CliError) {
       console.error(err.message);
       process.exit(1);
     }

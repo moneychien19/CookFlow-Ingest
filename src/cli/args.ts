@@ -1,8 +1,9 @@
 import { parseArgs, type ParseArgsOptionsConfig } from "node:util";
 import { z } from "zod";
+import { CliError } from "@/errors";
 import { usage, type Stage } from "./usage";
 
-export class UsageError extends Error {
+export class UsageError extends CliError {
   override name = "UsageError";
 }
 

@@ -1,9 +1,10 @@
 import { mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { z } from "zod";
+import { CliError } from "@/errors";
 
 /** A data file that can't be read or doesn't match its schema. The message names the file and field. */
-export class DataFileError extends Error {
+export class DataFileError extends CliError {
   override name = "DataFileError";
 }
 
