@@ -13,9 +13,11 @@
     "ingest:fetch": "tsx src/cli/fetch.ts",
     "ingest:map": "tsx src/cli/map.ts",
     "ingest:normalize": "tsx src/cli/normalize.ts",
-    "ingest:load": "tsx src/cli/load.ts"
+    "ingest:load": "tsx src/cli/load.ts",
+    "catalog:bootstrap": "tsx src/sources/themealdb/bootstrapCatalog.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
     "@neondatabase/serverless": "^1.2.0",
     "drizzle-orm": "^0.45.4",
     "zod": "^4.6.7"

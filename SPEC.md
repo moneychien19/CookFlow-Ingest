@@ -128,9 +128,11 @@ Mapping, normalization, review, validation, and loading are shared by all source
 - Tags: `strCategory` and `strTags` (comma-separated), lowercased. Add `vegetarian` when the category is `Vegetarian` or `Vegan`. CookFlow's dietary filter reads only `vegetarian`.
 
 ### 5.2 Ingredient catalog
-`data/ingredients.json` lists the canonical ingredients this repo maps to: `{ name, unit, isStaple, aliases[] }`. Aliases are lowercased source names that mean this ingredient, for example `"red onion"` → `onion`. The catalog starts from CookFlow's seed ingredients with the units in CookFlow SPEC §3. Chicken, beef, and rice are in `g`, not `pack`.
+`data/ingredients.json` lists the canonical ingredients this repo maps to: `{ name, unit, isStaple, aliases[], reviewed, note }`. Aliases are lowercased source names that mean this ingredient, for example `"red onion"` → `onion`. Every name and alias belongs to exactly one entry.
 
-Source names are never stored as ingredients directly. Every line maps to a catalog entry first, and an entry joins the catalog only after review (§5.5), so spellings like `Onion`, `onions`, and `Red Onion` don't become separate ingredients that the planner can't match against the pantry.
+The catalog is drafted from TheMealDB's ingredient list (`list.php?i=list`, about 990 names), not from CookFlow's seed ingredients. `npm run catalog:bootstrap` asks Claude, in batches, for each name's canonical ingredient, unit (§3 rule 2), and staple flag, then groups the names by canonical ingredient. Every drafted entry starts `reviewed: false`, with a `note` where Claude was unsure or the proposals disagreed. Claude's proposals are saved in `data/catalog/bootstrap-proposals.json`, so a rerun only asks about names that don't have one, and it never changes an entry with `reviewed: true`.
+
+Source names are never stored as ingredients directly. Every line maps to a catalog entry first, and only reviewed entries can be used by an approved recipe or loaded, so spellings like `Onion`, `onions`, and `Red Onion` don't become separate ingredients that the planner can't match against the pantry. A person reviews only the entries that recipes actually use.
 
 When loading:
 - **A missing ingredient is inserted only if an approved recipe uses it.** Catalog entries that no approved recipe uses aren't loaded.
@@ -190,7 +192,7 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 - Map and normalize regenerate only `pending` recipes. They never overwrite a recipe that is `approved` or `dropped`, so review work survives reruns.
 - The reviewer fixes lines (and sets `method: "manual"` on lines they change), then sets `status`.
 - An `approved` recipe must pass validation:
-  - every line has a catalog ingredient and a valid quantity
+  - every line has a reviewed catalog ingredient and a valid quantity
   - no ingredient appears twice
   - `instructions` is byte-identical to the raw cache
 

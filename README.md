@@ -60,6 +60,7 @@ cp .env.example .env.local   # DATABASE_URL (a Neon dev branch, not production),
                              # TEST_DATABASE_URL (optional): runs the *.db.test.ts tests against that database
 npm install
 
+npm run catalog:bootstrap      # once: drafts data/ingredients.json from TheMealDB's ingredient list (calls Claude)
 npm run ingest:fetch -- themealdb
 npm run ingest:map -- themealdb
 npm run ingest:normalize -- themealdb

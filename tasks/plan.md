@@ -207,13 +207,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Build the first `data/ingredients.json` from TheMealDB's `list.php?i=list` (992 names) instead of CookFlow's 33 seed ingredients. The list is source vocabulary, not canonical ingredients: it has variants (`Bay Leaf` / `Bay Leaves`, `Yellow Onion`, `Melted Butter`, `Free-range egg, beaten`), and `strType` is missing for ~half the names (including `Chicken`, `Beef`, `Basil`) and unreliable for the rest (`Lamb Stock` is a "Sauce"). So Claude proposes, per name, a canonical name, unit, and `isStaple`; grouping by canonical name is then deterministic code, and every entry starts `reviewed: false`.
 
 **Acceptance criteria:**
-- [ ] The raw list is cached at `data/themealdb/ingredients.raw.json` (committed); the script lives in `src/sources/themealdb/` but writes the shared catalog format, so nothing downstream knows where an entry came from
-- [ ] Claude proposals (batched, validated with zod, cached in `data/catalog/bootstrap-proposals.json` so reruns don't call Claude again) are grouped by canonical name: lowercased source names become `aliases`; a group whose members disagree on unit or staple is written with a `note` for the reviewer
-- [ ] Rerunning never changes or removes an entry with `reviewed: true`; SPEC §5.2 and README are updated first to say the catalog comes from TheMealDB's list, not CookFlow's seed
+- [x] The raw list is cached at `data/themealdb/ingredients.raw.json` (committed); the script lives in `src/sources/themealdb/` but writes the shared catalog format, so nothing downstream knows where an entry came from
+- [x] Claude proposals (batched, validated with zod, cached in `data/catalog/bootstrap-proposals.json` so reruns don't call Claude again) are grouped by canonical name: lowercased source names become `aliases`; a group whose members disagree on unit or staple is written with a `note` for the reviewer
+- [x] Rerunning never changes or removes an entry with `reviewed: true`; SPEC §5.2 and README are updated first to say the catalog comes from TheMealDB's list, not CookFlow's seed
 
 **Verification:**
-- [ ] Unit tests with a fake Claude: grouping, alias uniqueness, conflict note, reviewed entries preserved
-- [ ] Manual: run it, check the output validates; read 30 random entries and the conflict list
+- [x] Unit tests with a fake Claude: grouping, alias uniqueness, conflict note, reviewed entries preserved
+- [ ] Manual: run it, check the output validates; read 30 random entries and the conflict list (trial on 50 names done: 1 request, $0.09; full run pending)
 
 **Dependencies:** T4 (TheMealDB HTTP client), T5. Introduces the shared Claude client (`src/claude/`) that T11 reuses; implement with the `claude-api` skill.
 

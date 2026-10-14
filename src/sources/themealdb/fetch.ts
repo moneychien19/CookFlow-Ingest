@@ -29,7 +29,7 @@ export async function* fetchMeals({ getJson = httpGetJson, delayMs = 500 }: Fetc
   }
 }
 
-async function httpGetJson(url: string): Promise<unknown> {
+export async function httpGetJson(url: string): Promise<unknown> {
   let response: Response;
   try {
     response = await fetch(url, { signal: AbortSignal.timeout(30_000) });
