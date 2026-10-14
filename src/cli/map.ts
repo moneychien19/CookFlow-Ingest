@@ -1,3 +1,8 @@
+import { parseCliArgs } from "./args";
+import { runCli } from "./run";
 import { notImplemented } from "./usage";
 
-notImplemented("map");
+await runCli(() => {
+  parseCliArgs("map", process.argv.slice(2));
+  notImplemented("map");
+});

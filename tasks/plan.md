@@ -67,7 +67,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 **Verification:**
 - [x] `npm run typecheck && npm run lint && npm test` passes on a trivial test
-- [ ] CI run is green on push
+- [x] CI run is green on push
 
 **Dependencies:** None
 
@@ -80,13 +80,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Define zod schemas for every file and boundary (SPEC §4, §5.2, §5.6) and helpers to read/write them deterministically. This is the shared contract all stages use.
 
 **Acceptance criteria:**
-- [ ] Schemas: `SourceRecipe`, `CatalogEntry` (`unit` limited to the 7 CHECK values), `ReviewedRecipe` / `ReviewedLine` (status, method enums, nullable fields as in §5.6)
-- [ ] `readJson(path, schema)` reports the failing path and field; `writeJson` sorts recipes by `sourceId` and writes 2-space JSON with a trailing newline
-- [ ] CLI arg parsing validated with zod (`<source>`, `--dry-run`, `--limit`), unknown source is an error listing known sources
+- [x] Schemas: `SourceRecipe`, `CatalogEntry` (`unit` limited to the 7 CHECK values), `ReviewedRecipe` / `ReviewedLine` (status, method enums, nullable fields as in §5.6)
+- [x] `readJson(path, schema)` reports the failing path and field; `writeJson` sorts recipes by `sourceId` and writes 2-space JSON with a trailing newline
+- [x] CLI arg parsing validated with zod (`<source>`, `--dry-run`, `--limit`); whether the source is registered is checked in T3, which owns the registry
 
 **Verification:**
-- [ ] Tests: the §5.6 example parses; bad `status`, bad `unit`, and missing fields are rejected with a useful message
-- [ ] Round-trip read → write produces byte-identical output
+- [x] Tests: the §5.6 example parses; bad `status`, bad `unit`, and missing fields are rejected with a useful message
+- [x] Round-trip read → write produces byte-identical output
 
 **Dependencies:** T1
 
@@ -188,10 +188,10 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 
 ## Task 5: Catalog schema and matcher
 
-**Description:** The catalog format and a matcher from source name → catalog entry by name or alias. No real data yet; tests use a small hand-written catalog. Entries carry a `reviewed` flag so a machine-drafted catalog (T5b) can be used for matching before every entry has been checked by a person.
+**Description:** A matcher from source name → catalog entry by name or alias (the `CatalogEntry` schema itself landed in T2). No real data yet; tests use a small hand-written catalog. Entries carry a `reviewed` flag so a machine-drafted catalog (T5b) can be used for matching before every entry has been checked by a person.
 
 **Acceptance criteria:**
-- [ ] `CatalogEntry = { name, unit, isStaple, aliases[], reviewed, note? }`; `name` matches `^[a-z][a-z -]*[a-z]$` (same rule as CookFlow's seed); names and aliases are unique across the whole catalog (an alias can't point at two ingredients)
+- [ ] Catalog-level check on read: names and aliases are unique across the whole catalog (an alias can't point at two ingredients, or equal another entry's name)
 - [ ] `match(sourceName)` lowercases and trims, matches names and aliases (reviewed or not), returns `null` for unknown names
 
 **Verification:**

@@ -1,0 +1,35 @@
+[
+  {
+    "source": "themealdb",
+    "sourceId": "52772",
+    "title": "Teriyaki Chicken Casserole",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+    "instructions": "Preheat oven to 350° F.\r\nCombine soy sauce, ½ cup water, brown sugar, ginger and garlic in a small saucepan.",
+    "servings": null,
+    "tags": [
+      "chicken",
+      "meat",
+      "casserole"
+    ],
+    "status": "pending",
+    "dropReason": null,
+    "lines": [
+      {
+        "sourceName": "soy sauce",
+        "sourceMeasure": "3/4 cup",
+        "ingredient": "soy sauce",
+        "quantity": 180,
+        "method": "rule",
+        "note": null
+      },
+      {
+        "sourceName": " Chicken Breasts",
+        "sourceMeasure": "2",
+        "ingredient": null,
+        "quantity": null,
+        "method": null,
+        "note": null
+      }
+    ]
+  }
+]
