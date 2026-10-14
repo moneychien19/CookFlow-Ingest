@@ -1,0 +1,18 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+
+# env files: never commit secrets; .env.example documents the variables
+.env*
+!.env.example
+
+# typescript
+*.tsbuildinfo
