@@ -8,7 +8,7 @@ export class UsageError extends CliError {
 }
 
 // Whether a source is registered is checked against the adapter registry, not here.
-const source = z.string().regex(/^[a-z][a-z0-9-]*$/, "source name like themealdb");
+const source = z.string().regex(/^[a-z][a-z0-9-]*$/, "lowercase letters, digits, and hyphens");
 
 const STAGE_ARGS = {
   fetch: {

@@ -12,15 +12,14 @@ Build the pipeline described in [SPEC.md](../SPEC.md): fetch ~100 TheMealDB reci
   // src/sources/types.ts
   interface SourceAdapter<Raw> {
     name: string;                        // written to recipes.source, used as data/<name>/
-    rawSchema: z.ZodType<Raw>;           // validates API responses and cached files
-    rawId(raw: Raw): string;             // becomes sourceId and the cache filename
-    fetch(ctx: FetchContext): AsyncIterable<Raw>;  // source-specific paging, rate limiting
+    rawSchema: z.ZodType<Raw>;           // validates fetched records and cached files
+    fetch(ctx: FetchContext): AsyncIterable<{ id: string; raw: unknown }>;  // paging, pacing
     toSourceRecipe(raw: Raw): SourceRecipe;        // pure, verbatim strings
   }
-  interface FetchContext { limit: number; isCached(id: string): boolean; signal?: AbortSignal }
+  interface FetchContext { isCached(id: string): boolean }
   ```
 
-  The adapter only yields raw records. Validation, caching (`data/<source>/raw/<rawId>.json`), the limit, and skipping cached records are shared code in the fetch runner. Every later stage reads raw records through `rawSchema` + `toSourceRecipe`, including the "instructions byte-identical to raw cache" check, so no stage parses a source's raw format itself.
+  The adapter only yields unvalidated records with their id. Validation, caching (`data/<source>/raw/<id>.json`, written exactly as returned), the limit, and skipping cached records are shared code in the fetch runner; it stops pulling from the adapter once the cache holds `--limit` records. Every later stage reads raw records through `rawSchema` + `toSourceRecipe`, including the "instructions byte-identical to raw cache" check, so no stage parses a source's raw format itself.
 - **The interface is proven with a second, fake source.** A `fixture` adapter (in tests only) runs through fetch → map → validate → load-plan, so a TheMealDB-specific assumption leaking into shared code breaks a test.
 - **Pure core, thin CLIs.** Parsing, matching, mapping, merging, and validation are pure functions over zod-typed data. Each `src/cli/<stage>.ts` only reads files, calls the core, and writes files. Almost everything can be unit tested without the network or a database.
 - **One zod module owns every file format** (`src/schema/`): `SourceRecipe`, catalog entry, reviewed recipe/line, TheMealDB response. All stages read and write through it, so a malformed hand edit fails at read time with a path to the bad field.
@@ -153,13 +152,13 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Define the source boundary before any real source exists: the `SourceAdapter` interface (see Architecture Decisions), a registry looked up by name, a shared raw-cache module, and the source-agnostic fetch runner behind `ingest:fetch -- <source>`. A fake `fixture` adapter in tests proves the shared code doesn't assume TheMealDB.
 
 **Acceptance criteria:**
-- [ ] `src/sources/types.ts` exports `SourceAdapter` and `FetchContext`; registry rejects duplicate names; unknown `<source>` errors with the list of registered sources
-- [ ] Raw cache module: `list(source)`, `read(source, id)` (validated with the adapter's `rawSchema`), `write(source, id, raw)`; one file per record
-- [ ] Fetch runner validates each yielded record with `rawSchema`, writes new records, skips cached ones, stops at `--limit` (default 100), and reports which id failed validation
+- [x] `src/sources/types.ts` exports `SourceAdapter` and `FetchContext`; registry rejects duplicate names; unknown `<source>` errors with the list of registered sources
+- [x] Raw cache module: `RawCache`: `ids()`, `has(id)`, `read(id)` (validated with the adapter's `rawSchema`), `write(id, raw)`; one file per record
+- [x] Fetch runner validates each yielded record with `rawSchema`, writes new records, skips cached ones, stops at `--limit` (default 100), and reports which id failed validation
 
 **Verification:**
-- [ ] Tests with the `fixture` adapter: limit, skip cached, invalid record fails with its id, unknown source error
-- [ ] `grep -r themealdb src/ --exclude-dir=sources` finds only the registry line
+- [x] Tests with the `fixture` adapter: limit, skip cached, invalid record fails with its id, unknown source error
+- [x] `grep -r themealdb src/ --exclude-dir=sources --exclude='*.test.ts'` finds nothing
 
 **Dependencies:** T2
 
@@ -174,7 +173,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Acceptance criteria:**
 - [ ] `toSourceRecipe`: pairs from `strIngredient1..20`/`strMeasure1..20` skipped when ingredient is `null` or blank; kept strings verbatim (including surrounding whitespace); `servings = null`
 - [ ] Tags = lowercased `strCategory` + comma-split `strTags`, plus `vegetarian` for `Vegetarian`/`Vegan`
-- [ ] `fetch` yields meals across letters, skips ids where `ctx.isCached(id)`, stops once `ctx.limit` is reached; registered as `themealdb`
+- [ ] `fetch` yields `{ id: idMeal, raw: meal }` across letters and skips `lookup.php` calls where `ctx.isCached(id)`; registered as `themealdb` (the runner enforces `--limit`)
 
 **Verification:**
 - [ ] Tests with 2–3 real meal fixtures (one vegetarian, one with blank/`null` pairs and padded strings); `fetch` tested with a mocked HTTP client

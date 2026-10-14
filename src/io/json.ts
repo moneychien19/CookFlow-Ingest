@@ -26,15 +26,20 @@ export function readJson<S extends z.ZodType>(path: string, schema: S): z.output
   return result.data;
 }
 
-/**
- * Validates `data`, then writes it as 2-space JSON with a trailing newline. Writes to a
- * temporary file and renames it, so a crash never leaves a half-written reviewed file.
- */
+/** Validates `data`, then writes the parsed value with `writeJsonFile`. */
 export function writeJson<S extends z.ZodType>(path: string, schema: S, data: z.input<S>): void {
   const result = schema.safeParse(data);
   if (!result.success) throw new DataFileError(`${path}: refusing to write invalid data\n${z.prettifyError(result.error)}`);
+  writeJsonFile(path, result.data);
+}
+
+/**
+ * Writes `value` as 2-space JSON with a trailing newline. Writes to a temporary file and
+ * renames it, so a crash never leaves a half-written file.
+ */
+export function writeJsonFile(path: string, value: unknown): void {
   mkdirSync(dirname(path), { recursive: true });
   const tmp = `${path}.tmp`;
-  writeFileSync(tmp, `${JSON.stringify(result.data, null, 2)}\n`);
+  writeFileSync(tmp, `${JSON.stringify(value, null, 2)}\n`);
   renameSync(tmp, path);
 }
