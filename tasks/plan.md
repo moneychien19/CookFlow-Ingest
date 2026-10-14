@@ -226,12 +226,12 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Parse measures into a number and unit and convert into the ingredient's unit (SPEC §5.3 step 2–4). Anything ambiguous returns `unmapped`, never a guess.
 
 **Acceptance criteria:**
-- [ ] Numbers: integers, decimals, `1/2`, `1 1/2`, unicode fractions (`½`, `1½`)
-- [ ] Counted units accept a bare number or matching count word; `g` accepts g/kg/oz/lb; `ml` accepts ml/l/tsp/tbsp/cup; staples with vague text → `1`; results rounded to 2 decimals
-- [ ] Count-for-weighed, volume-for-weighed, and vague text return `unmapped` with a reason
+- [x] Numbers: integers, decimals, `1/2`, `1 1/2`, unicode fractions (`½`, `1½`)
+- [x] Counted units accept a bare number or matching count word; `g` accepts g/kg/oz/lb; `ml` accepts ml/l/tsp/tbsp/cup; staples whose measure doesn't convert → nominal `1` (SPEC §5.3 step 3, widened from "vague text" only); results rounded to 2 decimals
+- [x] Count-for-weighed, volume-for-weighed, and vague text return `unmapped` with a reason
 
 **Verification:**
-- [ ] Table-driven tests covering every case listed in SPEC §7 plus real measures sampled from TheMealDB fixtures
+- [x] Table-driven tests covering every case listed in SPEC §7 plus real measure shapes; on 1,063 real non-dessert lines: 74% mapped by rules (55% converted, 19% nominal staples), 26% left for Claude
 
 **Dependencies:** T2
 

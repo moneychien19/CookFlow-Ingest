@@ -141,11 +141,12 @@ When loading:
 ### 5.3 Rule-based mapping
 1. **Ingredient:** look up the lowercased, trimmed source name against catalog names and aliases. If nothing matches, the line is unmapped.
 2. **Measure:** parse integers, decimals, fractions (`1/2`), mixed numbers (`1 1/2`), and unicode fractions (`½`). Then convert by the ingredient's unit:
-   - Counted units: a bare number or a matching count word ("2", "2 cloves", "1 bunch") maps directly.
+   - Counted units: a bare number or a matching count word ("2", "2 cloves", "1 bunch", a lone "bunch") maps directly. "Juice of 1" and "zest of ½" map to that many `whole` lemons or limes.
    - `g`: `g`, `kg`, `oz`, and `lb` convert to grams.
-   - `ml`: `ml`, `l`, `tsp`, `tbsp`, and `cup` convert to millilitres.
-   - Anything else is unmapped: a count for a weighed ingredient ("2 chicken breasts"), a volume for a weighed one ("1 cup rice"), or vague text ("a handful", "to taste").
-3. Staples with a vague measure ("to taste", "pinch") map to a nominal quantity of `1` in the staple's unit. The planner ignores staples, so the exact value doesn't matter.
+   - `ml`: `ml`, `l`, `tsp`, `tbsp`, and `cup` convert to millilitres. A cup is 240 ml.
+   - Preparation and size words that don't change the amount are allowed after the number or unit ("1 chopped", "2 large", "1 clove peeled crushed", "1kg cut into cubes"). Any other word makes the line unmapped.
+   - Anything else is unmapped: a count for a weighed ingredient ("2 chicken breasts"), a volume for a weighed one ("1 cup rice"), a range or multiple ("4-5 pound", "2 x 400g"), or vague text ("a handful", "to taste").
+3. A staple whose measure doesn't convert ("to taste", "pinch", or "1 tsp" for a staple weighed in `g`) maps to a nominal quantity of `1` in the staple's unit, marked as nominal. The planner ignores staples, so the exact value doesn't matter.
 4. Round mapped quantities to 2 decimals.
 
 ### 5.4 Duplicate ingredients in one recipe
