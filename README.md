@@ -47,7 +47,7 @@ flowchart LR
 | 4 | Steps | `npm run ingest:steps -- themealdb` | Claude | `recipes.json` |
 | 5 | Report | `npm run ingest:report -- themealdb` | nothing | `reports/review-queue.json` |
 | 6 | Review | edit the JSON files by hand | nothing | `ingredients.json`, `recipes.json` |
-| 7 | Load | `npm run ingest:load -- themealdb [--dry-run]` | the database | CookFlow's `ingredients`, `recipes`, `recipe_ingredients` |
+| 7 | Load | `npm run ingest:load -- themealdb [--prod] [--dry-run]` | the database | CookFlow's `ingredients`, `recipes`, `recipe_ingredients` |
 
 Everything after fetch reads files committed to the repo, so a run can be reproduced without calling TheMealDB again. Each stage can be rerun safely: none of them overwrites an `approved` recipe or a reviewer's work.
 
@@ -87,6 +87,8 @@ Before connecting to the database, every approved recipe is validated: title and
 
 The load then runs in one transaction: it inserts the reviewed ingredients that approved recipes use into the shared catalog (`owner_id` null; ingredients cooks add in CookFlow are never read or touched), upserts recipes on `(source, source_id)`, and replaces their ingredient lines. An existing ingredient is never modified; if its unit differs from the catalog, the load fails and rolls back. `--dry-run` prints the plan and writes nothing. Running the load twice leaves the same rows.
 
+The load writes to `DATABASE_URL`, the dev branch. `--prod` writes to `PROD_DATABASE_URL` instead, but first reads both schemas and compares them: tables, columns, constraints, indexes, enums, triggers, and applied migrations. If production differs from dev in anything (a migration run on one but not the other, for example), the load lists the differences and stops before writing.
+
 ### Loads
 
 Each row is one load into CookFlow's database and what it added.
@@ -99,7 +101,7 @@ Each row is one load into CookFlow's database and what it added.
 
 | Decision | Why | Cost |
 |---|---|---|
-| CookFlow's database schema is the source of truth | One place defines the data; this repo only writes data in that format | Table definitions here are copied by hand; schema drift isn't detected yet |
+| CookFlow's database schema is the source of truth | One place defines the data; this repo only writes data in that format | Table definitions here are copied by hand; drift from this repo isn't detected; production is only compared with dev |
 | Source text kept word for word: title, ingredient names and measures exactly; instructions re-split into numbered steps, checked word by word | CookFlow shows recipes as the source wrote them, including food-safety steps, but in a consistent step format | Typos and odd wording in the source stay |
 | Ingredients come only from a reviewed catalog, never straight from source names | "Onion", "onions", and "Red Onion" must be one ingredient, or the planner can't match them to the pantry | Every ingredient a recipe uses needs a review decision (name, unit, staple) |
 | This repo owns the shared catalog in CookFlow's `ingredients` table (`owner_id` null) | One writer, so units can't be changed under existing quantities | CookFlow no longer seeds its own ingredients |
@@ -120,6 +122,7 @@ Each source is an adapter (`src/sources/<name>/`) with a zod schema for its raw 
 
 ```bash
 cp .env.example .env.local   # DATABASE_URL (a Neon dev branch, not production), ANTHROPIC_API_KEY
+                             # PROD_DATABASE_URL (optional): production, for ingest:load --prod
                              # TEST_DATABASE_URL (optional): runs the *.db.test.ts tests against that database
 npm install
 
@@ -132,6 +135,8 @@ npm run ingest:report -- themealdb
 # review data/ingredients.json (the queue) and data/themealdb/recipes.json by hand
 npm run ingest:load -- themealdb --dry-run
 npm run ingest:load -- themealdb
+npm run ingest:load -- themealdb --prod --dry-run   # PROD_DATABASE_URL; checks its schema matches dev first
+npm run ingest:load -- themealdb --prod
 
 npm run typecheck && npm run lint && npm test
 ```
@@ -153,7 +158,7 @@ src/
   validate/    checks run on approved recipes before loading
   load/        load plan, transaction, dry-run output
   report/      progress and review queue
-  db/          Drizzle table definitions (copied from CookFlow) and the client
+  db/          Drizzle table definitions (copied from CookFlow), the client, schema comparison
 data/
   ingredients.json                  the catalog
   catalog/bootstrap-proposals.json  Claude's cached catalog proposals

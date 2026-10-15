@@ -4,13 +4,14 @@ import { parseCliArgs, UsageError } from "./args";
 describe("parseCliArgs", () => {
   it("parses the source and applies defaults", () => {
     expect(parseCliArgs("fetch", ["themealdb"])).toEqual({ source: "themealdb", limit: 100 });
-    expect(parseCliArgs("load", ["themealdb"])).toEqual({ source: "themealdb", dryRun: false });
+    expect(parseCliArgs("load", ["themealdb"])).toEqual({ source: "themealdb", dryRun: false, prod: false });
     expect(parseCliArgs("map", ["themealdb"])).toEqual({ source: "themealdb" });
   });
 
   it("parses stage options", () => {
     expect(parseCliArgs("fetch", ["themealdb", "--limit", "5"])).toEqual({ source: "themealdb", limit: 5 });
-    expect(parseCliArgs("load", ["--dry-run", "themealdb"])).toEqual({ source: "themealdb", dryRun: true });
+    expect(parseCliArgs("load", ["--dry-run", "themealdb"])).toEqual({ source: "themealdb", dryRun: true, prod: false });
+    expect(parseCliArgs("load", ["themealdb", "--prod"])).toEqual({ source: "themealdb", dryRun: false, prod: true });
     expect(parseCliArgs("steps", ["themealdb", "--only", "52772, 53050"])).toEqual({ source: "themealdb", only: ["52772", "53050"], maxRequests: 200 });
   });
 

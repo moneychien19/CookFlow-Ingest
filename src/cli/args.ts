@@ -38,8 +38,8 @@ const STAGE_ARGS = {
   },
   report: { options: {}, schema: z.strictObject({ source }) },
   load: {
-    options: { "dry-run": { type: "boolean" } },
-    schema: z.strictObject({ source, dryRun: z.boolean().default(false) }),
+    options: { "dry-run": { type: "boolean" }, prod: { type: "boolean" } },
+    schema: z.strictObject({ source, dryRun: z.boolean().default(false), prod: z.boolean().default(false) }),
   },
 } as const;
 

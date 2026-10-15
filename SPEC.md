@@ -26,7 +26,7 @@ This repo gets recipes from external sources into CookFlow's Postgres database i
 
 ### Out (for now)
 - Sources other than TheMealDB. The adapter boundary exists so one can be added later (§4).
-- Detecting schema drift between this repo and CookFlow's migrations. The table definitions here are written by hand to match CookFlow's schema (§3).
+- Detecting schema drift between this repo and CookFlow's migrations. The table definitions here are written by hand to match CookFlow's schema (§3). (Production is compared with the dev branch before a `--prod` load, §5.7, but neither is compared with this repo's definitions.)
 - Scheduled or continuous ingestion. Each run is started by hand.
 - Deleting or updating recipes that are no longer in the reviewed file.
 - Re-hosting images, nutrition data, or any recipe field the CookFlow schema doesn't have.
@@ -108,7 +108,7 @@ fetch ──▶ raw cache ──▶ map (rules) ──▶ normalize (Claude) ─
 | Normalize | `npm run ingest:normalize -- <source>` | `recipes.json` | the same file, with proposed mappings for unmapped lines |
 | Steps | `npm run ingest:steps -- <source>` | `recipes.json`, raw cache | the same file, with instructions split into numbered steps |
 | Review | edit `data/<source>/recipes.json` by hand | — | the same file, each recipe `approved` or `dropped` |
-| Load | `npm run ingest:load -- <source> [--dry-run]` | approved recipes, ingredient catalog | the database |
+| Load | `npm run ingest:load -- <source> [--prod] [--dry-run]` | approved recipes, ingredient catalog | the database |
 
 Each stage after fetch runs offline from files in the repo, so a run can be reproduced without calling the source again. Raw caches and reviewed files are committed.
 
@@ -219,6 +219,7 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 - Running the load twice leaves the same row counts.
 - `--dry-run` validates and prints what would be inserted and updated, without writing.
 - Before writing, print the target database host and the counts.
+- The target is `DATABASE_URL` (the dev branch). `--prod` targets `PROD_DATABASE_URL` instead, after checking that production's schema matches the dev branch exactly: tables, columns (type, null, default), constraints, indexes, enums, triggers, and the applied drizzle migrations. Any difference, or both variables naming the same database, stops the load before anything is written. Load into dev first; it's where the data was checked.
 
 ---
 
