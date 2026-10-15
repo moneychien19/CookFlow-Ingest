@@ -19,6 +19,7 @@ flowchart LR
   API[Recipe source<br/>TheMealDB] -->|fetch| RAW[Raw cache<br/>data/&lt;source&gt;/raw/]
   RAW -->|map: rules| REC[data/&lt;source&gt;/recipes.json]
   REC -->|normalize: Claude, offline| REC
+  REC -->|steps: Claude, offline| REC
   REC -->|hand review| REC
   REC -->|load: one transaction| DB[(CookFlow Postgres)]
   CAT[Ingredient catalog<br/>data/ingredients.json] --> REC
@@ -64,6 +65,7 @@ npm run catalog:bootstrap      # once: drafts data/ingredients.json from TheMeal
 npm run ingest:fetch -- themealdb --limit 200
 npm run ingest:map -- themealdb
 npm run ingest:normalize -- themealdb   # calls Claude for the lines the rules couldn't map
+npm run ingest:steps -- themealdb       # calls Claude to split instructions into numbered steps
 npm run ingest:report -- themealdb      # progress, drop reasons, and the catalog review queue
 # review data/ingredients.json (the queue) and data/themealdb/recipes.json by hand
 npm run ingest:load -- themealdb --dry-run

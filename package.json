@@ -13,6 +13,7 @@
     "ingest:fetch": "tsx src/cli/fetch.ts",
     "ingest:map": "tsx src/cli/map.ts",
     "ingest:normalize": "tsx src/cli/normalize.ts",
+    "ingest:steps": "tsx src/cli/steps.ts",
     "ingest:load": "tsx src/cli/load.ts",
     "ingest:report": "tsx src/cli/report.ts",
     "catalog:bootstrap": "tsx src/sources/themealdb/bootstrapCatalog.ts"

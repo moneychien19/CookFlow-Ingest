@@ -342,6 +342,11 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 - [x] Validation passes with 0 problems; report shows 158/50 approved, 17/10 vegetarian
 - [ ] User spot-checks 10 random approved recipes against TheMealDB
 
+## Task 14b: Instructions as numbered steps
+- [x] `ingest:steps`: Claude splits instructions into steps; code stores `1. …\n2. …` and rejects any answer that doesn't keep every word of the raw cache (only `step N` headers, `N.` labels, and counting-up bare numbers may go). Validation and map accept numbered steps under the same check. SPEC §3 rule 1, §5.5b, §5.6 and CookFlow SPEC §4 updated
+- [x] Trial on 5 hard recipes (hard-wrapped numbered list, inline ingredient lists, `STEP N -` headers, headings, one paragraph): 5 formatted, $0.14 with one retry
+- [x] Full run: all 158 approved recipes are numbered steps (1–18 steps, median 7); $1.62 for 153 recipes plus $0.08 for 5 retries. Retries came from Claude adding an "Instructions:" label (fixed by tagging the input) and from bare step numbers starting at 2 after an unnumbered first step (now accepted)
+
 ## Task 15: Load
 - [ ] `ingest:load -- themealdb --dry-run`, then real load into the Neon dev branch; second run shows no changes
 - [ ] Verify in CookFlow that the planner can use the loaded recipes

@@ -11,6 +11,7 @@ describe("parseCliArgs", () => {
   it("parses stage options", () => {
     expect(parseCliArgs("fetch", ["themealdb", "--limit", "5"])).toEqual({ source: "themealdb", limit: 5 });
     expect(parseCliArgs("load", ["--dry-run", "themealdb"])).toEqual({ source: "themealdb", dryRun: true });
+    expect(parseCliArgs("steps", ["themealdb", "--only", "52772, 53050"])).toEqual({ source: "themealdb", only: ["52772", "53050"], maxRequests: 200 });
   });
 
   it.each([

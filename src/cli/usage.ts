@@ -3,6 +3,7 @@ const STAGES = {
   fetch: "npm run ingest:fetch -- <source> [--limit <n>]",
   map: "npm run ingest:map -- <source>",
   normalize: "npm run ingest:normalize -- <source> [--limit <recipes>] [--max-requests <n>]",
+  steps: "npm run ingest:steps -- <source> [--only <id,id,...>] [--limit <recipes>] [--max-requests <n>]",
   load: "npm run ingest:load -- <source> [--dry-run]",
   report: "npm run ingest:report -- <source>",
 } as const;

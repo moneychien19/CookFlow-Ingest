@@ -69,8 +69,16 @@ describe("validateApproved", () => {
     };
     expect(check(edited, lookup)).toEqual([
       '1 "Tidied title": title differs from the raw cache',
-      '1 "Tidied title": instructions differ from the raw cache',
+      '1 "Tidied title": instructions differ from the raw cache (only the step numbering may change)',
       '1 "Tidied title": line 1: source name or measure differs from the raw cache',
+    ]);
+  });
+
+  it("accepts instructions as numbered steps that keep every word, and rejects steps that change one", () => {
+    const { approved, lookup } = approvedWithRaw([line("onion", 1)], { instructions: "step 1\r\nChop.\r\n\r\nstep 2\r\nFry. " });
+    expect(check({ ...approved, instructions: "1. Chop.\n2. Fry." }, lookup)).toEqual([]);
+    expect(check({ ...approved, instructions: "1. Chop.\n2. Fry well." }, lookup)).toEqual([
+      '1 "Recipe 1": instructions differ from the raw cache (only the step numbering may change)',
     ]);
   });
 

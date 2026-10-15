@@ -24,6 +24,18 @@ const STAGE_ARGS = {
       maxRequests: z.coerce.number().int().positive().default(150),
     }),
   },
+  steps: {
+    options: { only: { type: "string" }, limit: { type: "string" }, "max-requests": { type: "string" } },
+    schema: z.strictObject({
+      source,
+      only: z
+        .string()
+        .transform((ids) => ids.split(",").map((id) => id.trim()).filter((id) => id !== ""))
+        .optional(),
+      limit: z.coerce.number().int().positive().optional(),
+      maxRequests: z.coerce.number().int().positive().default(200),
+    }),
+  },
   report: { options: {}, schema: z.strictObject({ source }) },
   load: {
     options: { "dry-run": { type: "boolean" } },

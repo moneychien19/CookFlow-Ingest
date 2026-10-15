@@ -1,6 +1,7 @@
 import type { CatalogEntry } from "@/schema/catalog";
 import type { ReviewedRecipe } from "@/schema/reviewed";
 import type { SourceRecipe } from "@/schema/sourceRecipe";
+import { keepsEveryWord } from "@/steps/words";
 
 /** The recipe as the source gave it, from the raw cache, or null if it isn't cached. */
 export type RawLookup = (sourceId: string) => SourceRecipe | null;
@@ -43,11 +44,16 @@ export function validateApproved(
   return errors;
 }
 
-/** SPEC §3 rule 1: title, instructions, and each line's name and measure exactly as the source gave them. */
+/**
+ * SPEC §3 rule 1: title and each line's name and measure exactly as the source gave them;
+ * instructions either exactly, or as numbered steps that keep every word.
+ */
 function checkVerbatim(recipe: ReviewedRecipe, raw: SourceRecipe | null, fail: (problem: string) => void): void {
   if (!raw) return fail("not in the raw cache");
   if (recipe.title !== raw.title) fail("title differs from the raw cache");
-  if (recipe.instructions !== raw.instructions) fail("instructions differ from the raw cache");
+  if (!keepsEveryWord(raw.instructions, recipe.instructions)) {
+    fail("instructions differ from the raw cache (only the step numbering may change)");
+  }
   if (recipe.lines.length !== raw.lines.length) {
     return fail(`has ${recipe.lines.length} lines, the raw cache has ${raw.lines.length} (lines can't be added or removed)`);
   }

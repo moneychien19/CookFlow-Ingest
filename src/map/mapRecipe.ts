@@ -1,6 +1,7 @@
 import type { Matcher } from "@/catalog/match";
 import type { ReviewedLine, ReviewedRecipe } from "@/schema/reviewed";
 import type { SourceLine, SourceRecipe } from "@/schema/sourceRecipe";
+import { keepsEveryWord } from "@/steps/words";
 import { convertMeasure } from "./measure";
 
 export const NOMINAL_NOTE = "nominal staple quantity";
@@ -23,7 +24,8 @@ export function mapRecipe(source: string, recipe: SourceRecipe, match: Matcher, 
     sourceId: recipe.sourceId,
     title: recipe.title,
     imageUrl: recipe.imageUrl,
-    instructions: recipe.instructions,
+    // Numbered steps made from these same instructions survive a remap.
+    instructions: previous && keepsEveryWord(recipe.instructions, previous.instructions) ? previous.instructions : recipe.instructions,
     servings: recipe.servings,
     tags: recipe.tags,
     ...statusFor(lines),

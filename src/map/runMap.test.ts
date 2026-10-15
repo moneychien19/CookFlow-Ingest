@@ -102,6 +102,15 @@ describe("runMap", () => {
     ]);
   });
 
+  it("keeps numbered steps made from the same instructions when it remaps a pending recipe", async () => {
+    const record = fixtureRecord("1", { parts: parts(["Onion", "1"]) });
+    const first = await map([record]);
+    const stepped = { ...first.recipes[0]!, instructions: "1. Mix.\n2. Serve." };
+    expect((await map([record], [stepped])).recipes[0]?.instructions).toBe("1. Mix.\n2. Serve.");
+    const reworded = { ...stepped, instructions: "1. Mix well.\n2. Serve." };
+    expect((await map([record], [reworded])).recipes[0]?.instructions).toBe("Mix.\r\nServe. ");
+  });
+
   it("keeps recipes that are no longer in the cache", async () => {
     const gone = { ...(await map([fixtureRecord("9")])).recipes[0]!, status: "approved" as const };
     const { recipes } = await map([fixtureRecord("1")], [gone]);

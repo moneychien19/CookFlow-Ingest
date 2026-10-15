@@ -78,7 +78,7 @@ recipe_ingredients
 The tables are defined by hand in `src/db/schema.ts`. Keeping them in sync with CookFlow is out of scope for now (§1).
 
 ### Rules every loaded recipe follows
-1. **Verbatim source text.** `title`, `instructions`, `source_name`, and `source_measure` are stored exactly as the source gives them: no trimming, no rewording, no truncation. Instructions include the food-safety steps (CookFlow SPEC §7a #9, #10).
+1. **Verbatim source text.** `title`, `source_name`, and `source_measure` are stored exactly as the source gives them: no trimming, no rewording, no truncation. `instructions` are stored as numbered steps (`1. …\n2. …`, one step per line), or exactly as the source gives them until they are split. The steps keep every word of the source in order; only the source's own step labels (`step 1`, `1.`, ...) and line breaks may change. Instructions include the food-safety steps (CookFlow SPEC §7a #9, #10).
 2. **One canonical unit per ingredient.** The unit follows how the food is measured:
    - Produce, herbs, and eggs are counted (`whole`, `bunch`, `count`). Garlic is in `clove`.
    - Meat, fish, cheese, and dry goods (rice, pasta) are in `g`.
@@ -95,7 +95,7 @@ The tables are defined by hand in `src/db/schema.ts`. Keeping them in sync with 
 ## 4. Pipeline
 
 ```
-fetch ──▶ raw cache ──▶ map (rules) ──▶ normalize (Claude) ──▶ review (person) ──▶ load
+fetch ──▶ raw cache ──▶ map (rules) ──▶ normalize (Claude) ──▶ steps (Claude) ──▶ review (person) ──▶ load
           data/<source>/raw/             data/<source>/recipes.json                   DATABASE_URL
 ```
 
@@ -104,6 +104,7 @@ fetch ──▶ raw cache ──▶ map (rules) ──▶ normalize (Claude) ─
 | Fetch | `npm run ingest:fetch -- <source>` | the source's API | `data/<source>/raw/*.json` |
 | Map | `npm run ingest:map -- <source>` | raw cache, ingredient catalog | `data/<source>/recipes.json`, unmapped report |
 | Normalize | `npm run ingest:normalize -- <source>` | `recipes.json` | the same file, with proposed mappings for unmapped lines |
+| Steps | `npm run ingest:steps -- <source>` | `recipes.json`, raw cache | the same file, with instructions split into numbered steps |
 | Review | edit `data/<source>/recipes.json` by hand | — | the same file, each recipe `approved` or `dropped` |
 | Load | `npm run ingest:load -- <source> [--dry-run]` | approved recipes, ingredient catalog | the database |
 
@@ -161,6 +162,12 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 - A proposed new ingredient joins the catalog as an unreviewed draft (and `bootstrap-proposals.json`, so rebuilding the catalog keeps it). Like every draft, it must be reviewed before an approved recipe can use it (§5.2).
 - This step runs only from the CLI, offline. Nothing calls Claude when CookFlow runs.
 
+### 5.5b Numbered steps
+- Source instructions come in many shapes: paragraphs, `step 1` headers, `1.` lists (some starting at 0, some hard-wrapped mid-sentence), headings, and notes. CookFlow shows them as numbered steps.
+- `ingest:steps` sends the instructions of each `pending` or `approved` recipe that isn't numbered steps yet to Claude, one request per recipe. Claude returns a list of steps; code numbers them and stores `1. …\n2. …`.
+- Code checks every answer against the raw cache: the steps must keep every word of the original, in order, with the same spelling and punctuation. Only the source's step labels may be dropped: `step N` headers (with a following `-` or `:`), `N.` / `N)` at the start of a line, and bare line-start numbers that count up from 1 (at least two of them, so "1 tomato" stays). An answer that fails keeps the original text, and the recipe is asked again on the next run.
+- Map keeps numbered steps when it remaps a pending recipe, as long as they still keep every word of the raw cache.
+
 ### 5.6 Reviewed file
 `data/<source>/recipes.json`:
 
@@ -198,7 +205,7 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 - An `approved` recipe must pass validation:
   - every line has a reviewed catalog ingredient and a valid quantity
   - no ingredient appears twice
-  - `instructions` is byte-identical to the raw cache
+  - `instructions` is byte-identical to the raw cache, or numbered steps that keep every word of it (§3 rule 1, §5.5b)
 
 ### 5.7 Load
 - Load all approved recipes for a source in **one transaction**. Any failure rolls the whole load back.
@@ -226,7 +233,8 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 - Ingredient matching by name and alias. An unknown name is unmapped.
 - TheMealDB adapter: blank and `null` pairs are skipped, strings are kept verbatim (including surrounding whitespace), and the `vegetarian` tag comes from the category.
 - Duplicate canonical ingredients drop the recipe with a reason.
-- Validation rejects approved recipes with a missing quantity, more than 2 decimals, an unknown ingredient, or instructions that differ from the raw cache.
+- Validation rejects approved recipes with a missing quantity, more than 2 decimals, an unknown ingredient, or instructions that differ from the raw cache by more than the step numbering.
+- Numbered steps: accepted when they only re-split the text and drop the source's step labels; rejected when a word is added, dropped, changed, or reordered.
 - Rerunning map doesn't overwrite approved or dropped recipes.
 - Load (`*.db.test.ts`, against `TEST_DATABASE_URL`, skipped when it's unset):
   - running the load twice gives the same counts
