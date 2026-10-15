@@ -14,7 +14,7 @@
     "aliases": [
       "achiote seeds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"achiote seeds\": Also sold as annatto seed."
   },
   {
@@ -40,7 +40,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -61,7 +61,7 @@
       "allspice berries",
       "ground allspice"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"allspice berries\": Whole berries merged with ground allspice; category Fruit is wrong."
   },
   {
@@ -72,7 +72,7 @@
       "almonds",
       "flaked almonds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -82,7 +82,7 @@
     "aliases": [
       "almond essence"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -118,7 +118,7 @@
     "aliases": [
       "ancho chillies"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -141,7 +141,7 @@
       "bramley apples",
       "cooking apples"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"bramley apples\": Bramley is a cooking apple; merge with apple may be unwanted. \"cooking apples\": Merged cooking apples into apple; reviewer may prefer a separate entry."
   },
   {
@@ -151,7 +151,7 @@
     "aliases": [
       "cider vinegar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -172,12 +172,12 @@
   },
   {
     "name": "arugula",
-    "unit": "bunch",
+    "unit": "g",
     "isStaple": false,
     "aliases": [
       "rocket"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -187,7 +187,7 @@
     "aliases": [
       "white asparagus"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"white asparagus\": Merged white asparagus with green asparagus; it is not always sold alongside green asparagus."
   },
   {
@@ -197,12 +197,12 @@
     "aliases": [
       "avacado hass pulp"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"avacado hass pulp\": Misspelled; pulp quantity may need converting to whole avocados."
   },
   {
     "name": "baby potato",
-    "unit": "whole",
+    "unit": "g",
     "isStaple": false,
     "aliases": [
       "baby new potatoes",
@@ -211,7 +211,7 @@
       "new potatoes",
       "small potatoes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"baby new potatoes\": Kept separate from regular potato; reviewer may prefer merging. \"charlotte potatoes\": Charlotte is a small waxy potato variety; check the merge with baby potato. \"jersey royal potatoes\": Jersey royals merged with baby/new potatoes."
   },
   {
@@ -222,7 +222,7 @@
       "bacon lardon",
       "streaky bacon"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"bacon lardon\": Lardons merged with bacon."
   },
   {
@@ -246,7 +246,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -264,7 +264,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -282,7 +282,7 @@
     "aliases": [
       "fried ripe bananas"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"fried ripe bananas\": Frying is preparation; may actually refer to ripe plantains."
   },
   {
@@ -292,7 +292,7 @@
     "aliases": [
       "banana leaves"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -310,7 +310,7 @@
     "aliases": [
       "barbeque sauce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -329,7 +329,7 @@
       "basil leaves",
       "fresh basil"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -337,7 +337,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -347,7 +347,7 @@
     "aliases": [
       "bay leaves"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -358,7 +358,7 @@
       "bean sprouts",
       "mung bean sprouts"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -368,7 +368,7 @@
     "aliases": [
       "mixed beef cuts"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"beef\": Unspecified cut; reviewer may want to map to a specific cut such as stewing beef. \"mixed beef cuts\": Vague name; mapped to generic beef."
   },
   {
@@ -376,7 +376,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -405,7 +405,7 @@
     "aliases": [
       "feather blade beef"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"feather blade beef\": Specific braising cut; could be merged into beef if cuts are not distinguished."
   },
   {
@@ -431,7 +431,7 @@
     "aliases": [
       "hind shank"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"hind shank\": Animal not stated; could be veal or lamb shank instead of beef."
   },
   {
@@ -442,7 +442,7 @@
       "hot beef stock",
       "unsalted beef stock"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -453,7 +453,7 @@
       "beef stock concentrate",
       "beef stock cubes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"beef stock concentrate\": Stock concentrate merged with stock cubes; both are concentrated stock substitutes."
   },
   {
@@ -464,7 +464,7 @@
       "beef fillet",
       "fillet of steak"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"beef fillet\": Beef fillet is the UK name for tenderloin."
   },
   {
@@ -472,7 +472,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -482,7 +482,7 @@
     "aliases": [
       "beets"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"beetroot\": Raw beetroot, kept separate from existing cooked beetroot."
   },
   {
@@ -497,7 +497,7 @@
       "sweet red peppers",
       "yellow pepper"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"green pepper\": Assumed green bell pepper, merged with all bell pepper colours; it could also mean a green chili. \"mixed peppers\": Assumed to mean mixed-colour bell peppers; the category is wrong. \"red pepper\": Could mean red bell pepper or a red chili; assumed bell pepper. \"romano pepper\": Sweet pointed pepper merged with bell pepper as a free substitute. \"yellow pepper\": Assumed to mean yellow bell pepper, not a yellow chili."
   },
   {
@@ -513,7 +513,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -533,7 +533,7 @@
     "aliases": [
       "pitted black olives"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -545,7 +545,7 @@
       "kampot pepper",
       "pepper"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"kampot pepper\": Kampot pepper merged with black pepper; it may be a specialty purchase. \"pepper\": Ambiguous: could mean bell pepper in some recipes; assumed black pepper."
   },
   {
@@ -553,7 +553,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -563,7 +563,7 @@
     "aliases": [
       "treacle"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: g (1), ml (1). \"treacle\": Assumed UK black treacle; some recipes may mean golden syrup."
   },
   {
@@ -631,7 +631,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -639,7 +639,7 @@
     "unit": "count",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -647,7 +647,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -662,7 +662,7 @@
       "white bread",
       "wholegrain bread"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"bread\": Counted in slices; generic loaf type. \"cuban bread\": Merged Cuban bread into bread; reviewer may prefer separate. \"toast\": Toast mapped to bread slices, which are toasted during the recipe. \"wholegrain bread\": Merged wholegrain bread with generic bread; it could be kept separate."
   },
   {
@@ -673,7 +673,7 @@
       "strong white bread flour",
       "strong white flour"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -683,7 +683,7 @@
     "aliases": [
       "white bread mix"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -691,7 +691,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -699,7 +699,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -725,7 +725,7 @@
     "aliases": [
       "purple sprouting broccoli"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"purple sprouting broccoli\": Merged with broccoli; sold in bunches/weight, so unit may need review."
   },
   {
@@ -762,7 +762,7 @@
       "dark soft brown sugar",
       "light brown soft sugar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"dark brown soft sugar\": Merged dark brown into brown sugar; confirm light/dark are interchangeable. \"dark brown sugar\": Merged dark brown into brown sugar; confirm light/dark are interchangeable."
   },
   {
@@ -782,7 +782,7 @@
     "aliases": [
       "bryndza cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -790,7 +790,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -821,7 +821,7 @@
       "potatoe buns",
       "sesame seed burger buns"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"potatoe buns\": Potato buns merged into generic bun."
   },
   {
@@ -834,7 +834,7 @@
       "salted butter",
       "unsalted butter"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -844,7 +844,7 @@
     "aliases": [
       "lima beans"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"butter beans\": Could mean canned or dried beans. \"lima beans\": Lima beans and butter beans are the same bean; check whether canned or dried."
   },
   {
@@ -854,7 +854,7 @@
     "aliases": [
       "sour milk"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"sour milk\": Sour milk merged with buttermilk as a substitute; verify."
   },
   {
@@ -875,7 +875,7 @@
       "savoy cabbage",
       "white cabbage"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cabbage leaves\": Leaf counts need converting to whole heads."
   },
   {
@@ -893,15 +893,15 @@
     "aliases": [
       "cajun"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cajun\": Assumed to mean Cajun spice blend."
   },
   {
     "name": "callaloo",
-    "unit": "bunch",
+    "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"callaloo\": Leafy green; site category Root Vegetable is wrong."
   },
   {
@@ -941,7 +941,7 @@
       "diced tomatoes",
       "tinned tomatos"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chopped tomatoes\": Assumed UK-style canned chopped tomatoes, not fresh. \"diced tomatoes\": Assumed canned diced tomatoes."
   },
   {
@@ -949,7 +949,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -959,7 +959,7 @@
     "aliases": [
       "rapeseed oil"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -991,7 +991,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1003,7 +1003,7 @@
       "ground cardomom",
       "hail"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cardamom\": Kept separate from black cardamom. \"hail\": Hail is the Arabic name for cardamom; the Rice category looks wrong."
   },
   {
@@ -1013,7 +1013,7 @@
     "aliases": [
       "carrots"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1031,7 +1031,7 @@
     "unit": "count",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"casabe\": Cassava flatbread."
   },
   {
@@ -1053,7 +1053,7 @@
       "raw yucca",
       "yuca"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1073,7 +1073,7 @@
     "aliases": [
       "golden caster sugar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"caster sugar\": Possibly merge with sugar, since cooks often substitute it. \"golden caster sugar\": Golden caster merged with caster sugar."
   },
   {
@@ -1081,7 +1081,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1089,7 +1089,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1097,7 +1097,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"celery\": Recipes often count stalks, which need converting to heads."
   },
   {
@@ -1105,7 +1105,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1116,7 +1116,7 @@
       "cheddar cheese",
       "mature cheddar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1124,7 +1124,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cheese\": Generic cheese with no type given."
   },
   {
@@ -1134,7 +1134,7 @@
     "aliases": [
       "corn arepa filled with mozarella cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"corn arepa filled with mozarella cheese\": Prepared stuffed arepa product; verify it is bought ready-made."
   },
   {
@@ -1165,14 +1165,14 @@
   },
   {
     "name": "cherry tomato",
-    "unit": "whole",
+    "unit": "g",
     "isStaple": false,
     "aliases": [
       "baby plum tomatoes",
       "cherry tomatoes",
       "grape tomatoes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: g (1), whole (2). \"baby plum tomatoes\": Baby plum tomatoes merged with cherry tomatoes. \"grape tomatoes\": Grape tomatoes merged with cherry tomatoes."
   },
   {
@@ -1183,7 +1183,7 @@
       "chestnuts",
       "cooked chestnut"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cooked chestnut\": Merged with chestnut; cooked vacuum-packed chestnuts may warrant separating."
   },
   {
@@ -1191,7 +1191,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chestnut mushroom\": Could be merged with a generic mushroom if one is added later."
   },
   {
@@ -1199,7 +1199,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chicken\": Ambiguous: could mean a whole chicken or unspecified chicken pieces."
   },
   {
@@ -1207,7 +1207,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chicken bouillon powder\": Kept separate from chicken stock cube because it is measured by weight; could be merged."
   },
   {
@@ -1217,7 +1217,7 @@
     "aliases": [
       "chicken breasts"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1237,7 +1237,7 @@
     "aliases": [
       "chicken legs"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1245,7 +1245,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1253,7 +1253,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1264,7 +1264,7 @@
       "bouillon cubes",
       "chicken stock concentrate"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"bouillon cubes\": Unspecified bouillon cubes mapped to chicken stock cube; flavor is ambiguous. \"chicken stock concentrate\": Stock concentrate merged with stock cubes; both are concentrated stock substitutes."
   },
   {
@@ -1274,7 +1274,7 @@
     "aliases": [
       "chicken thighs"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1284,7 +1284,7 @@
     "aliases": [
       "chicken wings"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1302,7 +1302,7 @@
     "aliases": [
       "can of chickpeas"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"can of chickpeas\": Canned and dried chickpeas merged; a can needs converting to grams."
   },
   {
@@ -1315,7 +1315,7 @@
       "red chilli flakes",
       "red pepper flakes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"pul biber\": Turkish Aleppo-style pepper flakes merged into chili flakes; category was wrong."
   },
   {
@@ -1328,7 +1328,7 @@
       "green chilli",
       "red chilli"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"birds-eye chillies\": Bird's-eye chili merged into generic chili pepper. \"chilli\": Assumed fresh chili pepper."
   },
   {
@@ -1340,7 +1340,7 @@
       "hot chilli powder",
       "red chilli powder"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chili powder\": US chili powder is a spice blend, UK chilli powder is pure ground chili; merged. \"red chilli powder\": Indian red chilli powder is pure ground chili, hotter than a US chili powder blend."
   },
   {
@@ -1350,7 +1350,7 @@
     "aliases": [
       "chimichurri sauce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1378,7 +1378,7 @@
     "aliases": [
       "chopped chive"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1406,7 +1406,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1430,7 +1430,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cider\": Could mean alcoholic hard cider or non-alcoholic apple cider."
   },
   {
@@ -1442,7 +1442,7 @@
       "coriander",
       "coriander leaves"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"coriander\": Ambiguous: assumed fresh coriander leaves, could mean ground coriander."
   },
   {
@@ -1450,7 +1450,7 @@
     "unit": "count",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1460,7 +1460,7 @@
     "aliases": [
       "clams"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1478,7 +1478,7 @@
     "aliases": [
       "cloves"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cloves\": Assumed the whole spice, not garlic cloves; check recipe context."
   },
   {
@@ -1497,7 +1497,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1505,7 +1505,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1516,7 +1516,7 @@
       "desiccated coconut",
       "shredded coconut"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"desiccated coconut\": Merged desiccated coconut with coconut flakes; texture differs slightly. \"shredded coconut\": Merged shredded coconut with coconut flakes; verify."
   },
   {
@@ -1526,7 +1526,7 @@
     "aliases": [
       "unsweetened coconut milk"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1534,7 +1534,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1590,7 +1590,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cooked beetroot\": Kept separate from raw beetroot as it is bought pre-cooked."
   },
   {
@@ -1608,7 +1608,7 @@
     "aliases": [
       "coriander seeds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1616,7 +1616,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1626,7 +1626,7 @@
     "aliases": [
       "corn tortillas"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1634,7 +1634,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1645,7 +1645,7 @@
       "fine yellow cornmeal",
       "white cornmeal"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1656,7 +1656,7 @@
       "corn flour",
       "starch"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"corn flour\": Ambiguous: UK corn flour is cornstarch, US corn flour is fine cornmeal. \"starch\": Generic starch assumed to be cornstarch; could be potato starch."
   },
   {
@@ -1664,7 +1664,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1672,7 +1672,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1690,7 +1690,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1703,7 +1703,7 @@
       "single cream",
       "whipping cream"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"double cream\": Merged double cream with cream; may need separate heavy cream entry."
   },
   {
@@ -1735,7 +1735,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1745,7 +1745,7 @@
     "aliases": [
       "persian cucumber"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"persian cucumber\": Persian cucumbers are smaller; merged with cucumber."
   },
   {
@@ -1755,7 +1755,7 @@
     "aliases": [
       "cumin seeds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1773,7 +1773,7 @@
     "aliases": [
       "jamaican curry powder"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"jamaican curry powder\": Jamaican curry powder has a different blend; merge with generic curry powder is uncertain."
   },
   {
@@ -1801,7 +1801,7 @@
     "aliases": [
       "daikon radish"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1811,7 +1811,7 @@
     "aliases": [
       "stout"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"stout\": Stout merged with dark beer."
   },
   {
@@ -1875,7 +1875,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1883,7 +1883,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1893,7 +1893,7 @@
     "aliases": [
       "dill pickles"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1921,7 +1921,7 @@
     "aliases": [
       "dried apricots"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1978,7 +1978,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -1988,7 +1988,7 @@
     "aliases": [
       "oregano"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"oregano\": Assumed dried; could mean fresh oregano."
   },
   {
@@ -2014,7 +2014,7 @@
     "aliases": [
       "dried white navy beans"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"dried white navy beans\": Merged navy beans into dried white beans."
   },
   {
@@ -2078,7 +2078,7 @@
       "free-range egg, beaten",
       "free-range eggs, beaten"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"egg white\": Merged with egg; carton egg whites would differ."
   },
   {
@@ -2120,7 +2120,7 @@
       "baby aubergine",
       "egg plants"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"baby aubergine\": Merged with regular eggplant though pieces are much smaller."
   },
   {
@@ -2128,7 +2128,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2147,7 +2147,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"english mustard\": Could mean prepared mustard or mustard powder."
   },
   {
@@ -2155,7 +2155,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2163,7 +2163,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2189,7 +2189,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"farmers cheese\": Kept separate from cottage cheese and ricotta; check whether a merge is wanted."
   },
   {
@@ -2199,7 +2199,7 @@
     "aliases": [
       "fennel bulb"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2209,7 +2209,7 @@
     "aliases": [
       "fennel seeds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2217,7 +2217,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"fenugreek\": Could mean seeds or dried leaves (kasuri methi)."
   },
   {
@@ -2235,7 +2235,7 @@
     "aliases": [
       "cubed feta cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2273,7 +2273,7 @@
     "aliases": [
       "thai fish sauce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2291,7 +2291,7 @@
     "aliases": [
       "seafood stock"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"seafood stock\": Merged seafood stock into fish stock; verify."
   },
   {
@@ -2301,7 +2301,7 @@
     "aliases": [
       "chinese five spice powder"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2324,7 +2324,7 @@
       "wheat flour",
       "white flour"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2334,7 +2334,7 @@
     "aliases": [
       "tortillas"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"tortillas\": Unspecified tortillas; assumed flour, but they could be corn tortillas."
   },
   {
@@ -2342,7 +2342,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2376,7 +2376,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2400,7 +2400,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2412,7 +2412,7 @@
       "garlic clove",
       "minced garlic"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"garlic bulb\": Bulb quantities need converting to cloves (about 10 per bulb). \"minced garlic\": Could mean jarred minced garlic rather than fresh cloves."
   },
   {
@@ -2422,7 +2422,7 @@
     "aliases": [
       "garlic granules"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"garlic granules\": Granules merged with garlic powder."
   },
   {
@@ -2430,7 +2430,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2460,7 +2460,7 @@
     "aliases": [
       "german sausages"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"german sausages\": Could be bratwurst or other types; check variety."
   },
   {
@@ -2484,7 +2484,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2492,7 +2492,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2500,7 +2500,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2508,7 +2508,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2562,7 +2562,7 @@
     "aliases": [
       "goats cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2597,7 +2597,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2607,7 +2607,7 @@
     "aliases": [
       "gouda cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2628,7 +2628,7 @@
       "pickled grape leaves",
       "vine leaves"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: g (2), count (1)."
   },
   {
@@ -2664,7 +2664,7 @@
     "aliases": [
       "strained yoghurt"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: ml (1), g (1)."
   },
   {
@@ -2685,7 +2685,7 @@
       "chinese long beans",
       "runner beans"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chinese long beans\": Chinese long beans merged with green beans as a common substitute. \"runner beans\": Runner beans merged with green beans as a close substitute."
   },
   {
@@ -2715,18 +2715,18 @@
     "aliases": [
       "pimento stuffed olives"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"pimento stuffed olives\": Stuffed olives merged with green olives; confirm merge."
   },
   {
     "name": "green onion",
-    "unit": "bunch",
+    "unit": "whole",
     "isStaple": false,
     "aliases": [
       "scallions",
       "spring onions"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2762,7 +2762,7 @@
       "lean minced steak",
       "minced beef"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2780,7 +2780,7 @@
     "aliases": [
       "cinnamon"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2788,7 +2788,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"ground clove\": Kept separate from whole clove, matching the existing split for cinnamon and cumin."
   },
   {
@@ -2806,7 +2806,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2816,7 +2816,7 @@
     "aliases": [
       "cumin"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"cumin\": Assumed ground cumin rather than seeds."
   },
   {
@@ -2824,7 +2824,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2834,7 +2834,7 @@
     "aliases": [
       "lamb mince"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2844,7 +2844,7 @@
     "aliases": [
       "minced pork"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2874,7 +2874,7 @@
     "aliases": [
       "habanero pepper"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2901,7 +2901,7 @@
       "deli ham",
       "smoked ham"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"smoked ham\": Merged smoked ham into ham."
   },
   {
@@ -2917,7 +2917,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2964,7 +2964,7 @@
     "aliases": [
       "clear honey"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -2986,7 +2986,7 @@
       "tabasco sauce",
       "tobasco sauce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"chilli sauce\": Chilli sauce could mean hot sauce or sweet chili sauce. \"red pepper sauce\": Ambiguous: could be hot sauce or a roasted red pepper sauce. \"tobasco sauce\": Misspelled Tabasco merged into generic hot sauce."
   },
   {
@@ -3004,7 +3004,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3032,7 +3032,7 @@
     "aliases": [
       "powdered sugar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3042,7 +3042,7 @@
     "aliases": [
       "italian fennel sausages"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3058,7 +3058,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3084,7 +3084,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3114,7 +3114,7 @@
     "aliases": [
       "juniper berries"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3155,7 +3155,7 @@
       "lime leaves",
       "makrut lime leaves"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3163,7 +3163,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3183,7 +3183,7 @@
     "aliases": [
       "tomato ketchup"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3201,7 +3201,7 @@
     "aliases": [
       "polish sausage"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3209,7 +3209,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3219,7 +3219,7 @@
     "aliases": [
       "lamb loin chops"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3261,7 +3261,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3277,7 +3277,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3295,7 +3295,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3307,7 +3307,7 @@
       "lemons",
       "unwaxed lemon"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3315,7 +3315,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"lemon juice\": Kept separate from lemon; could instead be sourced from fresh lemons."
   },
   {
@@ -3333,7 +3333,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"lentils\": Variety unspecified; may need to be merged with brown, green or red lentils."
   },
   {
@@ -3345,7 +3345,7 @@
       "iceberg lettuce",
       "little gem lettuce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: bunch (1), whole (3). \"baby lettuce leaves\": Baby leaves merged with lettuce; category is wrong. \"little gem lettuce\": Merged little gem into lettuce."
   },
   {
@@ -3355,7 +3355,7 @@
     "aliases": [
       "unwaxed lime"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3363,7 +3363,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3373,7 +3373,7 @@
     "aliases": [
       "linguine pasta"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3407,7 +3407,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3475,7 +3475,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3493,7 +3493,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"marjoram\": Fresh or dried is unspecified; assumed fresh."
   },
   {
@@ -3530,7 +3530,7 @@
       "white masarepa",
       "yellow masarepa"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"white masarepa\": Precooked corn flour, kept separate from cornmeal; white and yellow are merged."
   },
   {
@@ -3554,7 +3554,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3574,7 +3574,7 @@
     "aliases": [
       "shredded mexican cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3585,7 +3585,7 @@
       "semi-skimmed milk",
       "whole milk"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3609,7 +3609,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3645,7 +3645,7 @@
     "aliases": [
       "seeds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"seeds\": Proposed by normalize: 130 g of mixed seeds (e.g. sunflower, flax, pumpkin) as usual in Danish rye bread."
   },
   {
@@ -3680,7 +3680,7 @@
       "monterey jack cheese",
       "shredded monterey jack cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3688,7 +3688,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"morcilla\": Kept separate from black pudding; similar blood sausage."
   },
   {
@@ -3696,7 +3696,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"morning glory\": Water spinach, a leafy green; the site category is wrong."
   },
   {
@@ -3706,7 +3706,7 @@
     "aliases": [
       "mozzarella balls"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3749,7 +3749,7 @@
       "mushrooms",
       "wild mushrooms"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"wild mushrooms\": Merged mixed wild mushrooms with generic mushroom."
   },
   {
@@ -3767,7 +3767,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"mustard\": Generic prepared mustard; could overlap with dijon or english mustard."
   },
   {
@@ -3777,7 +3777,7 @@
     "aliases": [
       "ground mustard"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3797,7 +3797,7 @@
     "aliases": [
       "naan bread"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3816,7 +3816,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"noodles\": Generic noodles; the type is unspecified."
   },
   {
@@ -3834,7 +3834,7 @@
     "aliases": [
       "ground nutmeg"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3857,7 +3857,7 @@
     "aliases": [
       "extra virgin olive oil"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3870,7 +3870,7 @@
       "red onions",
       "yellow onion"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3888,7 +3888,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3898,7 +3898,7 @@
     "aliases": [
       "orange zest"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"orange zest\": Zest comes from a whole orange."
   },
   {
@@ -3914,7 +3914,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3942,7 +3942,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3952,7 +3952,7 @@
     "aliases": [
       "oysters"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3970,7 +3970,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -3998,7 +3998,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4014,7 +4014,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4086,7 +4086,7 @@
     "unit": "g",
     "isStaple": true,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4097,7 +4097,7 @@
       "parmesan cheese",
       "parmigiano-reggiano"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4108,7 +4108,7 @@
       "chopped parsley",
       "freshly chopped parsley"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4126,7 +4126,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4182,7 +4182,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4223,7 +4223,7 @@
       "frozen peas",
       "petit pois"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"frozen peas\": Frozen and fresh peas merged."
   },
   {
@@ -4273,7 +4273,7 @@
       "peppercorns",
       "whole black peppercorns"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"peppercorns\": Whole peppercorns kept separate from ground black pepper; could be merged."
   },
   {
@@ -4283,7 +4283,7 @@
     "aliases": [
       "filo pastry"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4291,7 +4291,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"pickle juice\": Usually the brine from a jar of dill pickles."
   },
   {
@@ -4322,7 +4322,7 @@
     "aliases": [
       "pico de gallo sauce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4332,7 +4332,7 @@
     "aliases": [
       "pigs trotters"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4352,7 +4352,7 @@
     "aliases": [
       "pine nuts"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4469,7 +4469,7 @@
       "khus khus",
       "poppy seeds"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"khus khus\": Khus khus usually means poppy seeds in Indian recipes but can mean couscous; check recipe."
   },
   {
@@ -4477,7 +4477,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4487,7 +4487,7 @@
     "aliases": [
       "pork belly slices"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4507,7 +4507,7 @@
     "aliases": [
       "pork chops"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4525,7 +4525,7 @@
     "aliases": [
       "pork back ribs"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4535,7 +4535,7 @@
     "aliases": [
       "pork shoulder steaks"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4557,7 +4557,7 @@
       "russet potato",
       "yukon gold potatoes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4565,7 +4565,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4593,7 +4593,7 @@
     "aliases": [
       "parma ham"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"parma ham\": Parma ham merged with prosciutto; confirm merge."
   },
   {
@@ -4601,7 +4601,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4619,7 +4619,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4627,7 +4627,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"pumpkin\": Used g since pumpkin is usually measured by weight."
   },
   {
@@ -4635,7 +4635,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4653,7 +4653,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4661,7 +4661,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4669,7 +4669,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4677,7 +4677,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4711,7 +4711,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"red cabbage\": Kept separate from cabbage; confirm whether green and red should merge."
   },
   {
@@ -4721,7 +4721,7 @@
     "aliases": [
       "thai red curry paste"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4739,7 +4739,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"red pepper paste\": Could be Turkish biber salcasi or Korean gochujang; check recipe context."
   },
   {
@@ -4757,7 +4757,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4773,7 +4773,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4791,7 +4791,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4809,7 +4809,7 @@
     "aliases": [
       "arabic rice"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"arabic rice\": Unclear rice type, possibly a prepared dish; merged into generic rice."
   },
   {
@@ -4837,7 +4837,7 @@
       "rice noodles",
       "rice stick noodles"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4920,7 +4920,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4950,7 +4950,7 @@
     "aliases": [
       "rye"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"rye\": Ambiguous: could be rye flour, rye grain or rye whiskey; category Meat is wrong."
   },
   {
@@ -4958,7 +4958,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4966,7 +4966,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4982,7 +4982,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4990,7 +4990,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -4998,7 +4998,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5008,7 +5008,7 @@
     "aliases": [
       "green salsa"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5020,7 +5020,7 @@
       "kosher salt",
       "sea salt"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5030,7 +5030,7 @@
     "aliases": [
       "codfish bulljaw"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"codfish bulljaw\": Bulljaw (buljol) is a salt cod dish; assumed the ingredient is salt cod."
   },
   {
@@ -5060,7 +5060,7 @@
     "aliases": [
       "white sauerkraut"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5070,7 +5070,7 @@
     "aliases": [
       "sausages"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"sausages\": Generic sausage; kept separate from italian and german sausage."
   },
   {
@@ -5088,7 +5088,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"scotch bonnet\": Kept separate from chili pepper due to distinct heat and flavor."
   },
   {
@@ -5126,7 +5126,7 @@
     "aliases": [
       "semolina flour"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"semolina\": Site category Fruit is wrong. \"semolina flour\": Merged with semolina; fine semolina flour may differ in texture."
   },
   {
@@ -5144,7 +5144,7 @@
     "aliases": [
       "sesame seed oil"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5152,7 +5152,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5163,7 +5163,7 @@
       "challots",
       "shallots"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"challots\": Assumed to be a misspelling of shallots."
   },
   {
@@ -5182,7 +5182,7 @@
       "dry sherry",
       "sweet sherry"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5190,7 +5190,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5200,7 +5200,7 @@
     "aliases": [
       "shiitake mushrooms"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"shiitake mushrooms\": Could be fresh or dried shiitake."
   },
   {
@@ -5210,7 +5210,7 @@
     "aliases": [
       "ready rolled shortcrust pastry"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5220,7 +5220,7 @@
     "aliases": [
       "vegetable shortening"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5236,7 +5236,7 @@
       "raw tiger prawns",
       "tiger prawns"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"king prawns\": Prawns merged with shrimp."
   },
   {
@@ -5280,7 +5280,7 @@
     "aliases": [
       "sirloin steak tips"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"sirloin steak tips\": Steak tips merged with sirloin steak."
   },
   {
@@ -5330,7 +5330,7 @@
       "smoky paprika",
       "sweet smoked paprika"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"hot smoked paprika\": Hot and sweet smoked paprika merged; split if heat level matters."
   },
   {
@@ -5380,7 +5380,7 @@
     "aliases": [
       "full fat sour cream"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5390,7 +5390,7 @@
     "aliases": [
       "soured cream and chive dip"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5416,7 +5416,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5426,7 +5426,7 @@
     "aliases": [
       "soya bean"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5452,7 +5452,7 @@
     "unit": "bunch",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5472,7 +5472,7 @@
     "aliases": [
       "zapallo squash"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: whole (1), g (1). \"squash\": Generic squash; could mean butternut or another variety. \"zapallo squash\": Zapallo is a South American winter squash; it could also be mapped to pumpkin."
   },
   {
@@ -5482,7 +5482,7 @@
     "aliases": [
       "baby squid"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5498,7 +5498,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5508,7 +5508,7 @@
     "aliases": [
       "stilton cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5555,7 +5555,7 @@
       "granulated sugar",
       "ground sugar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"ground sugar\": Ambiguous; could mean icing sugar or caster sugar."
   },
   {
@@ -5563,7 +5563,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"sugar snap peas\": Kept separate from snow peas, though some cooks substitute them."
   },
   {
@@ -5582,7 +5582,7 @@
       "dried leaves of summer savoury",
       "summer savoury"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5592,7 +5592,7 @@
     "aliases": [
       "sun-dried tomatoes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5608,7 +5608,7 @@
     "unit": "whole",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5618,7 +5618,7 @@
     "aliases": [
       "sweet chilli sauce"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5636,7 +5636,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"sweetcorn\": Corn kernels, kept separate from corn on the cob and creamed corn."
   },
   {
@@ -5646,7 +5646,7 @@
     "aliases": [
       "emmentaler cheese"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"emmentaler cheese\": Emmentaler merged into swiss cheese."
   },
   {
@@ -5656,7 +5656,7 @@
     "aliases": [
       "hard taco shells"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5674,7 +5674,7 @@
     "aliases": [
       "tahini paste"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5693,7 +5693,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5701,7 +5701,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"tapioca\": Could mean tapioca pearls or tapioca starch."
   },
   {
@@ -5735,7 +5735,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5765,7 +5765,7 @@
     "aliases": [
       "fresh thyme"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"thyme\": It is unclear whether this means fresh or dried thyme."
   },
   {
@@ -5796,7 +5796,7 @@
       "tomatoes",
       "vine tomatoes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"plum tomatoes\": Could mean canned plum tomatoes rather than fresh."
   },
   {
@@ -5804,7 +5804,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"tomato puree\": In the UK this means tomato paste; in the US it is closer to passata."
   },
   {
@@ -5812,7 +5812,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"tomato sauce\": Could mean a pasta sauce, US canned tomato sauce, or ketchup."
   },
   {
@@ -5870,7 +5870,7 @@
     "unit": "g",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -5897,7 +5897,7 @@
       "ground turmeric",
       "turmeric powder"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"turmeric\": Assumed ground turmeric, not fresh root."
   },
   {
@@ -5997,7 +5997,7 @@
       "oil",
       "sunflower oil"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"oil\": Generic cooking oil. \"sunflower oil\": Sunflower oil merged with vegetable oil as a neutral cooking oil."
   },
   {
@@ -6005,7 +6005,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6013,7 +6013,7 @@
     "unit": "count",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6043,7 +6043,7 @@
     "aliases": [
       "vinaigrette dressing"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"vinaigrette dressing\": Could be store-bought or made during the recipe."
   },
   {
@@ -6053,7 +6053,7 @@
     "aliases": [
       "white vinegar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"vinegar\": Unspecified vinegar type; likely plain white vinegar."
   },
   {
@@ -6064,7 +6064,7 @@
       "ground walnuts",
       "walnuts"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6076,7 +6076,7 @@
       "cold water",
       "warm water"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6105,7 +6105,7 @@
       "fish fillet",
       "white fish fillets"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"fish fillet\": Generic fish fillet assumed to be white fish. \"white fish\": Generic white fish; might be worth matching against cod or haddock."
   },
   {
@@ -6115,7 +6115,7 @@
     "aliases": [
       "dry white wine"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6125,7 +6125,7 @@
     "aliases": [
       "vegan white wine vinegar"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6182,7 +6182,7 @@
     "unit": "ml",
     "isStaple": false,
     "aliases": [],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   },
   {
@@ -6211,7 +6211,7 @@
       "fast action yeast",
       "instant yeast"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "\"instant yeast\": Instant and active dry yeast merged."
   },
   {
@@ -6232,7 +6232,7 @@
       "full fat yogurt",
       "natural yoghurt"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": "Units proposed: ml (2), g (1)."
   },
   {
@@ -6242,7 +6242,7 @@
     "aliases": [
       "courgettes"
     ],
-    "reviewed": false,
+    "reviewed": true,
     "note": null
   }
 ]

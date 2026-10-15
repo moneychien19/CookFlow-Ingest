@@ -12,7 +12,7 @@
       "cheasy",
       "meat"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -318,7 +318,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -633,7 +633,7 @@
       "meat",
       "stew"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -715,7 +715,7 @@
       "bun",
       "calorific"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -803,7 +803,7 @@
       "beef",
       "meat"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -910,7 +910,7 @@
       "meat",
       "cheesy"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1023,7 +1023,7 @@
       "spicy",
       "fish"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1135,7 +1135,7 @@
       "beef",
       "mainmeal"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1214,7 +1214,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1365,7 +1365,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1404,9 +1404,9 @@
         "sourceName": "Garlic",
         "sourceMeasure": "1 teaspoon",
         "ingredient": "garlic",
-        "quantity": 2,
-        "method": "claude",
-        "note": "1 tsp minced garlic is about 2 cloves."
+        "quantity": 1,
+        "method": "manual",
+        "note": "1 tsp minced is about one clove."
       },
       {
         "sourceName": "Refried Beans",
@@ -1436,9 +1436,9 @@
         "sourceName": "Grape Tomatoes",
         "sourceMeasure": "Halved",
         "ingredient": "cherry tomato",
-        "quantity": 12,
-        "method": "claude",
-        "note": "No amount given; estimated 12 grape tomatoes for topping 12 tacos."
+        "quantity": 180,
+        "method": "manual",
+        "note": "No amount given; about 12 grape tomatoes at 15 g each to top 12 tacos."
       },
       {
         "sourceName": "Jalapeno",
@@ -1492,7 +1492,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1579,7 +1579,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1738,7 +1738,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1841,7 +1841,7 @@
     "tags": [
       "pasta"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -1896,9 +1896,9 @@
         "sourceName": "Cherry Tomatoes",
         "sourceMeasure": "12",
         "ingredient": "cherry tomato",
-        "quantity": 12,
-        "method": "rule",
-        "note": null
+        "quantity": 180,
+        "method": "manual",
+        "note": "12 at about 15 g each."
       },
       {
         "sourceName": "Basil Leaves",
@@ -1960,7 +1960,7 @@
     "tags": [
       "starter"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -2064,7 +2064,7 @@
       "starter",
       "baking"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -2185,7 +2185,7 @@
       "soup",
       "cheesy"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -2375,7 +2375,7 @@
     "tags": [
       "miscellaneous"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -2430,7 +2430,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -2815,7 +2815,7 @@
       "meat",
       "pie"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3104,7 +3104,7 @@
       "beef",
       "pie"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3392,7 +3392,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3618,7 +3618,7 @@
       "side",
       "sidedish"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3673,7 +3673,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3745,7 +3745,7 @@
       "chicken",
       "meat"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3913,7 +3913,7 @@
       "miscellaneous",
       "savory"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -3960,9 +3960,9 @@
         "sourceName": "Thyme",
         "sourceMeasure": "1 Sprig",
         "ingredient": "thyme",
-        "quantity": 0.1,
-        "method": "claude",
-        "note": "1 sprig is about 0.1 of a bunch."
+        "quantity": 0.05,
+        "method": "manual",
+        "note": "One sprig is about 0.05 bunch."
       },
       {
         "sourceName": "Tomato",
@@ -4009,7 +4009,7 @@
       "chicken",
       "stew"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4128,7 +4128,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4207,9 +4207,9 @@
         "sourceName": "Minced Garlic",
         "sourceMeasure": "1 tsp ",
         "ingredient": "garlic",
-        "quantity": 2,
-        "method": "claude",
-        "note": "1 tsp minced garlic is about 2 cloves."
+        "quantity": 1,
+        "method": "manual",
+        "note": "1 tsp minced is about one clove."
       },
       {
         "sourceName": "Ginger",
@@ -4279,7 +4279,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4326,9 +4326,9 @@
         "sourceName": "Spring Onions",
         "sourceMeasure": "1 tbs",
         "ingredient": "green onion",
-        "quantity": 0.1,
-        "method": "claude",
-        "note": "1 tbsp chopped spring onion is about 0.1 bunch."
+        "quantity": 1,
+        "method": "manual",
+        "note": "1 tbsp chopped is about one spring onion."
       },
       {
         "sourceName": "Rice",
@@ -4371,7 +4371,7 @@
       "baking",
       "lowcarbs"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4402,9 +4402,9 @@
         "sourceName": "Cherry Tomatoes",
         "sourceMeasure": "175g",
         "ingredient": "cherry tomato",
-        "quantity": 12,
-        "method": "claude",
-        "note": "175 g at about 15 g per cherry tomato."
+        "quantity": 175,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Olive Oil",
@@ -4443,7 +4443,7 @@
       "breakfast",
       "brunch"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4634,7 +4634,7 @@
       "side",
       "soup"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4867,7 +4867,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -4986,7 +4986,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5066,7 +5066,7 @@
       "beef",
       "cheap"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5081,9 +5081,9 @@
         "sourceName": "Small Potatoes",
         "sourceMeasure": "10",
         "ingredient": "baby potato",
-        "quantity": 10,
-        "method": "rule",
-        "note": null
+        "quantity": 400,
+        "method": "manual",
+        "note": "10 small potatoes at about 40 g each."
       },
       {
         "sourceName": "Carrots",
@@ -5113,7 +5113,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5200,7 +5200,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5303,7 +5303,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5430,7 +5430,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5557,7 +5557,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5747,9 +5747,9 @@
         "sourceName": "Spring Onions",
         "sourceMeasure": "1  bunch",
         "ingredient": "green onion",
-        "quantity": 1,
-        "method": "rule",
-        "note": null
+        "quantity": null,
+        "method": null,
+        "note": "\"bunch\" doesn't count whole"
       },
       {
         "sourceName": "Plain Flour",
@@ -5803,9 +5803,9 @@
         "sourceName": "Cherry Tomatoes",
         "sourceMeasure": "6",
         "ingredient": "cherry tomato",
-        "quantity": 6,
-        "method": "rule",
-        "note": null
+        "quantity": null,
+        "method": null,
+        "note": "a count for an ingredient measured in g"
       },
       {
         "sourceName": "Bacon",
@@ -5835,7 +5835,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5930,7 +5930,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -5992,18 +5992,18 @@
       {
         "sourceName": "Coriander",
         "sourceMeasure": "1 1/2 ",
-        "ingredient": "cilantro",
-        "quantity": 1.5,
-        "method": "rule",
-        "note": null
+        "ingredient": "coriander seed",
+        "quantity": 1,
+        "method": "manual",
+        "note": "A spice paste amount (1 1/2 tsp), not fresh coriander; nominal staple quantity."
       },
       {
         "sourceName": "Fennel",
         "sourceMeasure": "1 1/2 ",
-        "ingredient": "fennel",
-        "quantity": 1.5,
-        "method": "rule",
-        "note": null
+        "ingredient": "fennel seed",
+        "quantity": 1,
+        "method": "manual",
+        "note": "A spice paste amount (1 1/2 tsp), not fennel bulbs; nominal staple quantity."
       },
       {
         "sourceName": "Tamarind Paste",
@@ -6049,7 +6049,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6161,7 +6161,7 @@
       "beef",
       "sausages"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6272,7 +6272,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6394,7 +6394,7 @@
       "soup",
       "beans"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6467,7 +6467,7 @@
       "streetfood",
       "onthego"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6530,7 +6530,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6627,7 +6627,7 @@
       "stew",
       "warming"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6738,7 +6738,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -6944,7 +6944,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7071,7 +7071,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7142,7 +7142,7 @@
     "tags": [
       "breakfast"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7182,7 +7182,7 @@
       "vegetarian",
       "soup"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7286,7 +7286,7 @@
       "vegetarian",
       "soup"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7358,7 +7358,7 @@
       "side",
       "pancake"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7429,7 +7429,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7524,7 +7524,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7595,7 +7595,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7634,9 +7634,9 @@
         "sourceName": "Thyme",
         "sourceMeasure": "3",
         "ingredient": "thyme",
-        "quantity": 3,
-        "method": "rule",
-        "note": null
+        "quantity": 0.15,
+        "method": "manual",
+        "note": "The instructions use thyme sprigs; 3 sprigs at about 0.05 bunch each."
       },
       {
         "sourceName": "Vegetable Oil",
@@ -7730,7 +7730,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7761,9 +7761,9 @@
         "sourceName": "Rocket",
         "sourceMeasure": "50g",
         "ingredient": "arugula",
-        "quantity": 0.5,
-        "method": "claude",
-        "note": "50 g of rocket at about 100 g per bunch is 0.5 bunch."
+        "quantity": 50,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Soured cream and chive dip",
@@ -7872,7 +7872,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -7911,9 +7911,9 @@
         "sourceName": "Baby New Potatoes",
         "sourceMeasure": "1.25kg",
         "ingredient": "baby potato",
-        "quantity": 31,
-        "method": "claude",
-        "note": "1250 g at about 40 g per baby new potato."
+        "quantity": 1250,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Olive Oil",
@@ -8062,7 +8062,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8109,7 +8109,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8148,7 +8148,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8235,7 +8235,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8330,7 +8330,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8425,7 +8425,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8560,16 +8560,16 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
         "sourceName": "Baby New Potatoes",
         "sourceMeasure": "500g",
         "ingredient": "baby potato",
-        "quantity": 12.5,
-        "method": "claude",
-        "note": "500 g at about 40 g per baby potato."
+        "quantity": 500,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Egg",
@@ -8631,7 +8631,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8711,7 +8711,7 @@
       "pork",
       "cheesy"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8774,7 +8774,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8885,7 +8885,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -8924,9 +8924,9 @@
         "sourceName": "Thyme",
         "sourceMeasure": "3",
         "ingredient": "thyme",
-        "quantity": 3,
-        "method": "rule",
-        "note": null
+        "quantity": 0.15,
+        "method": "manual",
+        "note": "Read as 3 sprigs at about 0.05 bunch each."
       },
       {
         "sourceName": "Bay Leaves",
@@ -9005,7 +9005,7 @@
       "pork",
       "soup"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9051,10 +9051,10 @@
       {
         "sourceName": "Chicken Stock",
         "sourceMeasure": "1",
-        "ingredient": "chicken stock",
-        "quantity": 500,
-        "method": "claude",
-        "note": "Assumed 1 stock cube's worth, about 500 ml of stock."
+        "ingredient": "chicken stock cube",
+        "quantity": 1,
+        "method": "manual",
+        "note": "The instructions crumble in the stock cube."
       },
       {
         "sourceName": "Crusty Bread",
@@ -9076,7 +9076,7 @@
     "tags": [
       "starter"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9131,7 +9131,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9194,7 +9194,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9289,7 +9289,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9488,7 +9488,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9639,7 +9639,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9718,7 +9718,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9813,7 +9813,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9876,7 +9876,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9939,7 +9939,7 @@
     "tags": [
       "lamb"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -9994,7 +9994,7 @@
     "tags": [
       "lamb"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10065,7 +10065,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10104,9 +10104,9 @@
         "sourceName": "Cherry Tomatoes",
         "sourceMeasure": "200g",
         "ingredient": "cherry tomato",
-        "quantity": 13,
-        "method": "claude",
-        "note": "200 g at about 15 g per cherry tomato."
+        "quantity": 200,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Mint",
@@ -10144,7 +10144,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10191,17 +10191,17 @@
         "sourceName": "Parsley",
         "sourceMeasure": "40g",
         "ingredient": "parsley",
-        "quantity": 1,
-        "method": "claude",
-        "note": "40 g of parsley is about one typical bunch."
+        "quantity": 1.33,
+        "method": "manual",
+        "note": "40 g at about 30 g per bunch."
       },
       {
         "sourceName": "Cherry Tomatoes",
         "sourceMeasure": "200g",
         "ingredient": "cherry tomato",
-        "quantity": 13,
-        "method": "claude",
-        "note": "200 g at about 15 g per cherry tomato is roughly 13 tomatoes."
+        "quantity": 200,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Lemon",
@@ -10231,7 +10231,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10310,7 +10310,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10484,9 +10484,9 @@
         "sourceName": "New Potatoes",
         "sourceMeasure": "2 Lbs",
         "ingredient": "baby potato",
-        "quantity": null,
-        "method": null,
-        "note": "weight for an ingredient measured in whole"
+        "quantity": 907.18,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Tomato Puree",
@@ -10627,7 +10627,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10698,7 +10698,7 @@
     "tags": [
       "lamb"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10857,7 +10857,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -10887,10 +10887,10 @@
       {
         "sourceName": "Red Pepper",
         "sourceMeasure": "3/4 teaspoon",
-        "ingredient": "bell pepper",
-        "quantity": null,
-        "method": "claude",
-        "note": "can't map: 3/4 tsp suggests ground red pepper or flakes, which can't be expressed as whole bell peppers."
+        "ingredient": "chili flakes",
+        "quantity": 1.5,
+        "method": "manual",
+        "note": "The instructions say crushed red pepper; 3/4 tsp is about 1.5 g."
       },
       {
         "sourceName": "Gouda Cheese",
@@ -10936,7 +10936,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -11079,16 +11079,16 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
         "sourceName": "Cabbage Leaves",
         "sourceMeasure": "6 large",
         "ingredient": "cabbage",
-        "quantity": 6,
-        "method": "rule",
-        "note": null
+        "quantity": 1,
+        "method": "manual",
+        "note": "6 large leaves come from one cabbage."
       },
       {
         "sourceName": "Olive Oil",
@@ -11182,7 +11182,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -11237,7 +11237,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -11308,7 +11308,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -11514,7 +11514,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -11545,17 +11545,17 @@
         "sourceName": "Rocket",
         "sourceMeasure": "150g",
         "ingredient": "arugula",
-        "quantity": 1.5,
-        "method": "claude",
-        "note": "150 g rocket at about 100 g per bunch."
+        "quantity": 150,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Cherry Tomatoes",
         "sourceMeasure": "130g",
         "ingredient": "cherry tomato",
-        "quantity": 8,
-        "method": "claude",
-        "note": "130 g at about 15 g per cherry tomato, roughly 8 tomatoes."
+        "quantity": 130,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Beetroot",
@@ -11688,9 +11688,9 @@
         "sourceName": "Spring Onions",
         "sourceMeasure": "Bunch",
         "ingredient": "green onion",
-        "quantity": 1,
-        "method": "rule",
-        "note": null
+        "quantity": null,
+        "method": null,
+        "note": "no number (\"bunch\")"
       },
       {
         "sourceName": "Sirloin steak",
@@ -11959,7 +11959,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12070,7 +12070,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12149,7 +12149,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12228,7 +12228,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12363,7 +12363,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12466,7 +12466,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12601,7 +12601,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12712,7 +12712,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -12735,9 +12735,9 @@
         "sourceName": "Callaloo",
         "sourceMeasure": "525g",
         "ingredient": "callaloo",
-        "quantity": 1.75,
-        "method": "claude",
-        "note": "525 g at about 300 g per bunch of callaloo."
+        "quantity": 525,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Onion",
@@ -13109,7 +13109,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -13236,7 +13236,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -13458,7 +13458,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -13553,7 +13553,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -13592,9 +13592,9 @@
         "sourceName": "Spring Onions",
         "sourceMeasure": "50g",
         "ingredient": "green onion",
-        "quantity": 0.5,
-        "method": "claude",
-        "note": "50 g at about 100 g per bunch of spring onions."
+        "quantity": 3,
+        "method": "manual",
+        "note": "50 g at about 15 g per spring onion."
       },
       {
         "sourceName": "Black Pepper",
@@ -13624,7 +13624,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -13687,9 +13687,9 @@
         "sourceName": "Parsley",
         "sourceMeasure": "25g",
         "ingredient": "parsley",
-        "quantity": 0.5,
-        "method": "claude",
-        "note": "25 g at about 50 g per bunch of parsley."
+        "quantity": 0.83,
+        "method": "manual",
+        "note": "25 g at about 30 g per bunch."
       },
       {
         "sourceName": "Basil",
@@ -13735,7 +13735,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -13814,7 +13814,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14044,7 +14044,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14067,9 +14067,9 @@
         "sourceName": "Spring Onions",
         "sourceMeasure": "1/2 cup",
         "ingredient": "green onion",
-        "quantity": 0.5,
-        "method": "claude",
-        "note": "1/2 cup chopped spring onions is about half a bunch."
+        "quantity": 4,
+        "method": "manual",
+        "note": "1/2 cup chopped is about 50 g, 4 spring onions."
       },
       {
         "sourceName": "Ground Cumin",
@@ -14115,7 +14115,7 @@
     "tags": [
       "breakfast"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14130,9 +14130,9 @@
         "sourceName": "Callaloo",
         "sourceMeasure": "8 oz ",
         "ingredient": "callaloo",
-        "quantity": 0.9,
-        "method": "claude",
-        "note": "8 oz is about 227 g, at roughly 250 g per bunch of callaloo."
+        "quantity": 226.8,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Pumpkin",
@@ -14194,7 +14194,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14305,7 +14305,7 @@
     "tags": [
       "miscellaneous"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14352,7 +14352,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14366,10 +14366,10 @@
       {
         "sourceName": "Corn Flour",
         "sourceMeasure": "1 cup",
-        "ingredient": "cornstarch",
-        "quantity": 128,
-        "method": "claude",
-        "note": "1 cup of corn flour at about 128 g per cup."
+        "ingredient": "masarepa",
+        "quantity": 140,
+        "method": "manual",
+        "note": "Arepas use precooked corn flour, not cornstarch; 1 cup is about 140 g."
       },
       {
         "sourceName": "Warm Water",
@@ -14391,7 +14391,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14494,7 +14494,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14581,7 +14581,7 @@
     "tags": [
       "miscellaneous"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14660,7 +14660,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14771,7 +14771,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14882,7 +14882,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -14969,7 +14969,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -15032,7 +15032,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -15413,7 +15413,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -15691,7 +15691,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -15762,9 +15762,9 @@
         "sourceName": "Rosemary",
         "sourceMeasure": "1 Sprig",
         "ingredient": "rosemary",
-        "quantity": 0.1,
-        "method": "claude",
-        "note": "1 sprig is about 0.1 of a bunch."
+        "quantity": 0.05,
+        "method": "manual",
+        "note": "One sprig is about 0.05 bunch."
       },
       {
         "sourceName": "Cream",
@@ -15826,7 +15826,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -15937,7 +15937,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16056,7 +16056,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16127,7 +16127,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16198,7 +16198,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16277,7 +16277,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16396,7 +16396,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16650,7 +16650,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16785,7 +16785,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16856,7 +16856,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -16943,7 +16943,7 @@
     "tags": [
       "seafood"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -17054,7 +17054,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -17641,7 +17641,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -17910,7 +17910,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18005,7 +18005,7 @@
     "tags": [
       "miscellaneous"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18149,7 +18149,7 @@
         "ingredient": "green onion",
         "quantity": null,
         "method": null,
-        "note": "volume for an ingredient measured in bunch"
+        "note": "volume for an ingredient measured in whole"
       },
       {
         "sourceName": "Garlic",
@@ -18251,7 +18251,7 @@
     "tags": [
       "miscellaneous"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18282,7 +18282,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18377,7 +18377,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18456,7 +18456,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18567,7 +18567,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18678,7 +18678,7 @@
     "tags": [
       "vegetarian"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18749,9 +18749,9 @@
         "sourceName": "Scallions",
         "sourceMeasure": "1/2 cup",
         "ingredient": "green onion",
-        "quantity": 0.5,
-        "method": "claude",
-        "note": "1/2 cup chopped scallions is about half a typical bunch."
+        "quantity": 4,
+        "method": "manual",
+        "note": "1/2 cup chopped is about 50 g, 4 scallions."
       },
       {
         "sourceName": "Heavy Cream",
@@ -18773,7 +18773,7 @@
     "tags": [
       "beef"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -18971,7 +18971,7 @@
     "tags": [
       "starter"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -19114,7 +19114,7 @@
     "tags": [
       "pork"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -19249,7 +19249,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -19336,7 +19336,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -19439,16 +19439,16 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
         "sourceName": "New Potatoes",
         "sourceMeasure": "600g",
         "ingredient": "baby potato",
-        "quantity": 15,
-        "method": "claude",
-        "note": "600 g at about 40 g per baby potato."
+        "quantity": 600,
+        "method": "rule",
+        "note": null
       },
       {
         "sourceName": "Asparagus",
@@ -19550,7 +19550,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -19835,7 +19835,7 @@
     "tags": [
       "side"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -20008,7 +20008,7 @@
     "tags": [
       "chicken"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {
@@ -20071,7 +20071,7 @@
     "tags": [
       "starter"
     ],
-    "status": "pending",
+    "status": "approved",
     "dropReason": null,
     "lines": [
       {

@@ -337,9 +337,10 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 - [x] Extend catalog aliases where the unmapped report shows obvious misses: not needed, only 2 of 1,063 sampled names were missing from the catalog
 
 ## Task 14: Review
-- [ ] Reviewer works through the catalog review queue (T12): fixes unit/staple/aliases and sets `reviewed: true` only on entries that recipes actually use; the other ~900 drafts can stay unreviewed
-- [ ] Reviewer accepts/rejects proposed new ingredients (into `data/ingredients.json`), fixes lines (`method: "manual"`), sets each recipe `approved` or `dropped`
-- [ ] Report shows ≥ 50 approved, ≥ 10 vegetarian; spot-check 10 random approved recipes against TheMealDB
+- [x] Catalog review (done by Claude at the user's request, 2026-10-14): all 328 entries used by recipes set `reviewed: true`. Units changed: `green onion` bunch → whole (counts like "4 shredded" had become 4 bunches), `arugula`, `callaloo`, `cherry tomato`, `baby potato` → g (bought by weight)
+- [x] Recipes: 158 approved, 0 pending, 42 dropped (duplicate ingredients). 21 lines fixed by hand (`method: "manual"`): wrong ingredient (Arepa corn flour → masarepa; Cheese Borek red pepper → chili flakes; Ayam Percik coriander/fennel → seeds; a stock cube read as 500 ml stock), counts read as bunches or whole cabbages, and herb, sprig, and garlic estimates made consistent (30 g per bunch of parsley, 0.05 bunch per sprig, 1 tsp minced garlic per clove)
+- [x] Validation passes with 0 problems; report shows 158/50 approved, 17/10 vegetarian
+- [ ] User spot-checks 10 random approved recipes against TheMealDB
 
 ## Task 15: Load
 - [ ] `ingest:load -- themealdb --dry-run`, then real load into the Neon dev branch; second run shows no changes
