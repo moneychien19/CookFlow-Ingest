@@ -47,14 +47,16 @@ This repo gets recipes from external sources into CookFlow's Postgres database i
 
 ## 3. Target: CookFlow's tables
 
-This repo writes three tables. The definitions below match CookFlow's migrations up to `0001_gram_units`.
+This repo writes three tables. The definitions below match CookFlow's migrations up to `0002_user_ingredients`.
 
 ```
 ingredients
   id            serial pk
-  name          text unique          -- canonical, lowercase: "onion", "chicken breast"
+  name          text                 -- canonical, lowercase: "onion", "chicken breast"
   unit          text                 -- CHECK in ('whole','pack','bunch','clove','count','g','ml')
   is_staple     boolean default false
+  owner_id      fk users, nullable   -- null: the shared catalog (this repo); set: an ingredient a cook added
+                                     -- unique (name) where owner_id is null; unique (owner_id, name) where owner_id is not null
 
 recipes
   id            serial pk
@@ -136,6 +138,7 @@ The catalog is drafted from TheMealDB's ingredient list (`list.php?i=list`, abou
 Source names are never stored as ingredients directly. Every line maps to a catalog entry first, and only reviewed entries can be used by an approved recipe or loaded, so spellings like `Onion`, `onions`, and `Red Onion` don't become separate ingredients that the planner can't match against the pantry. A person reviews only the entries that recipes actually use.
 
 When loading:
+- **Only catalog rows (`owner_id is null`) are read or written.** Cooks can add their own ingredients in CookFlow, and one may share a name with a catalog entry ("chicken" in packs). The load never reads, matches, or changes those rows, and recipe lines always point at catalog rows. Inserts use `on conflict (name) where owner_id is null do nothing`.
 - **A missing ingredient is inserted only if an approved recipe uses it.** Catalog entries that no approved recipe uses aren't loaded.
 - **An existing ingredient is never modified.** If its `unit` or `is_staple` in the database differs from the catalog, the load fails. Quantities computed for one unit would be wrong in another: 1 pack of chicken loaded as 1 g.
 
@@ -240,6 +243,7 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
   - running the load twice gives the same counts
   - a unit conflict with an existing ingredient fails, with nothing written
   - a catalog ingredient that no approved recipe uses isn't inserted
+  - a cook's own ingredient with the same name as a catalog entry is ignored and kept
   - rows from other sources are untouched
 
 ---

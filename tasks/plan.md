@@ -106,7 +106,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 **Description:** Hand-write the three tables in Drizzle, connect through Neon's WebSocket `Pool`, and implement the pure `planLoad` plus `--dry-run`, which reads the DB and prints the target host and what would be inserted/updated without writing.
 
 **Acceptance criteria:**
-- [x] `src/db/schema.ts` matches SPEC §3 (up to CookFlow migration `0001_gram_units`)
+- [x] `src/db/schema.ts` matches SPEC §3 (up to CookFlow migration `0002_user_ingredients`)
 - [x] `planLoad` computes: ingredients to insert (only reviewed entries used by approved recipes), unit/`is_staple` conflicts with existing rows (→ error), recipes to insert vs update, line counts
 - [x] `ingest:load -- themealdb --dry-run` prints DB host and counts, and writes nothing
 

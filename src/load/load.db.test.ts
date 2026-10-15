@@ -1,14 +1,14 @@
-import { asc, eq, like } from "drizzle-orm";
+import { and, asc, eq, isNotNull, like, sql } from "drizzle-orm";
 import { afterAll, beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { createDb, type Db } from "@/db/client";
-import { ingredients, recipeIngredients, recipes } from "@/db/schema";
+import { ingredients, isCatalog, recipeIngredients, recipes } from "@/db/schema";
 import type { ReviewedRecipe } from "@/schema/reviewed";
 import { entry, line, recipe } from "../../test/builders";
 import { loadSource } from "./load";
 
 // Runs against a real Postgres (a throwaway Neon branch), only when TEST_DATABASE_URL is set.
-// Every row these tests create uses a "test-" source or a "test " ingredient name, and is
-// deleted before each test, so the branch can be reused.
+// Every row these tests create uses a "test-" source, a "test " ingredient name, or a "test-"
+// user id, and is deleted before each test, so the branch can be reused.
 const url = process.env.TEST_DATABASE_URL;
 
 const SOURCE = "test-load";
@@ -33,17 +33,19 @@ describe.skipIf(!url)("loadSource (real Postgres)", () => {
   beforeEach(async () => {
     await db.delete(recipes).where(like(recipes.source, "test-%"));
     await db.delete(ingredients).where(like(ingredients.name, "test %"));
+    // Deleting a user deletes the ingredients they own (on delete cascade).
+    await db.execute(sql`delete from users where id like 'test-%'`);
   });
 
   const load = (recipeList: ReviewedRecipe[], source = SOURCE) =>
     loadSource(db, { source, recipes: recipeList, catalog }, { dryRun: false });
 
-  /** Every test row, without serial ids, so two loads can be compared. */
+  /** Every test row in the catalog and recipes, without serial ids, so two loads can be compared. */
   async function dump() {
     const ingredientRows = await db
       .select({ name: ingredients.name, unit: ingredients.unit, isStaple: ingredients.isStaple })
       .from(ingredients)
-      .where(like(ingredients.name, "test %"))
+      .where(and(isCatalog, like(ingredients.name, "test %")))
       .orderBy(asc(ingredients.name));
     const recipeRows = await db
       .select()
@@ -106,6 +108,22 @@ describe.skipIf(!url)("loadSource (real Postgres)", () => {
       recipes: [],
       lines: [],
     });
+  });
+
+  it("ignores and keeps an ingredient a cook added with the same name", async () => {
+    await db.execute(sql`insert into users (id, name) values ('test-cook', 'Test cook')`);
+    const own = { name: "test chicken", unit: "pack" as const, isStaple: false, ownerId: "test-cook" };
+    await db.insert(ingredients).values(own);
+
+    await load([approved("1", [line("test chicken", 400)])]);
+    const after = await dump();
+    expect(after.ingredients).toEqual([{ name: "test chicken", unit: "g", isStaple: false }]);
+    expect(after.lines).toMatchObject([{ ingredient: "test chicken", quantity: 400 }]);
+    const owned = await db
+      .select({ name: ingredients.name, unit: ingredients.unit, isStaple: ingredients.isStaple, ownerId: ingredients.ownerId })
+      .from(ingredients)
+      .where(isNotNull(ingredients.ownerId));
+    expect(owned.filter((i) => i.ownerId === "test-cook")).toEqual([own]);
   });
 
   it("rolls everything back when a write fails partway", async () => {

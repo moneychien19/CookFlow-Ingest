@@ -85,7 +85,7 @@ Prints progress (pending / approved / dropped, drop reasons, how lines were mapp
 ### 7. Load
 Before connecting to the database, every approved recipe is validated: title and ingredient lines identical to the raw cache, instructions keeping every word, every ingredient reviewed and used once, every quantity fitting `numeric(8,2)`. Any problem stops the load, and all problems are listed at once.
 
-The load then runs in one transaction: it inserts the reviewed ingredients that approved recipes use, upserts recipes on `(source, source_id)`, and replaces their ingredient lines. An existing ingredient is never modified; if its unit differs from the catalog, the load fails and rolls back. `--dry-run` prints the plan and writes nothing. Running the load twice leaves the same rows.
+The load then runs in one transaction: it inserts the reviewed ingredients that approved recipes use into the shared catalog (`owner_id` null; ingredients cooks add in CookFlow are never read or touched), upserts recipes on `(source, source_id)`, and replaces their ingredient lines. An existing ingredient is never modified; if its unit differs from the catalog, the load fails and rolls back. `--dry-run` prints the plan and writes nothing. Running the load twice leaves the same rows.
 
 ### Loads
 
@@ -102,7 +102,7 @@ Each row is one load into CookFlow's database and what it added.
 | CookFlow's database schema is the source of truth | One place defines the data; this repo only writes data in that format | Table definitions here are copied by hand; schema drift isn't detected yet |
 | Source text kept word for word: title, ingredient names and measures exactly; instructions re-split into numbered steps, checked word by word | CookFlow shows recipes as the source wrote them, including food-safety steps, but in a consistent step format | Typos and odd wording in the source stay |
 | Ingredients come only from a reviewed catalog, never straight from source names | "Onion", "onions", and "Red Onion" must be one ingredient, or the planner can't match them to the pantry | Every ingredient a recipe uses needs a review decision (name, unit, staple) |
-| This repo owns CookFlow's `ingredients` table | One writer, so units can't be changed under existing quantities | CookFlow no longer seeds its own ingredients |
+| This repo owns the shared catalog in CookFlow's `ingredients` table (`owner_id` null) | One writer, so units can't be changed under existing quantities | CookFlow no longer seeds its own ingredients |
 | Existing ingredients in the database are never modified; a unit conflict fails the load | Quantities computed for one unit are wrong in another (1 pack of chicken loaded as 1 g) | Changing a unit after loading needs a manual fix in the database |
 | Rules first, Claude only for what's left, code checks Claude's answers, a person approves | Rules are deterministic and testable; Claude handles messy text; checks and review catch mistakes | Review is the slow, manual step |
 | Drop recipes that don't map cleanly | 50 good recipes are better than 100 noisy ones | Fewer recipes (21% dropped in the first run) |
