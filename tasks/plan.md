@@ -348,7 +348,7 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 - [x] Full run: all 158 approved recipes are numbered steps (1–18 steps, median 7); $1.62 for 153 recipes plus $0.08 for 5 retries. Retries came from Claude adding an "Instructions:" label (fixed by tagging the input) and from bare step numbers starting at 2 after an unnumbered first step (now accepted)
 
 ## Task 15: Load
-- [ ] `ingest:load -- themealdb --dry-run`, then real load into the Neon dev branch; second run shows no changes
+- [x] `ingest:load -- themealdb --dry-run`, then real load into the Neon dev branch (2026-10-14): 328 ingredients, 158 recipes (17 vegetarian), 1577 lines. A second run inserts nothing and upserts the same 158 recipes; row counts stay 328 / 158 / 1577
 - [ ] Verify in CookFlow that the planner can use the loaded recipes
 
 ### Checkpoint: Complete
@@ -375,4 +375,4 @@ T9–T10 (database) only need T2 and a hand-written fixture, so they can run in 
 2. ~~How does a reviewer accept a proposed new ingredient?~~ **Decided:** normalize adds it to the catalog as an unreviewed draft (and to the bootstrap proposals); the reviewer accepts it by reviewing the entry, like any other draft. SPEC §5.5 updated.
 3. ~~Skip `Dessert` / `Breakfast`?~~ **Decided:** the TheMealDB adapter skips `Dessert` at fetch time, so desserts aren't cached and don't count toward `--limit`. `Breakfast` is kept. SPEC §5.1 and §8 updated.
 4. ~~Should `map` keep Claude/manual lines in `pending` recipes?~~ **Decided:** yes. Map keeps `claude`/`manual` lines in pending recipes and remaps the rest; it also re-checks its own duplicate drops on every run. SPEC §5.6 updated.
-5. **Ingredient table ownership** (SPEC §8 Q3). With the catalog now built here, the natural answer is that this repo owns `ingredients`, and CookFlow's `db:seed` stops writing ingredients and its `dev` recipes (or only seeds a local/empty DB). Needs a change in the CookFlow repo before Task 15.
+5. ~~**Ingredient table ownership** (SPEC §8 Q3).~~ **Decided:** this repo owns `ingredients`. CookFlow removed its seed (`5ca4268`), and the dev branch was emptied before the first load. With the catalog now built here, the natural answer is that this repo owns `ingredients`, and CookFlow's `db:seed` stops writing ingredients and its `dev` recipes (or only seeds a local/empty DB). Needs a change in the CookFlow repo before Task 15.

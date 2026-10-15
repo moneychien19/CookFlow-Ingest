@@ -248,4 +248,4 @@ When two lines map to the same canonical ingredient, the recipe can't be stored 
 
 1. ~~**Duplicate ingredients in one recipe**~~ (§5.4). Decided: keep dropping the recipe, and fetch about 200 recipes instead of 100 to make up for it (multi-part recipes often list an ingredient twice: 2 of the first 5 meals). Revisit with the full numbers if too few recipes are left; merging the lines (joining the source measures with " + ") is the fallback.
 2. ~~**Categories to skip.**~~ Decided: `Dessert` is skipped at fetch time (§5.1). `Breakfast` is kept.
-3. **Who owns the `ingredients` table.** CookFlow's `db:seed` upserts ingredients and overwrites their `unit` on conflict, and this repo inserts ingredients too. Decide whether CookFlow's seeder keeps writing ingredients once real recipes come from here.
+3. ~~**Who owns the `ingredients` table.**~~ Decided: this repo owns it. CookFlow no longer seeds ingredients or recipes, so load is the only writer (§5.7).
